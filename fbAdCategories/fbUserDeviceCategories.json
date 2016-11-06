@@ -1,0 +1,3238 @@
+{
+  "data": [
+    {
+      "name": "iPad",
+      "description": "iPads (all)",
+      "platform": "iOS",
+      "audience_size": 123000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iPhone",
+      "description": "iPhones (all)",
+      "platform": "iOS",
+      "audience_size": 434000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iPod",
+      "description": "iPods (all)",
+      "platform": "iOS",
+      "audience_size": 9500000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad",
+      "description": "Apple iPad",
+      "platform": "iOS",
+      "audience_size": 20,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad 2",
+      "description": "Apple iPad 2",
+      "platform": "iOS",
+      "audience_size": 18000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad 3rd gen",
+      "description": "Apple iPad 3rd gen",
+      "platform": "iOS",
+      "audience_size": 11000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad 4th gen",
+      "description": "Apple iPad 4th gen",
+      "platform": "iOS",
+      "audience_size": 14000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad air",
+      "description": "Apple iPad Air",
+      "platform": "iOS",
+      "audience_size": 18000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad air 2",
+      "description": "Apple iPad Air 2",
+      "platform": "iOS",
+      "audience_size": 14000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad mini",
+      "description": "Apple iPad mini",
+      "platform": "iOS",
+      "audience_size": 19000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad mini 2",
+      "description": "Apple iPad mini 2",
+      "platform": "iOS",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad mini 3",
+      "description": "Apple iPad mini 3",
+      "platform": "iOS",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad mini 4",
+      "description": "Apple iPad mini 4",
+      "platform": "iOS",
+      "audience_size": 2700000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipad pro",
+      "description": "Apple iPad Pro",
+      "platform": "iOS",
+      "audience_size": 3200000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone",
+      "description": "Apple iPhone",
+      "platform": "iOS",
+      "audience_size": 73000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 3gs",
+      "description": "Apple iPhone 3GS",
+      "platform": "iOS",
+      "audience_size": 700000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 4",
+      "description": "Apple iPhone 4",
+      "platform": "iOS",
+      "audience_size": 22000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 4s",
+      "description": "Apple iPhone 4s",
+      "platform": "iOS",
+      "audience_size": 35000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 5",
+      "description": "Apple iPhone 5",
+      "platform": "iOS",
+      "audience_size": 45000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 5c",
+      "description": "Apple iPhone 5c",
+      "platform": "iOS",
+      "audience_size": 22000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 5s",
+      "description": "Apple iPhone 5s",
+      "platform": "iOS",
+      "audience_size": 85000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 6",
+      "description": "Apple iPhone 6",
+      "platform": "iOS",
+      "audience_size": 112000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 6 plus",
+      "description": "Apple iPhone 6 Plus",
+      "platform": "iOS",
+      "audience_size": 32000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 6s",
+      "description": "Apple iPhone 6s",
+      "platform": "iOS",
+      "audience_size": 72000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 6s plus",
+      "description": "Apple iPhone 6s Plus",
+      "platform": "iOS",
+      "audience_size": 28000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 7",
+      "description": "Apple iPhone 7",
+      "platform": "iOS",
+      "audience_size": 11000000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone 7 plus",
+      "description": "Apple iPhone 7 Plus",
+      "platform": "iOS",
+      "audience_size": 4400000,
+      "type": "user_device"
+    },
+    {
+      "name": "iphone se",
+      "description": "Apple iPhone SE",
+      "platform": "iOS",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipod touch 1st generation",
+      "description": "Apple iPod Touch 1st Generation",
+      "platform": "iOS",
+      "audience_size": 20,
+      "type": "user_device"
+    },
+    {
+      "name": "ipod touch 2nd generation",
+      "description": "Apple iPod Touch 2nd Generation",
+      "platform": "iOS",
+      "audience_size": 10000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipod touch 3rd generation",
+      "description": "Apple iPod Touch 3rd Generation",
+      "platform": "iOS",
+      "audience_size": 43000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipod touch 4th generation",
+      "description": "Apple iPod Touch 4th Generation",
+      "platform": "iOS",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "ipod touch 5th generation",
+      "description": "Apple iPod Touch 5th Generation",
+      "platform": "iOS",
+      "audience_size": 5200000,
+      "type": "user_device"
+    },
+    {
+      "name": "530",
+      "description": "Philips 530",
+      "platform": "Windows",
+      "audience_size": 17000,
+      "type": "user_device"
+    },
+    {
+      "name": "lumia 520",
+      "description": "Nokia Lumia 520",
+      "platform": "Windows",
+      "audience_size": 280000,
+      "type": "user_device"
+    },
+    {
+      "name": "lumia 535",
+      "description": "Microsoft Lumia 535",
+      "platform": "Windows",
+      "audience_size": 310000,
+      "type": "user_device"
+    },
+    {
+      "name": "lumia 630",
+      "description": "Nokia Lumia 630",
+      "platform": "Windows",
+      "audience_size": 26000,
+      "type": "user_device"
+    },
+    {
+      "name": "lumia 635",
+      "description": "Nokia Lumia 635",
+      "platform": "Windows",
+      "audience_size": 29000,
+      "type": "user_device"
+    },
+    {
+      "name": "lumia 640 lte",
+      "description": "Nokia Lumia 640 LTE",
+      "platform": "Windows",
+      "audience_size": 24000,
+      "type": "user_device"
+    },
+    {
+      "name": "microsoft",
+      "description": "Microsoft Devices",
+      "platform": "Windows",
+      "audience_size": 480000,
+      "type": "user_device"
+    },
+    {
+      "name": "nokia",
+      "description": "Nokia Devices",
+      "platform": "Windows",
+      "audience_size": 58000000,
+      "type": "user_device"
+    },
+    {
+      "name": "philips",
+      "description": "Philips Devices",
+      "platform": "Windows",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "Android_Smartphone",
+      "description": "Android Smartphones (all)",
+      "platform": "Android",
+      "audience_size": 1536000000,
+      "type": "user_device"
+    },
+    {
+      "name": "Android_Tablet",
+      "description": "Android Tablets (all)",
+      "platform": "Android",
+      "audience_size": 163000000,
+      "type": "user_device"
+    },
+    {
+      "name": "a1000",
+      "description": "Lenovo A1000",
+      "platform": "Android",
+      "audience_size": 3700000,
+      "type": "user_device"
+    },
+    {
+      "name": "a2010",
+      "description": "Lenovo A2010",
+      "platform": "Android",
+      "audience_size": 3700000,
+      "type": "user_device"
+    },
+    {
+      "name": "a369i",
+      "description": "Lenovo A369i",
+      "platform": "Android",
+      "audience_size": 2200000,
+      "type": "user_device"
+    },
+    {
+      "name": "a37",
+      "description": "Oppo A37",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "a536",
+      "description": "Lenovo A536",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "a6000",
+      "description": "Lenovo A6000",
+      "platform": "Android",
+      "audience_size": 6000000,
+      "type": "user_device"
+    },
+    {
+      "name": "a7000",
+      "description": "Lenovo A7000",
+      "platform": "Android",
+      "audience_size": 2900000,
+      "type": "user_device"
+    },
+    {
+      "name": "alcatel",
+      "description": "Alcatel Devices",
+      "platform": "Android",
+      "audience_size": 49000000,
+      "type": "user_device"
+    },
+    {
+      "name": "amazon",
+      "description": "Amazon Devices",
+      "platform": "Android",
+      "audience_size": 5500000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos crystal",
+      "description": "Sharp Aquos Crystal",
+      "platform": "Android",
+      "audience_size": 360000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos crystal x",
+      "description": "Sharp Aquos Crystal X",
+      "platform": "Android",
+      "audience_size": 66000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos ever",
+      "description": "Sharp Aquos Ever",
+      "platform": "Android",
+      "audience_size": 240000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos phone serie shl22",
+      "description": "Sharp Aquos Phone Serie SHL22",
+      "platform": "Android",
+      "audience_size": 60000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos phone serie shl23",
+      "description": "Sharp Aquos Phone Serie SHL23",
+      "platform": "Android",
+      "audience_size": 200000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos phone xx mini",
+      "description": "Sharp Aquos Phone Xx mini",
+      "platform": "Android",
+      "audience_size": 140000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos phone zeta sh-02e",
+      "description": "Sharp Aquos Phone Zeta SH-02E",
+      "platform": "Android",
+      "audience_size": 100000,
+      "type": "user_device"
+    },
+    {
+      "name": "aquos xx",
+      "description": "Sharp Aquos Xx",
+      "platform": "Android",
+      "audience_size": 210000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend g610",
+      "description": "Huawei Ascend G610",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend g7",
+      "description": "Huawei Ascend G7",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend g730",
+      "description": "Huawei Ascend G730",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend p7",
+      "description": "Huawei Ascend P7",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y221",
+      "description": "Huawei Ascend Y221",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y330",
+      "description": "Huawei Ascend Y330",
+      "platform": "Android",
+      "audience_size": 4100000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y336",
+      "description": "Huawei Ascend Y336",
+      "platform": "Android",
+      "audience_size": 3000000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y360",
+      "description": "Huawei Ascend Y360",
+      "platform": "Android",
+      "audience_size": 2900000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y520",
+      "description": "Huawei Ascend Y520",
+      "platform": "Android",
+      "audience_size": 3800000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y530",
+      "description": "Huawei Ascend Y530",
+      "platform": "Android",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y550",
+      "description": "Huawei Ascend Y550",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y560",
+      "description": "Huawei Ascend Y560",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y600",
+      "description": "Huawei Ascend Y600",
+      "platform": "Android",
+      "audience_size": 1500000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y625",
+      "description": "Huawei Ascend Y625",
+      "platform": "Android",
+      "audience_size": 3300000,
+      "type": "user_device"
+    },
+    {
+      "name": "ascend y635",
+      "description": "Huawei Ascend Y635",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "asus",
+      "description": "Asus Devices",
+      "platform": "Android",
+      "audience_size": 43000000,
+      "type": "user_device"
+    },
+    {
+      "name": "blade l2",
+      "description": "Zte Blade L2",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "camon c8",
+      "description": "Tecno Camon C8",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "desire 510",
+      "description": "Htc Desire 510",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "desire 626",
+      "description": "Htc Desire 626",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "desire 626s",
+      "description": "Htc Desire 626S",
+      "platform": "Android",
+      "audience_size": 3000000,
+      "type": "user_device"
+    },
+    {
+      "name": "desire 816",
+      "description": "Htc Desire 816",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "desire 820",
+      "description": "Htc Desire 820",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "docomo",
+      "description": "Docomo Devices",
+      "platform": "Android",
+      "audience_size": 5300000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid maxx",
+      "description": "Motorola Droid Maxx",
+      "platform": "Android",
+      "audience_size": 1800000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid mini",
+      "description": "Motorola Droid Mini",
+      "platform": "Android",
+      "audience_size": 490000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid razr",
+      "description": "Motorola Droid Razr",
+      "platform": "Android",
+      "audience_size": 500000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid razr 4g",
+      "description": "Motorola Droid Razr 4G",
+      "platform": "Android",
+      "audience_size": 250000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid razr hd",
+      "description": "Motorola Droid Razr HD",
+      "platform": "Android",
+      "audience_size": 360000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid razr m",
+      "description": "Motorola Droid Razr M",
+      "platform": "Android",
+      "audience_size": 570,
+      "type": "user_device"
+    },
+    {
+      "name": "droid turbo",
+      "description": "Motorola Droid Turbo",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "droid turbo 2",
+      "description": "Motorola Droid Turbo 2",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "f1",
+      "description": "Oppo F1",
+      "platform": "Android",
+      "audience_size": 3800000,
+      "type": "user_device"
+    },
+    {
+      "name": "f1s",
+      "description": "Oppo F1s",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "fire",
+      "description": "Amazon Fire",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "g play mini",
+      "description": "Huawei G Play Mini",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "g pro lite",
+      "description": "Lg G Pro Lite",
+      "platform": "Android",
+      "audience_size": 2500000,
+      "type": "user_device"
+    },
+    {
+      "name": "g stylo",
+      "description": "Lg G Stylo",
+      "platform": "Android",
+      "audience_size": 3600000,
+      "type": "user_device"
+    },
+    {
+      "name": "g2",
+      "description": "Lg G2",
+      "platform": "Android",
+      "audience_size": 4100000,
+      "type": "user_device"
+    },
+    {
+      "name": "g2 mini",
+      "description": "Lg G2 Mini",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3",
+      "description": "Lg G3",
+      "platform": "Android",
+      "audience_size": 9100000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 a",
+      "description": "Lg G3 A",
+      "platform": "Android",
+      "audience_size": 86000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 beat",
+      "description": "Lg G3 Beat",
+      "platform": "Android",
+      "audience_size": 220000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 mini",
+      "description": "Lg G3 Mini",
+      "platform": "Android",
+      "audience_size": 13000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 prime",
+      "description": "Lg G3 Prime",
+      "platform": "Android",
+      "audience_size": 260000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 s",
+      "description": "Lg G3 S",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 stylus",
+      "description": "Lg G3 Stylus",
+      "platform": "Android",
+      "audience_size": 3000000,
+      "type": "user_device"
+    },
+    {
+      "name": "g3 vigor",
+      "description": "Lg G3 Vigor",
+      "platform": "Android",
+      "audience_size": 200000,
+      "type": "user_device"
+    },
+    {
+      "name": "g4",
+      "description": "Lg G4",
+      "platform": "Android",
+      "audience_size": 5700000,
+      "type": "user_device"
+    },
+    {
+      "name": "g4 beat",
+      "description": "Lg G4 Beat",
+      "platform": "Android",
+      "audience_size": 890000,
+      "type": "user_device"
+    },
+    {
+      "name": "g4 stylus",
+      "description": "Lg G4 Stylus",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "g4c",
+      "description": "Lg G4c",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "g5",
+      "description": "Lg G5",
+      "platform": "Android",
+      "audience_size": 2000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a3",
+      "description": "Samsung Galaxy A3",
+      "platform": "Android",
+      "audience_size": 9000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a3 (2016)",
+      "description": "Samsung Galaxy A3 (2016)",
+      "platform": "Android",
+      "audience_size": 5300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a5",
+      "description": "Samsung Galaxy A5",
+      "platform": "Android",
+      "audience_size": 13000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a5 (2016)",
+      "description": "Samsung Galaxy A5 (2016)",
+      "platform": "Android",
+      "audience_size": 6700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a7",
+      "description": "Samsung Galaxy A7",
+      "platform": "Android",
+      "audience_size": 3100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a7 (2016)",
+      "description": "Samsung Galaxy A7 (2016)",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy a8",
+      "description": "Samsung Galaxy A8",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace",
+      "description": "Samsung Galaxy Ace",
+      "platform": "Android",
+      "audience_size": 5700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace 2",
+      "description": "Samsung Galaxy Ace 2",
+      "platform": "Android",
+      "audience_size": 2000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace 3",
+      "description": "Samsung Galaxy Ace 3",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace 4",
+      "description": "Samsung Galaxy Ace 4",
+      "platform": "Android",
+      "audience_size": 2000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace 4 duos",
+      "description": "Samsung Galaxy Ace 4 Duos",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace 4 lite duos",
+      "description": "Samsung Galaxy Ace 4 Lite Duos",
+      "platform": "Android",
+      "audience_size": 970000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace 4 neo",
+      "description": "Samsung Galaxy Ace 4 Neo",
+      "platform": "Android",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace duos",
+      "description": "Samsung Galaxy Ace Duos",
+      "platform": "Android",
+      "audience_size": 510000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace nxt",
+      "description": "Samsung Galaxy Ace NXT",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace plus",
+      "description": "Samsung Galaxy Ace Plus",
+      "platform": "Android",
+      "audience_size": 680000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy ace style",
+      "description": "Samsung Galaxy Ace Style",
+      "platform": "Android",
+      "audience_size": 4600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy alpha",
+      "description": "Samsung Galaxy Alpha",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy avant",
+      "description": "Samsung Galaxy Avant",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy centura",
+      "description": "Samsung Galaxy Centura",
+      "platform": "Android",
+      "audience_size": 130000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy chat",
+      "description": "Samsung Galaxy Chat",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy core",
+      "description": "Samsung Galaxy Core",
+      "platform": "Android",
+      "audience_size": 8900000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy core 2",
+      "description": "Samsung Galaxy Core 2",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy core 2 duos",
+      "description": "Samsung Galaxy Core 2 Duos",
+      "platform": "Android",
+      "audience_size": 7500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy core plus",
+      "description": "Samsung Galaxy Core Plus",
+      "platform": "Android",
+      "audience_size": 4100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy core prime",
+      "description": "Samsung Galaxy Core Prime",
+      "platform": "Android",
+      "audience_size": 17000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy core prime duos",
+      "description": "Samsung Galaxy Core Prime Duos",
+      "platform": "Android",
+      "audience_size": 6300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy e5",
+      "description": "Samsung Galaxy E5",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy e7",
+      "description": "Samsung Galaxy E7",
+      "platform": "Android",
+      "audience_size": 3000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy exhibit",
+      "description": "Samsung Galaxy Exhibit",
+      "platform": "Android",
+      "audience_size": 550000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy fame",
+      "description": "Samsung Galaxy Fame",
+      "platform": "Android",
+      "audience_size": 4000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy fame lite",
+      "description": "Samsung Galaxy Fame Lite",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy fame lite duos",
+      "description": "Samsung Galaxy Fame Lite Duos",
+      "platform": "Android",
+      "audience_size": 220000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand",
+      "description": "Samsung Galaxy Grand",
+      "platform": "Android",
+      "audience_size": 8500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand 2",
+      "description": "Samsung Galaxy Grand 2",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand 2 duos",
+      "description": "Samsung Galaxy Grand 2 Duos",
+      "platform": "Android",
+      "audience_size": 670000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand max",
+      "description": "Samsung Galaxy Grand Max",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand neo",
+      "description": "Samsung Galaxy Grand Neo",
+      "platform": "Android",
+      "audience_size": 26000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand prime",
+      "description": "Samsung Galaxy Grand Prime",
+      "platform": "Android",
+      "audience_size": 64000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy grand quattro",
+      "description": "Samsung Galaxy Grand Quattro",
+      "platform": "Android",
+      "audience_size": 4000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j1",
+      "description": "Samsung Galaxy J1",
+      "platform": "Android",
+      "audience_size": 32000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j1 (2016)",
+      "description": "Samsung Galaxy J1 (2016)",
+      "platform": "Android",
+      "audience_size": 9800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j1 ace",
+      "description": "Samsung Galaxy J1 Ace",
+      "platform": "Android",
+      "audience_size": 16000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j1 mini",
+      "description": "Samsung Galaxy J1 Mini",
+      "platform": "Android",
+      "audience_size": 6500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j2",
+      "description": "Samsung Galaxy J2",
+      "platform": "Android",
+      "audience_size": 33000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j2 (2016)",
+      "description": "Samsung Galaxy J2 (2016)",
+      "platform": "Android",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j3",
+      "description": "Samsung Galaxy J3",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j3 (2016)",
+      "description": "Samsung Galaxy J3 (2016)",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j5",
+      "description": "Samsung Galaxy J5",
+      "platform": "Android",
+      "audience_size": 42000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j5 (2016)",
+      "description": "Samsung Galaxy J5 (2016)",
+      "platform": "Android",
+      "audience_size": 4600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j7",
+      "description": "Samsung Galaxy J7",
+      "platform": "Android",
+      "audience_size": 32000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy j7 (2016)",
+      "description": "Samsung Galaxy J7 (2016)",
+      "platform": "Android",
+      "audience_size": 6400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy light",
+      "description": "Samsung Galaxy Light",
+      "platform": "Android",
+      "audience_size": 660000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy mega 2",
+      "description": "Samsung Galaxy Mega 2",
+      "platform": "Android",
+      "audience_size": 590000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy mega 5.8",
+      "description": "Samsung Galaxy Mega 5.8",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy mega 6.3",
+      "description": "Samsung Galaxy Mega 6.3",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy mini",
+      "description": "Samsung Galaxy Mini",
+      "platform": "Android",
+      "audience_size": 1500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy mini 2",
+      "description": "Samsung Galaxy Mini 2",
+      "platform": "Android",
+      "audience_size": 520000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note",
+      "description": "Samsung Galaxy Note",
+      "platform": "Android",
+      "audience_size": 3100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 10.1",
+      "description": "Samsung Galaxy Note 10.1",
+      "platform": "Android",
+      "audience_size": 2700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 10.1 2014",
+      "description": "Samsung Galaxy Note 10.1 2014",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 3",
+      "description": "Samsung Galaxy Note 3",
+      "platform": "Android",
+      "audience_size": 23000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 3 neo",
+      "description": "Samsung Galaxy Note 3 Neo",
+      "platform": "Android",
+      "audience_size": 3000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 3 neo duos",
+      "description": "Samsung Galaxy Note 3 Neo Duos",
+      "platform": "Android",
+      "audience_size": 300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 4",
+      "description": "Samsung Galaxy Note 4",
+      "platform": "Android",
+      "audience_size": 16000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 4 duos",
+      "description": "Samsung Galaxy Note 4 Duos",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 5",
+      "description": "Samsung Galaxy Note 5",
+      "platform": "Android",
+      "audience_size": 14000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 7",
+      "description": "Samsung Galaxy Note 7",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note 8.0",
+      "description": "Samsung Galaxy Note 8.0",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note edge",
+      "description": "Samsung Galaxy Note Edge",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy note ii",
+      "description": "Samsung Galaxy Note II",
+      "platform": "Android",
+      "audience_size": 11000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy on5",
+      "description": "Samsung Galaxy On5",
+      "platform": "Android",
+      "audience_size": 3400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy on7",
+      "description": "Samsung Galaxy On7",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket",
+      "description": "Samsung Galaxy Pocket",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket 2",
+      "description": "Samsung Galaxy Pocket 2",
+      "platform": "Android",
+      "audience_size": 580000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket 2 duos",
+      "description": "Samsung Galaxy Pocket 2 Duos",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket duos",
+      "description": "Samsung Galaxy Pocket Duos",
+      "platform": "Android",
+      "audience_size": 410000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket neo",
+      "description": "Samsung Galaxy Pocket Neo",
+      "platform": "Android",
+      "audience_size": 5100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket neo duos",
+      "description": "Samsung Galaxy Pocket Neo Duos",
+      "platform": "Android",
+      "audience_size": 310000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy pocket plus",
+      "description": "Samsung Galaxy Pocket Plus",
+      "platform": "Android",
+      "audience_size": 3300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s",
+      "description": "Samsung Galaxy S",
+      "platform": "Android",
+      "audience_size": 580000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s advance",
+      "description": "Samsung Galaxy S Advance",
+      "platform": "Android",
+      "audience_size": 1500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s duos",
+      "description": "Samsung Galaxy S Duos",
+      "platform": "Android",
+      "audience_size": 6100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s duos 2",
+      "description": "Samsung Galaxy S Duos 2",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s duos 3",
+      "description": "Samsung Galaxy S Duos 3",
+      "platform": "Android",
+      "audience_size": 4500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s ii",
+      "description": "Samsung Galaxy S II",
+      "platform": "Android",
+      "audience_size": 6400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s ii plus",
+      "description": "Samsung Galaxy S II Plus",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s ii skyrocket",
+      "description": "Samsung Galaxy S II Skyrocket",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s ii tv",
+      "description": "Samsung Galaxy S II TV",
+      "platform": "Android",
+      "audience_size": 780000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii",
+      "description": "Samsung Galaxy S III",
+      "platform": "Android",
+      "audience_size": 29000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii alpha",
+      "description": "Samsung Galaxy S III Alpha",
+      "platform": "Android",
+      "audience_size": 130000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii mini",
+      "description": "Samsung Galaxy S III Mini",
+      "platform": "Android",
+      "audience_size": 17000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii neo",
+      "description": "Samsung Galaxy S III Neo",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii neo plus",
+      "description": "Samsung Galaxy S III Neo Plus",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii neo+",
+      "description": "Samsung Galaxy S III Neo+",
+      "platform": "Android",
+      "audience_size": 34000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s iii slim",
+      "description": "Samsung Galaxy S III Slim",
+      "platform": "Android",
+      "audience_size": 710000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s4",
+      "description": "Samsung Galaxy S4",
+      "platform": "Android",
+      "audience_size": 37000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s4 active",
+      "description": "Samsung Galaxy S4 Active",
+      "platform": "Android",
+      "audience_size": 1000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s4 mini",
+      "description": "Samsung Galaxy S4 Mini",
+      "platform": "Android",
+      "audience_size": 15000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s4 value edition",
+      "description": "Samsung Galaxy S4 Value Edition",
+      "platform": "Android",
+      "audience_size": 2100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s4 zoom",
+      "description": "Samsung Galaxy S4 Zoom",
+      "platform": "Android",
+      "audience_size": 390000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5",
+      "description": "Samsung Galaxy S5",
+      "platform": "Android",
+      "audience_size": 42000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5 active",
+      "description": "Samsung Galaxy S5 Active",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5 duos",
+      "description": "Samsung Galaxy S5 Duos",
+      "platform": "Android",
+      "audience_size": 230000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5 mini",
+      "description": "Samsung Galaxy S5 Mini",
+      "platform": "Android",
+      "audience_size": 6500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5 neo",
+      "description": "Samsung Galaxy S5 Neo",
+      "platform": "Android",
+      "audience_size": 4000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5 prime",
+      "description": "Samsung Galaxy S5 Prime",
+      "platform": "Android",
+      "audience_size": 630000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s5 sport",
+      "description": "Samsung Galaxy S5 Sport",
+      "platform": "Android",
+      "audience_size": 190000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s6",
+      "description": "Samsung Galaxy S6",
+      "platform": "Android",
+      "audience_size": 28000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s6 active",
+      "description": "Samsung Galaxy S6 Active",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s6 edge",
+      "description": "Samsung Galaxy S6 Edge",
+      "platform": "Android",
+      "audience_size": 16000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s6 edge plus",
+      "description": "Samsung Galaxy S6 Edge Plus",
+      "platform": "Android",
+      "audience_size": 5500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s7",
+      "description": "Samsung Galaxy S7",
+      "platform": "Android",
+      "audience_size": 16000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy s7 edge",
+      "description": "Samsung Galaxy S7 Edge",
+      "platform": "Android",
+      "audience_size": 17000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy star",
+      "description": "Samsung Galaxy Star",
+      "platform": "Android",
+      "audience_size": 4500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy star 2",
+      "description": "Samsung Galaxy Star 2",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy star advance",
+      "description": "Samsung Galaxy Star Advance",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy star pro",
+      "description": "Samsung Galaxy Star Pro",
+      "platform": "Android",
+      "audience_size": 8000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy star trios",
+      "description": "Samsung Galaxy Star Trios",
+      "platform": "Android",
+      "audience_size": 180000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 10.1",
+      "description": "Google Galaxy Tab 10.1",
+      "platform": "Android",
+      "audience_size": 600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 2 10.1",
+      "description": "Samsung Galaxy Tab 2 10.1",
+      "platform": "Android",
+      "audience_size": 4300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 2 7.0",
+      "description": "Samsung Galaxy Tab 2 7.0",
+      "platform": "Android",
+      "audience_size": 5200000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 3 10.1",
+      "description": "Samsung Galaxy Tab 3 10.1",
+      "platform": "Android",
+      "audience_size": 4100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 3 7.0",
+      "description": "Samsung Galaxy Tab 3 7.0",
+      "platform": "Android",
+      "audience_size": 6500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 3 8.0",
+      "description": "Samsung Galaxy Tab 3 8.0",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 3 lite",
+      "description": "Samsung Galaxy Tab 3 Lite",
+      "platform": "Android",
+      "audience_size": 8400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 3 v",
+      "description": "Samsung Galaxy Tab 3 V",
+      "platform": "Android",
+      "audience_size": 5700000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 4 10.1",
+      "description": "Samsung Galaxy Tab 4 10.1",
+      "platform": "Android",
+      "audience_size": 5500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 4 7.0",
+      "description": "Samsung Galaxy Tab 4 7.0",
+      "platform": "Android",
+      "audience_size": 9400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab 4 8.0",
+      "description": "Samsung Galaxy Tab 4 8.0",
+      "platform": "Android",
+      "audience_size": 1800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab a",
+      "description": "Samsung Galaxy Tab A",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab a 8.0",
+      "description": "Samsung Galaxy Tab A 8.0",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab a 9.7",
+      "description": "Samsung Galaxy Tab A 9.7",
+      "platform": "Android",
+      "audience_size": 4500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab e 9.6",
+      "description": "Samsung Galaxy Tab E 9.6",
+      "platform": "Android",
+      "audience_size": 3400000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab pro 10.1",
+      "description": "Samsung Galaxy Tab Pro 10.1",
+      "platform": "Android",
+      "audience_size": 460000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy tab s 10.5",
+      "description": "Samsung Galaxy Tab S 10.5",
+      "platform": "Android",
+      "audience_size": 1800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy trend",
+      "description": "Samsung Galaxy Trend",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy trend lite",
+      "description": "Samsung Galaxy Trend Lite",
+      "platform": "Android",
+      "audience_size": 3100000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy trend lite 2",
+      "description": "Samsung Galaxy Trend Lite 2",
+      "platform": "Android",
+      "audience_size": 20,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy trend plus",
+      "description": "Samsung Galaxy Trend Plus",
+      "platform": "Android",
+      "audience_size": 5500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy v",
+      "description": "Samsung Galaxy V",
+      "platform": "Android",
+      "audience_size": 8200000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy v plus",
+      "description": "Samsung Galaxy V Plus",
+      "platform": "Android",
+      "audience_size": 5200000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy w",
+      "description": "Samsung Galaxy W",
+      "platform": "Android",
+      "audience_size": 510000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy win",
+      "description": "Samsung Galaxy Win",
+      "platform": "Android",
+      "audience_size": 570000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy win 2 duos tv",
+      "description": "Samsung Galaxy Win 2 Duos TV",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy win duos",
+      "description": "Samsung Galaxy Win Duos",
+      "platform": "Android",
+      "audience_size": 4800000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy y",
+      "description": "Samsung Galaxy Y",
+      "platform": "Android",
+      "audience_size": 8300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy y duos",
+      "description": "Samsung Galaxy Y Duos",
+      "platform": "Android",
+      "audience_size": 2500000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy y plus",
+      "description": "Samsung Galaxy Y Plus",
+      "platform": "Android",
+      "audience_size": 990000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy y pro",
+      "description": "Samsung Galaxy Y Pro",
+      "platform": "Android",
+      "audience_size": 130000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy y tv",
+      "description": "Samsung Galaxy Y TV",
+      "platform": "Android",
+      "audience_size": 200000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy young",
+      "description": "Samsung Galaxy Young",
+      "platform": "Android",
+      "audience_size": 4300000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy young 2",
+      "description": "Samsung Galaxy Young 2",
+      "platform": "Android",
+      "audience_size": 5000000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy young 2 duos",
+      "description": "Samsung Galaxy Young 2 Duos",
+      "platform": "Android",
+      "audience_size": 410000,
+      "type": "user_device"
+    },
+    {
+      "name": "galaxy young plus tv",
+      "description": "Samsung Galaxy Young Plus TV",
+      "platform": "Android",
+      "audience_size": 910000,
+      "type": "user_device"
+    },
+    {
+      "name": "google",
+      "description": "Google Devices",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "honor 4c",
+      "description": "Huawei Honor 4C",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "hot note",
+      "description": "Infinix Hot Note",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "htc",
+      "description": "Htc Devices",
+      "platform": "Android",
+      "audience_size": 44000000,
+      "type": "user_device"
+    },
+    {
+      "name": "huawei",
+      "description": "Huawei Devices",
+      "platform": "Android",
+      "audience_size": 103000000,
+      "type": "user_device"
+    },
+    {
+      "name": "infinix",
+      "description": "Infinix Devices",
+      "platform": "Android",
+      "audience_size": 6100000,
+      "type": "user_device"
+    },
+    {
+      "name": "iris 700",
+      "description": "Lava Iris 700",
+      "platform": "Android",
+      "audience_size": 990000,
+      "type": "user_device"
+    },
+    {
+      "name": "joy",
+      "description": "Oppo Joy",
+      "platform": "Android",
+      "audience_size": 4500000,
+      "type": "user_device"
+    },
+    {
+      "name": "joy 3",
+      "description": "Oppo Joy 3",
+      "platform": "Android",
+      "audience_size": 3200000,
+      "type": "user_device"
+    },
+    {
+      "name": "k10",
+      "description": "Lg K10",
+      "platform": "Android",
+      "audience_size": 5800000,
+      "type": "user_device"
+    },
+    {
+      "name": "k3 note",
+      "description": "Lenovo K3 Note",
+      "platform": "Android",
+      "audience_size": 2700000,
+      "type": "user_device"
+    },
+    {
+      "name": "k7",
+      "description": "Lg K7",
+      "platform": "Android",
+      "audience_size": 3200000,
+      "type": "user_device"
+    },
+    {
+      "name": "kindle fire",
+      "description": "Amazon Kindle Fire",
+      "platform": "Android",
+      "audience_size": 540000,
+      "type": "user_device"
+    },
+    {
+      "name": "kindle fire hd 7 (2012)",
+      "description": "Amazon Kindle Fire HD 7 (2012)",
+      "platform": "Android",
+      "audience_size": 780000,
+      "type": "user_device"
+    },
+    {
+      "name": "kindle fire hd 7 (2013)",
+      "description": "Amazon Kindle Fire HD 7 (2013)",
+      "platform": "Android",
+      "audience_size": 410000,
+      "type": "user_device"
+    },
+    {
+      "name": "kindle fire hd 8.9",
+      "description": "Amazon Kindle Fire HD 8.9",
+      "platform": "Android",
+      "audience_size": 220000,
+      "type": "user_device"
+    },
+    {
+      "name": "kindle fire hdx 7",
+      "description": "Amazon Kindle Fire HDX 7",
+      "platform": "Android",
+      "audience_size": 520000,
+      "type": "user_device"
+    },
+    {
+      "name": "kindle fire hdx 8.9",
+      "description": "Amazon Kindle Fire HDX 8.9",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "l fino",
+      "description": "Lg L Fino",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "l prime dual",
+      "description": "Lg L Prime Dual",
+      "platform": "Android",
+      "audience_size": 1900000,
+      "type": "user_device"
+    },
+    {
+      "name": "l70",
+      "description": "Lg L70",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "lava",
+      "description": "Lava Devices",
+      "platform": "Android",
+      "audience_size": 19000000,
+      "type": "user_device"
+    },
+    {
+      "name": "lenovo",
+      "description": "Lenovo Devices",
+      "platform": "Android",
+      "audience_size": 65000000,
+      "type": "user_device"
+    },
+    {
+      "name": "leon",
+      "description": "Lg Leon",
+      "platform": "Android",
+      "audience_size": 6200000,
+      "type": "user_device"
+    },
+    {
+      "name": "lg",
+      "description": "Lg Devices",
+      "platform": "Android",
+      "audience_size": 132000000,
+      "type": "user_device"
+    },
+    {
+      "name": "magna",
+      "description": "Lg Magna",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "mediapad t1 7.0",
+      "description": "Huawei MediaPad T1 7.0",
+      "platform": "Android",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "micromax",
+      "description": "Micromax Devices",
+      "platform": "Android",
+      "audience_size": 29000000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto e",
+      "description": "Motorola Moto E",
+      "platform": "Android",
+      "audience_size": 6100000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto e (2nd gen)",
+      "description": "Motorola Moto E (2nd gen)",
+      "platform": "Android",
+      "audience_size": 7600000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g",
+      "description": "Motorola Moto G",
+      "platform": "Android",
+      "audience_size": 14000000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g (2nd gen)",
+      "description": "Motorola Moto G (2nd Gen)",
+      "platform": "Android",
+      "audience_size": 1500000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g (4th gen)",
+      "description": "Motorola Moto G (4th Gen)",
+      "platform": "Android",
+      "audience_size": 4000000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g 2nd gen",
+      "description": "Motorola Moto G 2nd Gen",
+      "platform": "Android",
+      "audience_size": 20,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g 2nd generation",
+      "description": "Motorola Moto G 2nd generation",
+      "platform": "Android",
+      "audience_size": 810000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g 4g",
+      "description": "Motorola Moto G 4G",
+      "platform": "Android",
+      "audience_size": 480000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g dtv",
+      "description": "Motorola Moto G DTV",
+      "platform": "Android",
+      "audience_size": 5100000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g forte",
+      "description": "Motorola Moto G Forte",
+      "platform": "Android",
+      "audience_size": 200000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g2",
+      "description": "Motorola Moto G2",
+      "platform": "Android",
+      "audience_size": 7700000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto g3",
+      "description": "Motorola Moto G3",
+      "platform": "Android",
+      "audience_size": 13000000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto x",
+      "description": "Motorola Moto X",
+      "platform": "Android",
+      "audience_size": 2100000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto x (2nd gen)",
+      "description": "Motorola Moto X (2nd Gen)",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto x play",
+      "description": "Motorola Moto X Play",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "moto x pure",
+      "description": "Motorola Moto X Pure",
+      "platform": "Android",
+      "audience_size": 20,
+      "type": "user_device"
+    },
+    {
+      "name": "motorola",
+      "description": "Motorola Devices",
+      "platform": "Android",
+      "audience_size": 80000000,
+      "type": "user_device"
+    },
+    {
+      "name": "neo 3",
+      "description": "Oppo Neo 3",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "neo 5",
+      "description": "Oppo Neo 5",
+      "platform": "Android",
+      "audience_size": 7000000,
+      "type": "user_device"
+    },
+    {
+      "name": "neo 7",
+      "description": "Oppo Neo 7",
+      "platform": "Android",
+      "audience_size": 7700000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 10",
+      "description": "Google Nexus 10",
+      "platform": "Android",
+      "audience_size": 270000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 5",
+      "description": "Google Nexus 5",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 5x",
+      "description": "Lg Nexus 5X",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 6",
+      "description": "Google Nexus 6",
+      "platform": "Android",
+      "audience_size": 650000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 6p",
+      "description": "Google Nexus 6P",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 7",
+      "description": "Google Nexus 7",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "nexus 9",
+      "description": "Google Nexus 9",
+      "platform": "Android",
+      "audience_size": 150000,
+      "type": "user_device"
+    },
+    {
+      "name": "note 3 neo duos",
+      "description": "Samsung Note 3 Neo Duos",
+      "platform": "Android",
+      "audience_size": 44000,
+      "type": "user_device"
+    },
+    {
+      "name": "nyx",
+      "description": "Nyx Devices",
+      "platform": "Android",
+      "audience_size": 970000,
+      "type": "user_device"
+    },
+    {
+      "name": "one (e8)",
+      "description": "Htc One (E8)",
+      "platform": "Android",
+      "audience_size": 290000,
+      "type": "user_device"
+    },
+    {
+      "name": "one (m7)",
+      "description": "Htc One (M7)",
+      "platform": "Android",
+      "audience_size": 4000000,
+      "type": "user_device"
+    },
+    {
+      "name": "one (m8)",
+      "description": "Htc One (M8)",
+      "platform": "Android",
+      "audience_size": 4900000,
+      "type": "user_device"
+    },
+    {
+      "name": "one e9+",
+      "description": "Htc One E9+",
+      "platform": "Android",
+      "audience_size": 390000,
+      "type": "user_device"
+    },
+    {
+      "name": "one m9",
+      "description": "Htc One M9",
+      "platform": "Android",
+      "audience_size": 1500000,
+      "type": "user_device"
+    },
+    {
+      "name": "one m9+",
+      "description": "Htc One M9+",
+      "platform": "Android",
+      "audience_size": 250000,
+      "type": "user_device"
+    },
+    {
+      "name": "one max",
+      "description": "Htc One Max",
+      "platform": "Android",
+      "audience_size": 260000,
+      "type": "user_device"
+    },
+    {
+      "name": "one mini",
+      "description": "Htc One Mini",
+      "platform": "Android",
+      "audience_size": 830000,
+      "type": "user_device"
+    },
+    {
+      "name": "one mini 2",
+      "description": "Htc One Mini 2",
+      "platform": "Android",
+      "audience_size": 67000,
+      "type": "user_device"
+    },
+    {
+      "name": "one sv",
+      "description": "Htc One SV",
+      "platform": "Android",
+      "audience_size": 140000,
+      "type": "user_device"
+    },
+    {
+      "name": "one touch pixi 3",
+      "description": "Alcatel One Touch Pixi 3",
+      "platform": "Android",
+      "audience_size": 6400000,
+      "type": "user_device"
+    },
+    {
+      "name": "one touch pop 3 (5)",
+      "description": "Alcatel One Touch Pop 3 (5)",
+      "platform": "Android",
+      "audience_size": 2200000,
+      "type": "user_device"
+    },
+    {
+      "name": "one touch pop c1",
+      "description": "Alcatel One Touch Pop C1",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "one touch pop c3",
+      "description": "Alcatel One Touch Pop C3",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "one touch pop c5",
+      "description": "Alcatel One Touch Pop C5",
+      "platform": "Android",
+      "audience_size": 2500000,
+      "type": "user_device"
+    },
+    {
+      "name": "one touch pop c7",
+      "description": "Alcatel One Touch Pop C7",
+      "platform": "Android",
+      "audience_size": 3600000,
+      "type": "user_device"
+    },
+    {
+      "name": "one x",
+      "description": "Htc One X",
+      "platform": "Android",
+      "audience_size": 700000,
+      "type": "user_device"
+    },
+    {
+      "name": "one x+",
+      "description": "Htc One X+",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "one xl",
+      "description": "Htc One XL",
+      "platform": "Android",
+      "audience_size": 68000,
+      "type": "user_device"
+    },
+    {
+      "name": "oneplus",
+      "description": "Oneplus Devices",
+      "platform": "Android",
+      "audience_size": 3100000,
+      "type": "user_device"
+    },
+    {
+      "name": "oneplus one",
+      "description": "Oneplus OnePlus One",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "oppo",
+      "description": "Oppo Devices",
+      "platform": "Android",
+      "audience_size": 41000000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus f60",
+      "description": "Lg Optimus F60",
+      "platform": "Android",
+      "audience_size": 470000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l1 ii",
+      "description": "Lg Optimus L1 II",
+      "platform": "Android",
+      "audience_size": 2500000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l3",
+      "description": "Lg Optimus L3",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l3 ii",
+      "description": "Lg Optimus L3 II",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l4 ii",
+      "description": "Lg Optimus L4 II",
+      "platform": "Android",
+      "audience_size": 1800000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l5",
+      "description": "Lg Optimus L5",
+      "platform": "Android",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l5 dual",
+      "description": "Lg Optimus L5 Dual",
+      "platform": "Android",
+      "audience_size": 130,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l5 ii",
+      "description": "Lg Optimus L5 II",
+      "platform": "Android",
+      "audience_size": 2200000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l5 ii dual",
+      "description": "Lg Optimus L5 II Dual",
+      "platform": "Android",
+      "audience_size": 230000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l7",
+      "description": "Lg Optimus L7",
+      "platform": "Android",
+      "audience_size": 1100000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l7 ii",
+      "description": "Lg Optimus L7 II",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l7 ii dual",
+      "description": "Lg Optimus L7 II Dual",
+      "platform": "Android",
+      "audience_size": 650000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l70",
+      "description": "Lg Optimus L70",
+      "platform": "Android",
+      "audience_size": 540000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l9",
+      "description": "Lg Optimus L9",
+      "platform": "Android",
+      "audience_size": 1000000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l9 ii",
+      "description": "Lg Optimus L9 II",
+      "platform": "Android",
+      "audience_size": 190000,
+      "type": "user_device"
+    },
+    {
+      "name": "optimus l90",
+      "description": "Lg Optimus L90",
+      "platform": "Android",
+      "audience_size": 840000,
+      "type": "user_device"
+    },
+    {
+      "name": "p8",
+      "description": "Huawei P8",
+      "platform": "Android",
+      "audience_size": 1900000,
+      "type": "user_device"
+    },
+    {
+      "name": "p8 lite",
+      "description": "Huawei P8 Lite",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "p9 lite",
+      "description": "Huawei P9 Lite",
+      "platform": "Android",
+      "audience_size": 2600000,
+      "type": "user_device"
+    },
+    {
+      "name": "pocket neo",
+      "description": "Samsung Pocket Neo",
+      "platform": "Android",
+      "audience_size": 330000,
+      "type": "user_device"
+    },
+    {
+      "name": "razr",
+      "description": "Motorola RAZR",
+      "platform": "Android",
+      "audience_size": 170000,
+      "type": "user_device"
+    },
+    {
+      "name": "razr d1",
+      "description": "Motorola Razr D1",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "razr d3",
+      "description": "Motorola Razr D3",
+      "platform": "Android",
+      "audience_size": 390000,
+      "type": "user_device"
+    },
+    {
+      "name": "razr hd",
+      "description": "Motorola RAZR HD",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "razr i",
+      "description": "Motorola RAZR i",
+      "platform": "Android",
+      "audience_size": 330000,
+      "type": "user_device"
+    },
+    {
+      "name": "redmi 2",
+      "description": "Xiaomi Redmi 2",
+      "platform": "Android",
+      "audience_size": 4700000,
+      "type": "user_device"
+    },
+    {
+      "name": "redmi 3s",
+      "description": "Xiaomi Redmi 3S",
+      "platform": "Android",
+      "audience_size": 2200000,
+      "type": "user_device"
+    },
+    {
+      "name": "redmi note 3",
+      "description": "Xiaomi Redmi Note 3",
+      "platform": "Android",
+      "audience_size": 6100000,
+      "type": "user_device"
+    },
+    {
+      "name": "redmi note 4g",
+      "description": "Xiaomi Redmi Note 4G",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "rocstar",
+      "description": "Lenovo RocStar",
+      "platform": "Android",
+      "audience_size": 2700000,
+      "type": "user_device"
+    },
+    {
+      "name": "samsung",
+      "description": "Samsung Devices",
+      "platform": "Android",
+      "audience_size": 851000000,
+      "type": "user_device"
+    },
+    {
+      "name": "series iii l70",
+      "description": "Lg Series III L70",
+      "platform": "Android",
+      "audience_size": 11000,
+      "type": "user_device"
+    },
+    {
+      "name": "sharp",
+      "description": "Sharp Devices",
+      "platform": "Android",
+      "audience_size": 3400000,
+      "type": "user_device"
+    },
+    {
+      "name": "sony",
+      "description": "Sony Devices",
+      "platform": "Android",
+      "audience_size": 80000000,
+      "type": "user_device"
+    },
+    {
+      "name": "sony_ericsson",
+      "description": "Sony_ericsson Devices",
+      "platform": "Android",
+      "audience_size": 20,
+      "type": "user_device"
+    },
+    {
+      "name": "spirit",
+      "description": "Lg Spirit",
+      "platform": "Android",
+      "audience_size": 3200000,
+      "type": "user_device"
+    },
+    {
+      "name": "tab 2 a7-30",
+      "description": "Lenovo Tab 2 A7-30",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "tecno",
+      "description": "Tecno Devices",
+      "platform": "Android",
+      "audience_size": 13000000,
+      "type": "user_device"
+    },
+    {
+      "name": "transformer pad",
+      "description": "Asus Transformer Pad",
+      "platform": "Android",
+      "audience_size": 650000,
+      "type": "user_device"
+    },
+    {
+      "name": "tribute 5",
+      "description": "Lg Tribute 5",
+      "platform": "Android",
+      "audience_size": 4500000,
+      "type": "user_device"
+    },
+    {
+      "name": "unite 2",
+      "description": "Micromax Unite 2",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "unite 3",
+      "description": "Micromax Unite 3",
+      "platform": "Android",
+      "audience_size": 800000,
+      "type": "user_device"
+    },
+    {
+      "name": "v10",
+      "description": "Lg V10",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "vibe k4 note",
+      "description": "Lenovo Vibe K4 Note",
+      "platform": "Android",
+      "audience_size": 1900000,
+      "type": "user_device"
+    },
+    {
+      "name": "vibe k5",
+      "description": "Lenovo Vibe K5",
+      "platform": "Android",
+      "audience_size": 2400000,
+      "type": "user_device"
+    },
+    {
+      "name": "vibe p1m",
+      "description": "Lenovo Vibe P1m",
+      "platform": "Android",
+      "audience_size": 1900000,
+      "type": "user_device"
+    },
+    {
+      "name": "vivo",
+      "description": "Vivo Devices",
+      "platform": "Android",
+      "audience_size": 12000000,
+      "type": "user_device"
+    },
+    {
+      "name": "volt",
+      "description": "Lg Volt",
+      "platform": "Android",
+      "audience_size": 460000,
+      "type": "user_device"
+    },
+    {
+      "name": "xiaomi",
+      "description": "Xiaomi Devices",
+      "platform": "Android",
+      "audience_size": 26000000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia arc s",
+      "description": "Sony_ericsson Xperia Arc S",
+      "platform": "Android",
+      "audience_size": 450000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia c",
+      "description": "Sony Xperia C",
+      "platform": "Android",
+      "audience_size": 2200000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia c4",
+      "description": "Sony Xperia C4",
+      "platform": "Android",
+      "audience_size": 460000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia c4 dual",
+      "description": "Sony Xperia C4 Dual",
+      "platform": "Android",
+      "audience_size": 660000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia c5 ultra",
+      "description": "Sony Xperia C5 Ultra",
+      "platform": "Android",
+      "audience_size": 650000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia c5 ultra dual",
+      "description": "Sony Xperia C5 Ultra Dual",
+      "platform": "Android",
+      "audience_size": 650000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e",
+      "description": "Sony Xperia E",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e dual",
+      "description": "Sony Xperia E Dual",
+      "platform": "Android",
+      "audience_size": 560000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e1",
+      "description": "Sony Xperia E1",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e1 dual",
+      "description": "Sony Xperia E1 Dual",
+      "platform": "Android",
+      "audience_size": 880000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e3",
+      "description": "Sony Xperia E3",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e3 dual",
+      "description": "Sony Xperia E3 Dual",
+      "platform": "Android",
+      "audience_size": 960000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e4",
+      "description": "Sony Xperia E4",
+      "platform": "Android",
+      "audience_size": 2900000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e4g",
+      "description": "Sony Xperia E4g",
+      "platform": "Android",
+      "audience_size": 930000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia e4g dual",
+      "description": "Sony Xperia E4g Dual",
+      "platform": "Android",
+      "audience_size": 140000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia j",
+      "description": "Sony Xperia J",
+      "platform": "Android",
+      "audience_size": 1000000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia l",
+      "description": "Sony Xperia L",
+      "platform": "Android",
+      "audience_size": 2000000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia m",
+      "description": "Sony Xperia M",
+      "platform": "Android",
+      "audience_size": 2900000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia m2",
+      "description": "Sony Xperia M2",
+      "platform": "Android",
+      "audience_size": 4600000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia m2 aqua",
+      "description": "Sony Xperia M2 Aqua",
+      "platform": "Android",
+      "audience_size": 1000000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia m4 aqua",
+      "description": "Sony Xperia M4 Aqua",
+      "platform": "Android",
+      "audience_size": 5700000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia m5",
+      "description": "Sony Xperia M5",
+      "platform": "Android",
+      "audience_size": 630000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia m5 dual",
+      "description": "Sony Xperia M5 Dual",
+      "platform": "Android",
+      "audience_size": 290000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia mini",
+      "description": "Sony Xperia Mini",
+      "platform": "Android",
+      "audience_size": 94000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia miro",
+      "description": "Sony Xperia Miro",
+      "platform": "Android",
+      "audience_size": 540000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia p",
+      "description": "Sony Xperia P",
+      "platform": "Android",
+      "audience_size": 470000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia s",
+      "description": "Sony Xperia S",
+      "platform": "Android",
+      "audience_size": 910000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia sp",
+      "description": "Sony Xperia SP",
+      "platform": "Android",
+      "audience_size": 1400000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia tipo",
+      "description": "Sony Xperia Tipo",
+      "platform": "Android",
+      "audience_size": 470000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia tipo dual",
+      "description": "Sony Xperia Tipo Dual",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia u",
+      "description": "Sony Xperia U",
+      "platform": "Android",
+      "audience_size": 410000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia ul",
+      "description": "Sony Xperia UL",
+      "platform": "Android",
+      "audience_size": 150000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z",
+      "description": "Sony Xperia Z",
+      "platform": "Android",
+      "audience_size": 2900000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z ultra",
+      "description": "Sony Xperia Z Ultra",
+      "platform": "Android",
+      "audience_size": 660000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z1",
+      "description": "Sony Xperia Z1",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z1 compact",
+      "description": "Sony Xperia Z1 Compact",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z1 f",
+      "description": "Sony Xperia Z1 f",
+      "platform": "Android",
+      "audience_size": 320000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z1s",
+      "description": "Sony Xperia Z1s",
+      "platform": "Android",
+      "audience_size": 120000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z2",
+      "description": "Sony Xperia Z2",
+      "platform": "Android",
+      "audience_size": 3500000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z2 tablet",
+      "description": "Sony Xperia Z2 Tablet",
+      "platform": "Android",
+      "audience_size": 510000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z2a",
+      "description": "Sony Xperia Z2a",
+      "platform": "Android",
+      "audience_size": 45000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z3",
+      "description": "Sony Xperia Z3",
+      "platform": "Android",
+      "audience_size": 5500000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z3 compact",
+      "description": "Sony Xperia Z3 Compact",
+      "platform": "Android",
+      "audience_size": 3400000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z3 dual",
+      "description": "Sony Xperia Z3 Dual",
+      "platform": "Android",
+      "audience_size": 450000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z3+",
+      "description": "Sony Xperia Z3+",
+      "platform": "Android",
+      "audience_size": 380000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z3v",
+      "description": "Sony Xperia Z3v",
+      "platform": "Android",
+      "audience_size": 110000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z5",
+      "description": "Sony Xperia Z5",
+      "platform": "Android",
+      "audience_size": 2800000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z5 compact",
+      "description": "Sony Xperia Z5 Compact",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "xperia z5 premium",
+      "description": "Sony Xperia Z5 Premium",
+      "platform": "Android",
+      "audience_size": 870000,
+      "type": "user_device"
+    },
+    {
+      "name": "y3 ii",
+      "description": "Huawei Y3 II",
+      "platform": "Android",
+      "audience_size": 1700000,
+      "type": "user_device"
+    },
+    {
+      "name": "y5 ii",
+      "description": "Huawei Y5 II",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "y51l",
+      "description": "Vivo Y51L",
+      "platform": "Android",
+      "audience_size": 1600000,
+      "type": "user_device"
+    },
+    {
+      "name": "y6",
+      "description": "Huawei Y6",
+      "platform": "Android",
+      "audience_size": 4500000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone 2",
+      "description": "Asus ZenFone 2",
+      "platform": "Android",
+      "audience_size": 4100000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone 2 laser",
+      "description": "Asus ZenFone 2 Laser",
+      "platform": "Android",
+      "audience_size": 4200000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone 4",
+      "description": "Asus ZenFone 4",
+      "platform": "Android",
+      "audience_size": 2300000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone 5",
+      "description": "Asus ZenFone 5",
+      "platform": "Android",
+      "audience_size": 7500000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone 6",
+      "description": "Asus ZenFone 6",
+      "platform": "Android",
+      "audience_size": 1200000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone c",
+      "description": "Asus ZenFone C",
+      "platform": "Android",
+      "audience_size": 3900000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone go",
+      "description": "Asus ZenFone Go",
+      "platform": "Android",
+      "audience_size": 2700000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone laser 2",
+      "description": "Asus ZenFone Laser 2",
+      "platform": "Android",
+      "audience_size": 3400000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone max",
+      "description": "Asus ZenFone Max",
+      "platform": "Android",
+      "audience_size": 1900000,
+      "type": "user_device"
+    },
+    {
+      "name": "zenfone selfie",
+      "description": "Asus ZenFone Selfie",
+      "platform": "Android",
+      "audience_size": 1300000,
+      "type": "user_device"
+    },
+    {
+      "name": "zte",
+      "description": "Zte Devices",
+      "platform": "Android",
+      "audience_size": 28000000,
+      "type": "user_device"
+    }
+  ]
+}

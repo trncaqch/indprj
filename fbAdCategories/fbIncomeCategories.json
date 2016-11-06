@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": "6025943230932",
+      "name": "UK: £20,000-£24,999",
+      "type": "income",
+      "path": [
+        "UK: £20,000-£24,999"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is £20,000-£24,999.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 3095500,
+      "country": "GB"
+    },
+    {
+      "id": "6025943280932",
+      "name": "UK: £25,000-£29,999",
+      "type": "income",
+      "path": [
+        "UK: £25,000-£29,999"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is £25,000-£29,999.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2724500,
+      "country": "GB"
+    },
+    {
+      "id": "6025943349132",
+      "name": "UK: £30,000-£34,999",
+      "type": "income",
+      "path": [
+        "UK: £30,000-£34,999"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is £30,000-£34,999.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2361400,
+      "country": "GB"
+    },
+    {
+      "id": "6025943418332",
+      "name": "UK: £35,000-£39,999",
+      "type": "income",
+      "path": [
+        "UK: £35,000-£39,999"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is £35,000-£39,999.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2026500,
+      "country": "GB"
+    },
+    {
+      "id": "6025943430932",
+      "name": "UK: £40,000-£49,999",
+      "type": "income",
+      "path": [
+        "UK: £40,000-£49,999"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is £40,000-£49,999.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2622900,
+      "country": "GB"
+    },
+    {
+      "id": "6025943451532",
+      "name": "UK: £50,000-£74,999",
+      "type": "income",
+      "path": [
+        "UK: £50,000-£74,999"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is £50,000-£74,999.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2813700,
+      "country": "GB"
+    },
+    {
+      "id": "6025943496332",
+      "name": "UK: £75,000+",
+      "type": "income",
+      "path": [
+        "UK: £75,000+"
+      ],
+      "description": "This variable indicates the likelihood that the Household income is over £75,000.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 155600,
+      "country": "GB"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": "6002714401172",
+      "name": "Baby boomers (US)",
+      "type": "generation",
+      "path": [
+        "Baby boomers (US)"
+      ],
+      "description": "People who were born between 1946 and 1964.  (US only)",
+      "audience_size": 42984221,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016645577583",
+      "name": "Generation X",
+      "type": "generation",
+      "path": [
+        "Generation X"
+      ],
+      "description": "People who were born between 1961 and 1981",
+      "audience_size": 425983333,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016645612183",
+      "name": "Millennials",
+      "type": "generation",
+      "path": [
+        "Millennials"
+      ],
+      "description": "People who were born between 1982 and 2004",
+      "audience_size": 1202298885,
+      "real_time_cluster": false
+    }
+  ]
+}

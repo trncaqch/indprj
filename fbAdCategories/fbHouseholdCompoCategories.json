@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": "6024956936183",
+      "name": "Family-based Households",
+      "type": "household_composition",
+      "path": [
+        "Family-based Households"
+      ],
+      "description": "People living in Households made up of one or more people who are immediate or extended family members",
+      "audience_size": 514803093,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6024956935783",
+      "name": "Housemate-based Households",
+      "type": "household_composition",
+      "path": [
+        "Housemate-based Households"
+      ],
+      "description": "People living in Households made up of one or more people who are not immediate or extended family members",
+      "audience_size": 317289192,
+      "real_time_cluster": false
+    }
+  ]
+}
