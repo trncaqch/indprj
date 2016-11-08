@@ -23,7 +23,7 @@ urlpatterns = [
 	url(r'^$', views.index, name='index'),
 	url(r'^guidelines/', views.guidelines, name='guidelines'),
 	url(r'^platform/', views.platform, name='platform'),
-	url(r'^platform/google/', views.google, name='google'),
-	url(r'^platform/facebook/', views.facebook, name='facebook'),
+	url(r'^google/', views.google, name='google'),
+	url(r'^facebook/', views.facebook, name='facebook'),
 	
 ]
