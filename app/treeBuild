@@ -1,0 +1,3 @@
+import csv
+from django.conf import settings as st
+df = pandas.read(st.BASE_DIR+'\\googleAdCategories\\affinity_categories.csv')

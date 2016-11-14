@@ -5,18 +5,42 @@
 {% block platform %} Google {% endblock %}
 
 {% block platform_body %}
+
+<style>
+
+
+btn.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+</style>
+
 <div class="container">
  
   <div class="row">
     <div class="col-sm-6">
-	<div class="btn-group-vertical" role="group" aria-label="...">
+	
+	
+<div class="btn-group-vertical" role="group" aria-label="...">
 {% for cat in googleAdAffinity %}
-<button type="button" class="btn btn-default" id="left">{{cat}}</button>
+<button type="button" class="btn btn-default"  
+	id="left" aria-expanded="false" >
+	{{cat}}
+	</button>
+	<div class = "collapse">
+	  <button type="button" class="btn btn-default" 
+	id="left" aria-expanded="false" id="collapse">Hello</button>
+	</div>
 {% endfor %}
 </div>
 
 	</div>
+	
 <div class="col-sm-6">
+
+	
+	
+	
 	<div class="btn-group-vertical" role="group" aria-label="..." id = "right">
 
 
@@ -29,13 +53,23 @@
 
 <script>
 
- $('#left').on('click', function () {
-    var div = document.getElementById("right");
-	var $btn = $(this);
-	div.appendChild(btn);
-    
-  })
 
+/* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+
+ 
+var acc = document.getElementsByClassName("btn btn-default");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}
+ 
+ 
+
+  
 </script>
 
 
