@@ -13,7 +13,7 @@ print BASE_DIR
 
 
 #This part works solely with Google ad categories
-df = pandas.read_csv(BASE_DIR+'\\googleAdCategories\\affinity_categories.csv')
+df = pandas.read_csv(BASE_DIR+'/googleAdCategories/affinity_categories.csv')
 
 Gtree = Tree()
 Gtree.create_node("Root", "root")
@@ -21,7 +21,7 @@ Gtree.create_node("Root", "root")
 def adCatSplit(cat):
     toSplit = "root" + cat
     r = toSplit.split('/')
-    print r
+    #print r
     return r
 
 for c in df['Category']:
@@ -38,7 +38,7 @@ Gtree.show()
 fbTree = Tree()
 fbTree.create_node("Root", "root")
 
-df = pandas.read_json(BASE_DIR+'\\fbAdCategories\\fbInterestCategories.json')
+df = pandas.read_json(BASE_DIR+'/fbAdCategories/fbInterestCategories.json')
 df = df['data']
 
 pathLength = 0

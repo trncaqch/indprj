@@ -1,0 +1,330 @@
+,category
+0,/Business and industry
+1,/Business and industry/Advertising
+2,/Business and industry/Agriculture
+3,/Business and industry/Architecture
+4,/Business and industry/Aviation
+5,/Business and industry/Banking
+6,/Business and industry/Banking/Investment banking
+7,/Business and industry/Banking/Online banking
+8,/Business and industry/Banking/Retail banking
+9,/Business and industry/Business
+10,/Business and industry/Construction
+11,/Business and industry/Design
+12,/Business and industry/Design/Fashion design
+13,/Business and industry/Design/Graphic design
+14,/Business and industry/Design/Interior design
+15,/Business and industry/Economics
+16,/Business and industry/Engineering
+17,/Business and industry/Entrepreneurship
+18,/Business and industry/Health care
+19,/Business and industry/Higher education
+20,/Business and industry/Management
+21,/Business and industry/Marketing
+22,/Business and industry/Nursing
+23,/Business and industry/Online
+24,/Business and industry/Online/Digital marketing
+25,/Business and industry/Online/Display advertising
+26,/Business and industry/Online/Email marketing
+27,/Business and industry/Online/Online advertising
+28,/Business and industry/Online/Search engine optimization
+29,/Business and industry/Online/Social media
+30,/Business and industry/Online/Social media marketing
+31,/Business and industry/Online/Web design
+32,/Business and industry/Online/Web development
+33,/Business and industry/Online/Web hosting
+34,/Business and industry/Personal finance
+35,/Business and industry/Personal finance/Credit cards
+36,/Business and industry/Personal finance/Insurance
+37,/Business and industry/Personal finance/Investment
+38,/Business and industry/Personal finance/Mortgage loans
+39,/Business and industry/Real estate
+40,/Business and industry/Retail
+41,/Business and industry/Sales
+42,/Business and industry/Science
+43,/Business and industry/Small business
+44,/Entertainment
+45,/Entertainment/Games
+46,/Entertainment/Games/Action games
+47,/Entertainment/Games/Board games
+48,/Entertainment/Games/Browser games
+49,/Entertainment/Games/Card games
+50,/Entertainment/Games/Casino games
+51,/Entertainment/Games/First-person shooter games
+52,/Entertainment/Games/Gambling
+53,/Entertainment/Games/Massively multiplayer online games
+54,/Entertainment/Games/Massively multiplayer online role-playing games
+55,/Entertainment/Games/Online games
+56,/Entertainment/Games/Online poker
+57,/Entertainment/Games/Puzzle video games
+58,/Entertainment/Games/Racing games
+59,/Entertainment/Games/Role-playing games
+60,/Entertainment/Games/Shooter games
+61,/Entertainment/Games/Simulation games
+62,/Entertainment/Games/Sports games
+63,/Entertainment/Games/Strategy games
+64,/Entertainment/Games/Video games
+65,/Entertainment/Games/Word games
+66,/Entertainment/Live events
+67,/Entertainment/Live events/Ballet
+68,/Entertainment/Live events/Bars
+69,/Entertainment/Live events/Concerts
+70,/Entertainment/Live events/Dancehalls
+71,/Entertainment/Live events/Music festivals
+72,/Entertainment/Live events/Nightclubs
+73,/Entertainment/Live events/Parties
+74,/Entertainment/Live events/Plays
+75,/Entertainment/Live events/Theatre
+76,/Entertainment/Movies
+77,/Entertainment/Movies/Action movies
+78,/Entertainment/Movies/Animated movies
+79,/Entertainment/Movies/Anime movies
+80,/Entertainment/Movies/Bollywood movies
+81,/Entertainment/Movies/Comedy movies
+82,/Entertainment/Movies/Documentary movies
+83,/Entertainment/Movies/Drama movies
+84,/Entertainment/Movies/Fantasy movies
+85,/Entertainment/Movies/Horror movies
+86,/Entertainment/Movies/Musical theatre
+87,/Entertainment/Movies/Science fiction movies
+88,/Entertainment/Movies/Thriller movies
+89,/Entertainment/Music
+90,/Entertainment/Music/Blues music
+91,/Entertainment/Music/Classical music
+92,/Entertainment/Music/Country music
+93,/Entertainment/Music/Dance music
+94,/Entertainment/Music/Electronic music
+95,/Entertainment/Music/Gospel music
+96,/Entertainment/Music/Heavy metal music
+97,/Entertainment/Music/Hip hop music
+98,/Entertainment/Music/Jazz music
+99,/Entertainment/Music/Music videos
+100,/Entertainment/Music/Pop music
+101,/Entertainment/Music/Rhythm and blues music
+102,/Entertainment/Music/Rock music
+103,/Entertainment/Music/Soul music
+104,/Entertainment/Reading
+105,/Entertainment/Reading/Books
+106,/Entertainment/Reading/Comics
+107,/Entertainment/Reading/E-books
+108,/Entertainment/Reading/Fiction books
+109,/Entertainment/Reading/Literature
+110,/Entertainment/Reading/Magazines
+111,/Entertainment/Reading/Manga
+112,/Entertainment/Reading/Mystery fiction
+113,/Entertainment/Reading/Newspapers
+114,/Entertainment/Reading/Non-fiction books
+115,/Entertainment/Reading/Romance novels
+116,/Entertainment/TV
+117,/Entertainment/TV/TV comedies
+118,/Entertainment/TV/TV game shows
+119,/Entertainment/TV/TV reality shows
+120,/Entertainment/TV/TV talkshows
+121,/Family and relationships
+122,/Family and relationships/Dating
+123,/Family and relationships/Family
+124,/Family and relationships/Fatherhood
+125,/Family and relationships/Friendship
+126,/Family and relationships/Marriage
+127,/Family and relationships/Motherhood
+128,/Family and relationships/Parenting
+129,/Family and relationships/Weddings
+130,/Fitness and wellness
+131,/Fitness and wellness/Bodybuilding
+132,/Fitness and wellness/Dieting
+133,/Fitness and wellness/Gyms
+134,/Fitness and wellness/Meditation
+135,/Fitness and wellness/Nutrition
+136,/Fitness and wellness/Physical exercise
+137,/Fitness and wellness/Physical fitness
+138,/Fitness and wellness/Running
+139,/Fitness and wellness/Weight training
+140,/Fitness and wellness/Yoga
+141,/Fitness and wellness/Zumba
+142,/Food and drink
+143,/Food and drink/Alcoholic beverages
+144,/Food and drink/Alcoholic beverages/Beer
+145,/Food and drink/Alcoholic beverages/Distilled beverage
+146,/Food and drink/Alcoholic beverages/Wine
+147,/Food and drink/Beverages
+148,/Food and drink/Beverages/Coffee
+149,/Food and drink/Beverages/Energy drinks
+150,/Food and drink/Beverages/Juice
+151,/Food and drink/Beverages/Soft drinks
+152,/Food and drink/Beverages/Tea
+153,/Food and drink/Cooking
+154,/Food and drink/Cooking/Baking
+155,/Food and drink/Cooking/Recipes
+156,/Food and drink/Cuisine
+157,/Food and drink/Cuisine/Chinese cuisine
+158,/Food and drink/Cuisine/French cuisine
+159,/Food and drink/Cuisine/German cuisine
+160,/Food and drink/Cuisine/Greek cuisine
+161,/Food and drink/Cuisine/Indian cuisine
+162,/Food and drink/Cuisine/Italian cuisine
+163,/Food and drink/Cuisine/Japanese cuisine
+164,/Food and drink/Cuisine/Korean cuisine
+165,/Food and drink/Cuisine/Latin American cuisine
+166,/Food and drink/Cuisine/Mexican cuisine
+167,/Food and drink/Cuisine/Middle Eastern cuisine
+168,/Food and drink/Cuisine/Spanish cuisine
+169,/Food and drink/Cuisine/Thai cuisine
+170,/Food and drink/Cuisine/Vietnamese cuisine
+171,/Food and drink/Food
+172,/Food and drink/Food/Barbecue
+173,/Food and drink/Food/Chocolate
+174,/Food and drink/Food/Desserts
+175,/Food and drink/Food/Fast food
+176,/Food and drink/Food/Organic food
+177,/Food and drink/Food/Pizza
+178,/Food and drink/Food/Seafood
+179,/Food and drink/Food/Veganism
+180,/Food and drink/Food/Vegetarianism
+181,/Food and drink/Restaurants
+182,/Food and drink/Restaurants/Coffeehouses
+183,/Food and drink/Restaurants/Coffeehouses
+184,/Food and drink/Restaurants/Diners
+185,/Food and drink/Restaurants/Fast casual restaurants
+186,/Food and drink/Restaurants/Fast food restaurants
+187,/Hobbies and activities
+188,/Hobbies and activities/Arts and music
+189,/Hobbies and activities/Arts and music/Acting
+190,/Hobbies and activities/Arts and music/Crafts
+191,/Hobbies and activities/Arts and music/Dance
+192,/Hobbies and activities/Arts and music/Drawing
+193,/Hobbies and activities/Arts and music/Drums
+194,/Hobbies and activities/Arts and music/Fine art
+195,/Hobbies and activities/Arts and music/Guitar
+196,/Hobbies and activities/Arts and music/Painting
+197,/Hobbies and activities/Arts and music/Performing arts
+198,/Hobbies and activities/Arts and music/Photography
+199,/Hobbies and activities/Arts and music/Sculpture
+200,/Hobbies and activities/Arts and music/Singing
+201,/Hobbies and activities/Arts and music/Writing
+202,/Hobbies and activities/Current events
+203,/Hobbies and activities/Home and garden
+204,/Hobbies and activities/Home and garden/Do it yourself (DIY)
+205,/Hobbies and activities/Home and garden/Furniture
+206,/Hobbies and activities/Home and garden/Gardening
+207,/Hobbies and activities/Home and garden/Home Appliances
+208,/Hobbies and activities/Home and garden/Home improvement
+209,/Hobbies and activities/Pets
+210,/Hobbies and activities/Pets/Birds
+211,/Hobbies and activities/Pets/Cats
+212,/Hobbies and activities/Pets/Dogs
+213,/Hobbies and activities/Pets/Fish
+214,/Hobbies and activities/Pets/Horses
+215,/Hobbies and activities/Pets/Pet food
+216,/Hobbies and activities/Pets/Rabbits
+217,/Hobbies and activities/Pets/Reptiles
+218,/Hobbies and activities/Politics and social issues
+219,/Hobbies and activities/Politics and social issues/Charity and causes
+220,/Hobbies and activities/Politics and social issues/Community issues
+221,/Hobbies and activities/Politics and social issues/Environmentalism
+222,/Hobbies and activities/Politics and social issues/Law
+223,/Hobbies and activities/Politics and social issues/Military
+224,/Hobbies and activities/Politics and social issues/Politics
+225,/Hobbies and activities/Politics and social issues/Religion
+226,/Hobbies and activities/Politics and social issues/Sustainability
+227,/Hobbies and activities/Politics and social issues/Veterans
+228,/Hobbies and activities/Politics and social issues/Volunteering
+229,/Hobbies and activities/Travel
+230,/Hobbies and activities/Travel/Adventure travel
+231,/Hobbies and activities/Travel/Air travel
+232,/Hobbies and activities/Travel/Beaches
+233,/Hobbies and activities/Travel/Car rentals
+234,/Hobbies and activities/Travel/Cruises
+235,/Hobbies and activities/Travel/Ecotourism
+236,/Hobbies and activities/Travel/Hotels
+237,/Hobbies and activities/Travel/Lakes
+238,/Hobbies and activities/Travel/Mountains
+239,/Hobbies and activities/Travel/Nature
+240,/Hobbies and activities/Travel/Theme parks
+241,/Hobbies and activities/Travel/Tourism
+242,/Hobbies and activities/Travel/Vacations
+243,/Hobbies and activities/Vehicles
+244,/Hobbies and activities/Vehicles/Automobiles
+245,/Hobbies and activities/Vehicles/Boats
+246,/Hobbies and activities/Vehicles/Electric vehicle
+247,/Hobbies and activities/Vehicles/Hybrids
+248,/Hobbies and activities/Vehicles/Minivans
+249,/Hobbies and activities/Vehicles/Motorcycles
+250,/Hobbies and activities/Vehicles/RVs
+251,/Hobbies and activities/Vehicles/SUVs
+252,/Hobbies and activities/Vehicles/Scooters
+253,/Hobbies and activities/Vehicles/Trucks
+254,/Shopping and fashion
+255,/Shopping and fashion/Beauty
+256,/Shopping and fashion/Beauty/Beauty salons
+257,/Shopping and fashion/Beauty/Cosmetics
+258,/Shopping and fashion/Beauty/Fragrances
+259,/Shopping and fashion/Beauty/Hair products
+260,/Shopping and fashion/Beauty/Spas
+261,/Shopping and fashion/Beauty/Tattoos
+262,/Shopping and fashion/Clothing
+263,/Shopping and fashion/Clothing/Children's clothing
+264,/Shopping and fashion/Clothing/Men's clothing
+265,/Shopping and fashion/Clothing/Shoes
+266,/Shopping and fashion/Clothing/Women's clothing
+267,/Shopping and fashion/Fashion accessories
+268,/Shopping and fashion/Fashion accessories/Dresses
+269,/Shopping and fashion/Fashion accessories/Handbags
+270,/Shopping and fashion/Fashion accessories/Jewelry
+271,/Shopping and fashion/Fashion accessories/Sunglasses
+272,/Shopping and fashion/Shopping
+273,/Shopping and fashion/Shopping/Boutiques
+274,/Shopping and fashion/Shopping/Coupons
+275,/Shopping and fashion/Shopping/Discount stores
+276,/Shopping and fashion/Shopping/Luxury goods
+277,/Shopping and fashion/Shopping/Online shopping
+278,/Shopping and fashion/Shopping/Shopping malls
+279,/Shopping and fashion/Toys
+280,/Sports and outdoors
+281,/Sports and outdoors/Outdoor recreation
+282,/Sports and outdoors/Outdoor recreation/Boating
+283,/Sports and outdoors/Outdoor recreation/Camping
+284,/Sports and outdoors/Outdoor recreation/Fishing
+285,/Sports and outdoors/Outdoor recreation/Hiking
+286,/Sports and outdoors/Outdoor recreation/Horseback riding
+287,/Sports and outdoors/Outdoor recreation/Hunting
+288,/Sports and outdoors/Outdoor recreation/Mountain biking
+289,/Sports and outdoors/Outdoor recreation/Surfing
+290,/Sports and outdoors/Sports
+291,/Sports and outdoors/Sports/American football
+292,/Sports and outdoors/Sports/Association football (Soccer)
+293,/Sports and outdoors/Sports/Auto racing
+294,/Sports and outdoors/Sports/Baseball
+295,/Sports and outdoors/Sports/Basketball
+296,/Sports and outdoors/Sports/College football
+297,/Sports and outdoors/Sports/Golf
+298,/Sports and outdoors/Sports/Marathons
+299,/Sports and outdoors/Sports/Skiing
+300,/Sports and outdoors/Sports/Snowboarding
+301,/Sports and outdoors/Sports/Swimming
+302,/Sports and outdoors/Sports/Tennis
+303,/Sports and outdoors/Sports/Triathlons
+304,/Sports and outdoors/Sports/Volleyball
+305,/Technology
+306,/Technology/Computers
+307,/Technology/Computers/Computer memory
+308,/Technology/Computers/Computer monitors
+309,/Technology/Computers/Computer processors
+310,/Technology/Computers/Computer servers
+311,/Technology/Computers/Desktop computers
+312,/Technology/Computers/Free software
+313,/Technology/Computers/Hard drives
+314,/Technology/Computers/Network storage
+315,/Technology/Computers/Software
+316,/Technology/Computers/Tablet computers
+317,/Technology/Consumer electronics
+318,/Technology/Consumer electronics/Audio equipment
+319,/Technology/Consumer electronics/Camcorders
+320,/Technology/Consumer electronics/Cameras
+321,/Technology/Consumer electronics/E-book readers
+322,/Technology/Consumer electronics/GPS devices
+323,/Technology/Consumer electronics/Game consoles
+324,/Technology/Consumer electronics/Mobile phones
+325,/Technology/Consumer electronics/Portable media players
+326,/Technology/Consumer electronics/Projectors
+327,/Technology/Consumer electronics/Smartphones
+328,/Technology/Consumer electronics/Televisions
