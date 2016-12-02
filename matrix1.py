@@ -39,7 +39,7 @@ for jsonFile in toConvert:
 '''
 
 googleCsv = pandas.read_csv('googleAdCategories/affinity_categories.csv')
-
+fbCsv = pandas.read_json('fbAdCategories/json/fbInterestCategories.json')
 
 #print googleCsv.Category
 
