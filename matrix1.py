@@ -1,6 +1,9 @@
 import pandas
 import numpy as np
 
+'''
+This part converts fbAdCategories.json to .csv with index and category as headers
+'''
 
 df = pandas.read_json('fbAdCategories/fbInterestCategories.json')
 df = df['data']
@@ -22,10 +25,22 @@ for i in df:
     pos += 1
 
 
-print sorted(fbCsv.category)
-
-
 fbCsv.category = sorted(fbCsv.category)
-print fbCsv
+#print fbCsv
 
 fbCsv.to_csv('fbAdCategories/fbInterestCategories.csv', sep = ',')
+
+'''
+'''
+
+googleCsv = pandas.read_csv('googleAdCategories/affinity_categories.csv')
+
+
+#print googleCsv.Category
+
+matrix = pandas.DataFrame(index = fbCsv.category, columns = googleCsv.Category)
+print matrix.columns
+
+
+matrix.to_csv('matrix.csv', sep=',')
+

@@ -22,38 +22,35 @@ btn.active:after {
     <div class="col-sm-6">
 	
 
-<div class="btn-group-vertical" role="group" aria-label="...">
-{% for cat in googleAdAffinity %}
-<button type="button" class="btn btn-default"  
-	id="left" aria-expanded="false" >
-	{{cat}}
-	</button>
-	<div class = "collapse">
-	  <button type="button" class="btn btn-default" 
-	id="left" aria-expanded="false" id="collapse">Hello</button>
-	</div>
-{% endfor %}
-</div>
+
+<table id="example" class="table table-striped table-bordered" width="100%"></table>
 
 	</div>
 	
 
 <div class="col-sm-6">
 
-	
-	
-	
-	<div class="btn-group-vertical" role="group" aria-label="..." id = "right">
-<table id="example" class="display" width="100%"></table>
+<div class="btn-group-vertical" role="group" aria-label="..." id = "right">
+
+<table id="example2" class="table table-striped table-bordered" width="100%" data = "hello">
+
+</table>
 
 </div>
 
-	</div>
-
-  </div>
 </div>
 
+</div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/jqc-1.12.3/dt-1.10.12/b-1.2.2/cr-1.3.2/fc-3.2.2/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/jqc-1.12.3/dt-1.10.12/b-1.2.2/fc-3.2.2/datatables.min.js"></script>
+
+
+
+<!--
 <script src="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"></script>
+-->
 <script>
 
 
@@ -78,15 +75,49 @@ var dataSet = {{ googleAdAffinity | safe }}
 
 jQuery(document).ready(function() {
     $('#example').DataTable( {
-        data: dataSet
-        ,columns: [
+        data: dataSet,
+        columns: [
             { title: "Category" }
-        ]
+        ],
+	select: true
     } );
+
+$('#example2').DataTable( {
+        //data: ,
+        columns: [
+            { title: "Category" }
+        ],
+	select: true
+    } );
+
+$('#example tbody').on('click', 'td', function (e) {
+    e.preventDefault(); 
+    var table = $('#example').DataTable();
+    var tableSelect = $('#example2').DataTable();
+    var found = 0;
+    var rowsTs = tableSelect.cells().data();
+    var toAdd = table.cell( this ).data();
+    for (var i=0; i<rowsTs.length;i++){
+    if (rowsTs[i] === toAdd){
+        found++;
+        break;
+       }
+    }
+    
+    if (found==0){
+	tableSelect.row.add( [
+            toAdd
+        ] ).draw( false );
+    //alert( tableSelect.cells().data());
+    }
+});
+
 } );
 
 
+/*
 
+*/
 </script>
 
 
