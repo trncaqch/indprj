@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": "6015759997983",
+      "name": "US Politics (Very Liberal)",
+      "type": "politics",
+      "path": [
+        "US Politics (Very Liberal)"
+      ],
+      "description": "People in USA who have a very liberal political affiliation",
+      "audience_size": 34432479,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015760027783",
+      "name": "US Politics (Liberal)",
+      "type": "politics",
+      "path": [
+        "US Politics (Liberal)"
+      ],
+      "description": "People in USA who have a liberal political affiliation",
+      "audience_size": 47320888,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015760036783",
+      "name": "US Politics (Moderate)",
+      "type": "politics",
+      "path": [
+        "US Politics (Moderate)"
+      ],
+      "description": "People in USA who have a moderate political affiliation",
+      "audience_size": 45338847,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015760532183",
+      "name": "US Politics (Conservative)",
+      "type": "politics",
+      "path": [
+        "US Politics (Conservative)"
+      ],
+      "description": "People in USA who have a somewhat conservative political affiliation",
+      "audience_size": 36124373,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015762142783",
+      "name": "US Politics (Very Conservative)",
+      "type": "politics",
+      "path": [
+        "US Politics (Very Conservative)"
+      ],
+      "description": "People in USA who have a very conservative political affiliation",
+      "audience_size": 25398608,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6029977111383",
+      "name": "Likely To Engage in Politics (Conservative)",
+      "type": "politics",
+      "path": [
+        "Likely To Engage in Politics (Conservative)"
+      ],
+      "description": "People whose activity on Facebook suggests they’re likely to engage with and distribute conservative political content.",
+      "audience_size": 2999304,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6031978535383",
+      "name": "Likely To Engage in Politics (Liberal)",
+      "type": "politics",
+      "path": [
+        "Likely To Engage in Politics (Liberal)"
+      ],
+      "description": "Liberals likely to engage in politics",
+      "audience_size": 2999084,
+      "real_time_cluster": false
+    }
+  ]
+}

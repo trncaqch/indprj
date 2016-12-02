@@ -1,0 +1,376 @@
+,category
+0,/Anniversary/Anniversary in 61-90 Days
+1,/Automotive/Automotive (UK)/Likely Current Vehicle Age/Age 0-3 years
+2,/Automotive/Automotive (UK)/Likely Current Vehicle Age/Age 4-6 years
+3,/Automotive/Automotive (UK)/Likely Current Vehicle Age/Age 7+ years
+4,/Automotive/Automotive (UK)/Likely Current Vehicle SMMT Classification/A/B (Mini/Supermini)
+5,/Automotive/Automotive (UK)/Likely Current Vehicle SMMT Classification/C/V (Lower Medium/Vans)
+6,/Automotive/Automotive (UK)/Likely Current Vehicle SMMT Classification/D/I (Upper Medium/MPV)
+7,/Automotive/Automotive (UK)/Likely Current Vehicle SMMT Classification/E+
+8,/Automotive/Automotive (UK)/Likely New Vehicle Age/Likely to Buy a Car Made in the Last 3 Years
+9,/Automotive/Automotive (UK)/Likely New Vehicle Age/Likely to Buy a New Car
+10,/Automotive/Automotive (UK)/Likely New Vehicle Age/Likely to Buy a Used Car
+11,/Automotive/Automotive (UK)/Likely Number of Cars in the Household/1
+12,/Automotive/Automotive (UK)/Likely Number of Cars in the Household/2
+13,/Automotive/Automotive (UK)/Likely Number of Cars in the Household/None
+14,/Automotive/Automotive (UK)/Owners/Basic car
+15,/Automotive/Automotive (UK)/Owners/Executive car 
+16,/Automotive/Automotive (UK)/Owners/Leased car 
+17,/Automotive/Automotive (UK)/Owners/Lower medium car 
+18,/Automotive/Automotive (UK)/Owners/Luxury car 
+19,/Automotive/Automotive (UK)/Owners/MPV car 
+20,/Automotive/Automotive (UK)/Owners/SUV car 
+21,/Automotive/Automotive (UK)/Owners/Small car 
+22,/Automotive/Automotive (UK)/Owners/Sports car 
+23,/Automotive/Automotive (UK)/Owners/Upper medium car 
+24,/Behaviors/ Expats/Expats (Cuba)
+25,/Behaviors/ Expats/Expats (Ghana)
+26,/Behaviors/ Expats/Expats (Switzerland)
+27,/Behaviors/ Expats/Expats (Uganda)
+28,/Behaviors/ Expats/Expats (United States)
+29,/Behaviors/ Expats/Expats (Zimbabwe)
+30,/Charitable donations/ Charitable donations (UK)/Gives to charity
+31,/Consumer Classification/India/(A) Affinity for High Value Goods - India
+32,/Consumer Classification/India/(A+B) Affinity for Mid-High Value Goods - India
+33,/Digital activities/ Console Gamers
+34,/Digital activities/ Operating System Used/Primary OS Windows 10
+35,/Digital activities/Canvas Gaming/Average Engagement/Plays 0 out of 7 days
+36,/Digital activities/Canvas Gaming/Average Engagement/Plays 1 out of 7 days
+37,/Digital activities/Canvas Gaming/Average Engagement/Plays 2 out of 7 days
+38,/Digital activities/Canvas Gaming/Average Engagement/Plays 3 out of 7 days
+39,/Digital activities/Canvas Gaming/Average Engagement/Plays 4 out of 7 days
+40,/Digital activities/Canvas Gaming/Average Engagement/Plays 5 out of 7 days
+41,/Digital activities/Canvas Gaming/Average Engagement/Plays 6 out of 7 days
+42,/Digital activities/Canvas Gaming/Average Engagement/Plays 7 out of 7 days
+43,/Digital activities/Canvas Gaming/Played game in last 14 days
+44,/Digital activities/Canvas Gaming/Played game in last 3 days
+45,/Digital activities/Canvas Gaming/Played game in last 7 days
+46,/Digital activities/Canvas Gaming/Played game yesterday
+47,/Digital activities/Event creators
+48,/Digital activities/FB Payments (All)
+49,/Digital activities/FB Payments (Higher than average spend)
+50,/Digital activities/FB Payments (Recent)
+51,/Digital activities/Facebook Page Admins
+52,/Digital activities/Internet Browser Used/Primary Browser: Chrome
+53,/Digital activities/Internet Browser Used/Primary Browser: Firefox
+54,/Digital activities/Internet Browser Used/Primary Browser: Internet Explorer
+55,/Digital activities/Internet Browser Used/Primary Browser: Opera
+56,/Digital activities/Internet Browser Used/Primary Browser: Safari
+57,/Digital activities/Operating System Used/Primary OS Mac OS X
+58,/Digital activities/Operating System Used/Primary OS Windows 7
+59,/Digital activities/Operating System Used/Primary OS Windows 8
+60,/Digital activities/Operating System Used/Primary OS Windows Vista
+61,/Digital activities/Operating System Used/Primary OS Windows XP
+62,/Digital activities/Photo uploaders
+63,/Digital activities/Primary email domain/AOL Email Addressees 
+64,/Digital activities/Primary email domain/Apple Email Addresses
+65,/Digital activities/Primary email domain/Gmail Users
+66,/Digital activities/Primary email domain/Hotmail Email Addresses
+67,/Digital activities/Primary email domain/MSN.com Email Addresses
+68,/Digital activities/Primary email domain/Yahoo Email Addresses
+69,/Digital activities/Small business owners
+70,/Digital activities/Technology early adopters
+71,/Digital activities/Technology late adopters
+72,/Expats/Expats (All)
+73,/Expats/Expats (Argentina)
+74,/Expats/Expats (Australia)
+75,/Expats/Expats (Austria)
+76,/Expats/Expats (Bangladesh)
+77,/Expats/Expats (Brazil)
+78,/Expats/Expats (Cameroon)
+79,/Expats/Expats (Canada)
+80,/Expats/Expats (Chile)
+81,/Expats/Expats (China)
+82,/Expats/Expats (Colombia)
+83,/Expats/Expats (Dominican Republic)
+84,/Expats/Expats (Egypt)
+85,/Expats/Expats (Ethiopia)
+86,/Expats/Expats (France)
+87,/Expats/Expats (Germany)
+88,/Expats/Expats (Greece)
+89,/Expats/Expats (Honduras)
+90,/Expats/Expats (Hong Kong)
+91,/Expats/Expats (Hungary)
+92,/Expats/Expats (India)
+93,/Expats/Expats (Indonesia)
+94,/Expats/Expats (Ireland)
+95,/Expats/Expats (Israel)
+96,/Expats/Expats (Italy)
+97,/Expats/Expats (Japan)
+98,/Expats/Expats (Kenya)
+99,/Expats/Expats (Malaysia)
+100,/Expats/Expats (Mexico)
+101,/Expats/Expats (Morocco)
+102,/Expats/Expats (Nepal)
+103,/Expats/Expats (New Zealand)
+104,/Expats/Expats (Nigeria)
+105,/Expats/Expats (Pakistan)
+106,/Expats/Expats (Peru)
+107,/Expats/Expats (Philippines)
+108,/Expats/Expats (Poland)
+109,/Expats/Expats (Portugal)
+110,/Expats/Expats (Puerto Rico)
+111,/Expats/Expats (Romania)
+112,/Expats/Expats (Russia)
+113,/Expats/Expats (Rwanda)
+114,/Expats/Expats (Saudi Arabia)
+115,/Expats/Expats (Senegal)
+116,/Expats/Expats (Serbia)
+117,/Expats/Expats (Singapore)
+118,/Expats/Expats (South Africa)
+119,/Expats/Expats (South Korea)
+120,/Expats/Expats (Spain)
+121,/Expats/Expats (Turkey)
+122,/Expats/Expats (UAE)
+123,/Expats/Expats (UK)
+124,/Expats/Expats (US)
+125,/Expats/Expats (Venezuela)
+126,/Expats/Expats (Vietnam)
+127,/Financial/Financial (UK)/Financial services/Considered changing bank
+128,/Financial/Financial (UK)/Financial services/Has loans
+129,/Financial/Financial (UK)/Insurance/Above Average Level of Spend/Home Insurance
+130,/Financial/Financial (UK)/Insurance/Above Average Level of Spend/Personal Insurance
+131,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/01: January
+132,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/02: February
+133,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/03: March
+134,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/04: April
+135,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/05: May
+136,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/06: June
+137,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/07: July
+138,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/08: August
+139,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/09: September
+140,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/10: October
+141,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/11: November
+142,/Financial/Financial (UK)/Insurance/Building Insurance/Renews in/12: December
+143,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/01: January
+144,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/02: February
+145,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/03: March
+146,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/04: April
+147,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/05: May
+148,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/06: June
+149,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/07: July
+150,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/08: August
+151,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/09: September
+152,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/10: October
+153,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/11: November
+154,/Financial/Financial (UK)/Insurance/Content Insurance/Renews in/12: December
+155,/Financial/Financial (UK)/Insurance/Home Insurance/Likely to Switch Insurance Providers
+156,/Financial/Financial (UK)/Insurance/Likely to Have/Life Insurance
+157,/Financial/Financial (UK)/Insurance/Likely to Have/Personal Insurance
+158,/Financial/Financial (UK)/Insurance/Likely to Have/Private Health Insurance
+159,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/01: January
+160,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/02: February
+161,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/03: March
+162,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/04: April
+163,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/05: May
+164,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/06: June
+165,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/07: July
+166,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/08: August
+167,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/09: September
+168,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/10: October
+169,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/11: November
+170,/Financial/Financial (UK)/Insurance/Motor Insurance/Renews in/12: December
+171,/Financial/Financial (UK)/Insurance/Pet insurance cat
+172,/Financial/Financial (UK)/Insurance/Pet insurance dog
+173,/Financial/Financial (UK)/Investments/Investment Activity/1: Very High
+174,/Financial/Financial (UK)/Investments/Investment Activity/2: High
+175,/Financial/Financial (UK)/Investments/Investment Activity/3: Medium
+176,/Financial/Financial (UK)/Investments/Investment Type/High Interest Investments
+177,/Financial/Financial (UK)/Investments/Investment Type/ISA
+178,/Financial/Financial (UK)/Investments/Investment Type/Likely to have Private Pension
+179,/Financial/Financial (UK)/Investments/Investment Type/Likely to have Regular Savings Plan
+180,/Financial/Financial (UK)/Non liquid assets/High value
+181,/Financial/Financial (UK)/Non liquid assets/High value
+182,/Financial/Financial (UK)/Non liquid assets/Medium value
+183,/Financial/Financial (UK)/Non liquid assets/Medium value
+184,/Financial/Financial (UK)/Non liquid assets/Very high value
+185,/Financial/Financial (UK)/Non liquid assets/Very high value
+186,/Financial/Financial (UK)/Spending Method/Credit Card User
+187,/Financial/Financial (UK)/Spending Method/Debit Card User
+188,/Financial/Financial (UK)/Spending Method/Number of Credit Cards/1
+189,/Financial/Financial (UK)/Spending Method/Number of Credit Cards/2
+190,/Financial/Financial (UK)/Spending Method/Number of Credit Cards/3+
+191,/Financial/Financial (UK)/Spending Method/Number of Credit Cards/None
+192,/Financial/Insurance/Health Insurance/Very Likely to Have Private Insurance
+193,/Mobile Device User/All Mobile Devices by Brand/Alcatel
+194,/Mobile Device User/All Mobile Devices by Brand/Amazon/Kindle Fire
+195,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad 1
+196,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad 2
+197,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad 3
+198,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad 4
+199,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad Air
+200,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad Air 2
+201,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad Mini 1
+202,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad Mini 2
+203,/Mobile Device User/All Mobile Devices by Brand/Apple/iPad Mini 3
+204,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 4
+205,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 4S
+206,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 5
+207,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 5C
+208,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 5S
+209,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 6
+210,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 6 Plus
+211,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 6S
+212,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 6S Plus
+213,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 7
+214,/Mobile Device User/All Mobile Devices by Brand/Apple/iPhone 7 Plus
+215,/Mobile Device User/All Mobile Devices by Brand/Apple/iPod Touch
+216,/Mobile Device User/All Mobile Devices by Brand/Asus/Fonepad
+217,/Mobile Device User/All Mobile Devices by Brand/Asus/MeMO Pad
+218,/Mobile Device User/All Mobile Devices by Brand/Asus/Transformer Pad
+219,/Mobile Device User/All Mobile Devices by Brand/BlackBerry
+220,/Mobile Device User/All Mobile Devices by Brand/BlackBerry/Bold 9700
+221,/Mobile Device User/All Mobile Devices by Brand/BlackBerry/Curve 8520
+222,/Mobile Device User/All Mobile Devices by Brand/BlackBerry/Curve 9220
+223,/Mobile Device User/All Mobile Devices by Brand/BlackBerry/Curve 9320
+224,/Mobile Device User/All Mobile Devices by Brand/Cherry Mobile
+225,/Mobile Device User/All Mobile Devices by Brand/Google/Google Pixel
+226,/Mobile Device User/All Mobile Devices by Brand/Google/Nexus 10
+227,/Mobile Device User/All Mobile Devices by Brand/Google/Nexus 5
+228,/Mobile Device User/All Mobile Devices by Brand/Google/Nexus 7
+229,/Mobile Device User/All Mobile Devices by Brand/HTC
+230,/Mobile Device User/All Mobile Devices by Brand/HTC/HTC One
+231,/Mobile Device User/All Mobile Devices by Brand/Huawei
+232,/Mobile Device User/All Mobile Devices by Brand/Karbonn
+233,/Mobile Device User/All Mobile Devices by Brand/LG
+234,/Mobile Device User/All Mobile Devices by Brand/LG/G3
+235,/Mobile Device User/All Mobile Devices by Brand/LG/LG G2
+236,/Mobile Device User/All Mobile Devices by Brand/LG/LG V10
+237,/Mobile Device User/All Mobile Devices by Brand/LG/Optimus L3
+238,/Mobile Device User/All Mobile Devices by Brand/LG/Optimus L5
+239,/Mobile Device User/All Mobile Devices by Brand/LG/Optimus L7
+240,/Mobile Device User/All Mobile Devices by Brand/Lava
+241,/Mobile Device User/All Mobile Devices by Brand/Micromax
+242,/Mobile Device User/All Mobile Devices by Brand/Motorola
+243,/Mobile Device User/All Mobile Devices by Brand/Nokia
+244,/Mobile Device User/All Mobile Devices by Brand/Nokia/2700 Classic
+245,/Mobile Device User/All Mobile Devices by Brand/Nokia/5130 XpressMusic
+246,/Mobile Device User/All Mobile Devices by Brand/Nokia/Asha 305
+247,/Mobile Device User/All Mobile Devices by Brand/Nokia/Lumia 900
+248,/Mobile Device User/All Mobile Devices by Brand/Samsung
+249,/Mobile Device User/All Mobile Devices by Brand/Samsung/Alpha
+250,/Mobile Device User/All Mobile Devices by Brand/Samsung/Champ
+251,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Ace
+252,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Ace 2
+253,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Grand
+254,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Grand 2
+255,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Mini
+256,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Note
+257,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Note 3
+258,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Note 4
+259,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Note 5
+260,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Note 7
+261,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Note II
+262,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Pocket Duos
+263,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Pocket Plus
+264,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S 4 Mini
+265,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S Advance
+266,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S Duos
+267,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S II
+268,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S III
+269,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S III Mini
+270,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S4
+271,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S5
+272,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S6
+273,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S7
+274,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy S7 Edge
+275,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Tab
+276,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Tab 2
+277,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Tab 3
+278,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Tab 4
+279,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Tab Pro
+280,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Tab S
+281,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Y
+282,/Mobile Device User/All Mobile Devices by Brand/Samsung/Galaxy Y Duos
+283,/Mobile Device User/All Mobile Devices by Brand/Sony
+284,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia E
+285,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia M
+286,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia P
+287,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia S
+288,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia SL
+289,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia SP
+290,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia T
+291,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia U
+292,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia Z
+293,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia Z Ultra
+294,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia Z1
+295,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia Z2
+296,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia Z3
+297,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia ZL
+298,/Mobile Device User/All Mobile Devices by Brand/Sony/Xperia ZR
+299,/Mobile Device User/All Mobile Devices by Brand/Tecno
+300,/Mobile Device User/All Mobile Devices by Brand/XOLO
+301,/Mobile Device User/All Mobile Devices by Brand/Xiaomi
+302,/Mobile Device User/All Mobile Devices by Brand/ZTE
+303,/Mobile Device User/All Mobile Devices by Operating System/All Android devices
+304,/Mobile Device User/All Mobile Devices by Operating System/All iOS devices
+305,/Mobile Device User/All Mobile Devices by Operating System/Windows Phones
+306,/Mobile Device User/All mobile devices
+307,/Mobile Device User/Feature phones
+308,/Mobile Device User/Mobile Device User (UK)/Contract
+309,/Mobile Device User/Mobile Device User (UK)/Pre-Pay
+310,/Mobile Device User/Network Connection/2G (US)
+311,/Mobile Device User/Network Connection/2G Connection
+312,/Mobile Device User/Network Connection/3G (US)
+313,/Mobile Device User/Network Connection/3G Connection
+314,/Mobile Device User/Network Connection/4G (US)
+315,/Mobile Device User/Network Connection/4G Connection
+316,/Mobile Device User/Network Connection/WiFi Connection
+317,/Mobile Device User/New smartphone and tablet owners
+318,/Mobile Device User/Smartphone Owners
+319,/Mobile Device User/Smartphones and tablets
+320,/Mobile Device User/Tablet Owners
+321,/Purchase behavior/ Buyer profiles (UK)/DIYers
+322,/Purchase behavior/ Buyer profiles (UK)/Fashionistas
+323,/Purchase behavior/ Buyer profiles (UK)/High spenders
+324,/Purchase behavior/ Purchase behaviour (UK)/Baby food & products buyers
+325,/Purchase behavior/ Purchase behaviour (UK)/Beer
+326,/Purchase behavior/ Purchase behaviour (UK)/Cat food & products
+327,/Purchase behavior/ Purchase behaviour (UK)/Cleaning
+328,/Purchase behavior/ Purchase behaviour (UK)/Coffee
+329,/Purchase behavior/ Purchase behaviour (UK)/Dishwasher detergent & supplies
+330,/Purchase behavior/ Purchase behaviour (UK)/Dog food & products
+331,/Purchase behavior/ Purchase behaviour (UK)/Luxury brand buyers
+332,/Purchase behavior/ Purchase behaviour (UK)/Mainstream buyers
+333,/Purchase behavior/ Purchase behaviour (UK)/Pet owners
+334,/Purchase behavior/ Purchase behaviour (UK)/Premium buyers
+335,/Purchase behavior/ Purchase behaviour (UK)/Restaurant goers
+336,/Purchase behavior/ Purchase behaviour (UK)/Trendy fashions
+337,/Purchase behavior/ Purchase behaviour (UK)/Value buyers
+338,/Purchase behavior/ Purchase behaviour (UK)/Wine
+339,/Purchase behavior/Purchase behaviour (UK)/Above Average Level of Spend/Eating and Drinking Out
+340,/Purchase behavior/Purchase behaviour (UK)/Above Average Level of Spend/Recreation and Leisure
+341,/Purchase behavior/Purchase behaviour (UK)/Above Average Level of Spend/Travel
+342,/Purchase behavior/Purchase behaviour (UK)/Technology/Digital Camera
+343,/Purchase behavior/Purchase behaviour (UK)/Technology/Flat Screen TV
+344,/Purchase behavior/Purchase behaviour (UK)/Technology/Games Console
+345,/Purchase behavior/Purchase behaviour (UK)/Technology/HD TV
+346,/Purchase behavior/Purchase behaviour (UK)/Technology/Internet Access
+347,/Purchase behavior/Purchase behaviour (UK)/Technology/Mobile Music Device
+348,/Purchase behavior/Purchase behaviour (UK)/Technology/Mobile Phone
+349,/Purchase behavior/Purchase behaviour (UK)/Technology/PC
+350,/Purchase behavior/Purchase behaviour (UK)/Technology/Pay to View TV
+351,/Residential profiles/Residential profiles (UK)/Homeowner
+352,/Residential profiles/Residential profiles (UK)/Likely Mortgaged
+353,/Residential profiles/Residential profiles (UK)/Likely to be a 1st Time Buyer
+354,/Residential profiles/Residential profiles (UK)/Likely to be a 2nd Time Buyer
+355,/Residential profiles/Residential profiles (UK)/Likely to be a 3rd+ Time Buyer
+356,/Residential profiles/Residential profiles (UK)/Private Home Renter
+357,/Residential profiles/Residential profiles (UK)/Property Type/Bungalow
+358,/Residential profiles/Residential profiles (UK)/Property Type/Detached
+359,/Residential profiles/Residential profiles (UK)/Property Type/Flat/Maisonette
+360,/Residential profiles/Residential profiles (UK)/Property Type/Semi-Detached
+361,/Residential profiles/Residential profiles (UK)/Property Type/Terraced
+362,/Seasonal and Events/ Summer Games 2016
+363,/Seasonal and Events/Fall Football (US)/Fans of 1 or more Teams
+364,/Seasonal and Events/Fall Football (US)/Fans of 3 or more Teams
+365,/Seasonal and Events/Ramadan 2016
+366,/Travel/All frequent travelers
+367,/Travel/Business travelers
+368,/Travel/Commuters
+369,/Travel/Currently traveling
+370,/Travel/Frequent International Travelers
+371,/Travel/Returned from trip 1 week ago
+372,/Travel/Returned from trip 2 weeks ago
+373,/Travel/Used travel app (1 month)
+374,/Travel/Used travel app (2 weeks)

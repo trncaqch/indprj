@@ -75,7 +75,10 @@ GcategoryList = []
 for cat in Gdf.Category:
     GcategoryList.append([cat])
 
-print GcategoryList
+fbCategoryList = []
+for 
+
+
 def index(request):
     context_dict = dict()
     response = render(request,'index.html', context_dict)

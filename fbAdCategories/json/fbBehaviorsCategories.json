@@ -1,0 +1,5421 @@
+{
+  "data": [
+    {
+      "id": "6002714895372",
+      "name": "All frequent travelers",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "All frequent travelers"
+      ],
+      "description": "People whose activities on Facebook suggest they are Frequent travelers.",
+      "audience_size": 219188099,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6002714898572",
+      "name": "Small business owners",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Small business owners"
+      ],
+      "description": "People who list themselves as small business owners or own small business pages on Facebook",
+      "audience_size": 31651013,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6002764392172",
+      "name": "FB Payments (All)",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "FB Payments (All)"
+      ],
+      "description": "People who have used Facebook Payments platform in the past 90 days",
+      "audience_size": 6705797,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003050295572",
+      "name": "Photo uploaders",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Photo uploaders"
+      ],
+      "description": "Users who uploaded >50 photos on Facebook in last month. ",
+      "audience_size": 72542492,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003050229172",
+      "name": "Event creators",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Event creators"
+      ],
+      "description": "People who have recently created a Facebook event.",
+      "audience_size": 9791662,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003808923172",
+      "name": "Technology early adopters",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Technology early adopters"
+      ],
+      "description": "People who are likely to be a Technology Early Adopter",
+      "audience_size": 107903248,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003986707172",
+      "name": "Primary OS Windows 7",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Operating System Used",
+        "Primary OS Windows 7"
+      ],
+      "description": "People who primarily connect to Facebook using Windows 7.",
+      "audience_size": 341150677,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003966451572",
+      "name": "Primary OS Mac OS X",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Operating System Used",
+        "Primary OS Mac OS X"
+      ],
+      "description": "People who primarily connect to Facebook using Mac OS X.",
+      "audience_size": 55818692,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003966450972",
+      "name": "Primary OS Windows Vista",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Operating System Used",
+        "Primary OS Windows Vista"
+      ],
+      "description": "People who tend to connect to Facebook using Windows Vista",
+      "audience_size": 7141689,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6003966466972",
+      "name": "Primary OS Windows XP",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Operating System Used",
+        "Primary OS Windows XP"
+      ],
+      "description": "People who primarily connect to Facebook using Windows XP.",
+      "audience_size": 79298916,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004386303972",
+      "name": "iPhone 4S",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 4S"
+      ],
+      "description": "People who access the Internet through a iPhone 4S mobile device",
+      "audience_size": 18738334,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383941372",
+      "name": "iPhone 4",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 4"
+      ],
+      "description": "People who access the Internet through a iPhone 4 mobile device",
+      "audience_size": 12178613,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004386044572",
+      "name": "All Android devices",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Operating System",
+        "All Android devices"
+      ],
+      "description": "People who access the Internet through an Android mobile device",
+      "audience_size": 1174530648,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383149972",
+      "name": "Feature phones",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Feature phones"
+      ],
+      "description": "People who access the Internet through a feature phone",
+      "audience_size": 31585861,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383890572",
+      "name": "iPod Touch",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPod Touch"
+      ],
+      "description": "People who access the Internet through an iPod Touch mobile device",
+      "audience_size": 2257209,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004385895772",
+      "name": "Windows Phones",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Operating System",
+        "Windows Phones"
+      ],
+      "description": "People who access the Internet through Windows phones.",
+      "audience_size": 4326708,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004384041172",
+      "name": "All iOS devices",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Operating System",
+        "All iOS devices"
+      ],
+      "description": "People who access the Internet through an Apple mobile device",
+      "audience_size": 342107889,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383806772",
+      "name": "iPad 3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad 3"
+      ],
+      "description": "People who access the Internet through an iPad 3",
+      "audience_size": 8773370,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383808772",
+      "name": "iPad 2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad 2"
+      ],
+      "description": "People who access the Internet through an iPad 2",
+      "audience_size": 15200830,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383767972",
+      "name": "iPad 1",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad 1"
+      ],
+      "description": "People who access the Internet through an iPad 1",
+      "audience_size": 3558589,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004386010572",
+      "name": "Samsung",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung"
+      ],
+      "description": "People who access the Internet through a Samsung Android mobile device",
+      "audience_size": 639724829,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004385934572",
+      "name": "BlackBerry",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "BlackBerry"
+      ],
+      "description": "People who access the Internet through a Blackberry mobile device",
+      "audience_size": 9481627,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004385886572",
+      "name": "HTC",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "HTC"
+      ],
+      "description": "People who access the Internet through an HTC Android mobile device",
+      "audience_size": 27808266,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004385868372",
+      "name": "LG",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG"
+      ],
+      "description": "People who access the Internet through an LG Android mobile device",
+      "audience_size": 83533172,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004385865172",
+      "name": "Sony",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony"
+      ],
+      "description": "People who access the Internet through a Sony Android mobile device",
+      "audience_size": 48470506,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004382299972",
+      "name": "All mobile devices",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All mobile devices"
+      ],
+      "description": "People who access the Internet through mobile devices",
+      "audience_size": 1626185921,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004383049972",
+      "name": "Smartphones and tablets",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Smartphones and tablets"
+      ],
+      "description": "People who access the Internet through a smart phone or tablet device.",
+      "audience_size": 1556778326,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004385879572",
+      "name": "Motorola",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Motorola"
+      ],
+      "description": "People who access the Internet through a Motorola Android mobile device",
+      "audience_size": 53113279,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004854404172",
+      "name": "Technology late adopters",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Technology late adopters"
+      ],
+      "description": "People who access Facebook on older devices or operating systems before Windows 7, Mac OS X or Windows NT 6.2.",
+      "audience_size": 330506760,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004883585572",
+      "name": "iPhone 5",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 5"
+      ],
+      "description": "People who access the Internet through an iPhone 5",
+      "audience_size": 25237848,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004948896972",
+      "name": "FB Payments (Recent)",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "FB Payments (Recent)"
+      ],
+      "description": "People who have used Facebook Payments platform in the past 30 days.",
+      "audience_size": 1973701,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6004948896772",
+      "name": "FB Payments (Higher than average spend)",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "FB Payments (Higher than average spend)"
+      ],
+      "description": "People who have spent more than $100 on Facebook Payments platform in the past 3 months.",
+      "audience_size": 747628,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6006298077772",
+      "name": "Primary OS Windows 8",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Operating System Used",
+        "Primary OS Windows 8"
+      ],
+      "description": "People who primarily connect to Facebook using Windows 8.",
+      "audience_size": 84643328,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6007078565383",
+      "name": "New smartphone and tablet owners",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "New smartphone and tablet owners"
+      ],
+      "description": "People who are new smartphone or tablet users.",
+      "audience_size": 127379911,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6007101597783",
+      "name": "Business travelers",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Business travelers"
+      ],
+      "description": "People who frequently take trips over 300 miles during the week, which indicates they likely travel for business.",
+      "audience_size": 821364,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6007178219583",
+      "name": "Used travel app (2 weeks)",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Used travel app (2 weeks)"
+      ],
+      "description": "People who have used a travel app in the past 2 weeks.",
+      "audience_size": 2113058,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6007178249383",
+      "name": "Used travel app (1 month)",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Used travel app (1 month)"
+      ],
+      "description": "People who have used a travel app in the last month.",
+      "audience_size": 3473612,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6007384133183",
+      "name": "Currently traveling",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Currently traveling"
+      ],
+      "description": "People whose activities on Facebook suggest they are Currently traveling.",
+      "audience_size": 28976077,
+      "real_time_cluster": true
+    },
+    {
+      "id": "6007481031783",
+      "name": "Galaxy S III",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S III"
+      ],
+      "description": "People who are likely to own Samsung Galaxy S III devices.",
+      "audience_size": 20064298,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6007847947183",
+      "name": " Console Gamers",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        " Console Gamers"
+      ],
+      "description": "People who’ve liked pages related to console games or gaming systems",
+      "audience_size": 97385009,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008261969983",
+      "name": "Returned from trip 1 week ago",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Returned from trip 1 week ago"
+      ],
+      "description": "People whose activities on Facebook suggest they returned from traveling within one week.",
+      "audience_size": 25846670,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008297697383",
+      "name": "Returned from trip 2 weeks ago",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Returned from trip 2 weeks ago"
+      ],
+      "description": "People whose activities on Facebook suggest they returned from traveling within 2 weeks.",
+      "audience_size": 31269251,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008868254383",
+      "name": "Kindle Fire",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Amazon",
+        "Kindle Fire"
+      ],
+      "description": "People who are likely to own a Kindle Fire",
+      "audience_size": 698372,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6010095777183",
+      "name": "iPhone 5S",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 5S"
+      ],
+      "description": "People who access the internet through an iPhone 5S",
+      "audience_size": 52905765,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6010095794383",
+      "name": "iPhone 5C",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 5C"
+      ],
+      "description": "People who access the internet through an iPhone 5C.",
+      "audience_size": 12775193,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6010231666183",
+      "name": "LG G2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG",
+        "LG G2"
+      ],
+      "description": "People who are likely to own LG G2 devices.",
+      "audience_size": 2360620,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011191254383",
+      "name": "iPad 4",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad 4"
+      ],
+      "description": "",
+      "audience_size": 11456510,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011191259183",
+      "name": "iPad Mini 1",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad Mini 1"
+      ],
+      "description": "",
+      "audience_size": 16219215,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011244513583",
+      "name": "iPad Air",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad Air"
+      ],
+      "description": "",
+      "audience_size": 14802209,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011244510983",
+      "name": "iPad Mini 2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad Mini 2"
+      ],
+      "description": "",
+      "audience_size": 9327269,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011071878583",
+      "name": "Lumia 900",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Nokia",
+        "Lumia 900"
+      ],
+      "description": "People who are likely to own a Lumia 900",
+      "audience_size": 61791,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011390267783",
+      "name": "Nokia",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Nokia"
+      ],
+      "description": "",
+      "audience_size": 26283274,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6011390261383",
+      "name": "Huawei",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Huawei"
+      ],
+      "description": "",
+      "audience_size": 73539644,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013023098583",
+      "name": "Galaxy Ace",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Ace"
+      ],
+      "description": "",
+      "audience_size": 4315472,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015852294783",
+      "name": "Galaxy Y",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Y"
+      ],
+      "description": "People who are likely to own Galaxy Y devices.",
+      "audience_size": 5870126,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013016790183",
+      "name": "Galaxy S4",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S4"
+      ],
+      "description": "",
+      "audience_size": 32378886,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017211983",
+      "name": "Galaxy S III Mini",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S III Mini"
+      ],
+      "description": "",
+      "audience_size": 11625505,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017213583",
+      "name": "Curve 8520",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "BlackBerry",
+        "Curve 8520"
+      ],
+      "description": "",
+      "audience_size": 1232505,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017235183",
+      "name": "Galaxy Note II",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Note II"
+      ],
+      "description": "",
+      "audience_size": 1858,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017235783",
+      "name": "Galaxy S Duos",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S Duos"
+      ],
+      "description": "",
+      "audience_size": 4016361,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017236583",
+      "name": "Galaxy Grand",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Grand"
+      ],
+      "description": "",
+      "audience_size": 6279212,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017271383",
+      "name": "Curve 9320",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "BlackBerry",
+        "Curve 9320"
+      ],
+      "description": "",
+      "audience_size": 1313158,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017271983",
+      "name": "Galaxy Y Duos",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Y Duos"
+      ],
+      "description": "",
+      "audience_size": 1909850,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017273183",
+      "name": "Optimus L5",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG",
+        "Optimus L5"
+      ],
+      "description": "",
+      "audience_size": 1701301,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017273783",
+      "name": "Galaxy Mini",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Mini"
+      ],
+      "description": "",
+      "audience_size": 1061452,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017274383",
+      "name": "Optimus L3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG",
+        "Optimus L3"
+      ],
+      "description": "",
+      "audience_size": 1144736,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017284183",
+      "name": "Galaxy Note",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Note"
+      ],
+      "description": "",
+      "audience_size": 1900371,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017284783",
+      "name": "Bold 9700",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "BlackBerry",
+        "Bold 9700"
+      ],
+      "description": "",
+      "audience_size": 379142,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017285383",
+      "name": "5130 XpressMusic",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Nokia",
+        "5130 XpressMusic"
+      ],
+      "description": "",
+      "audience_size": 394174,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017295783",
+      "name": "Asha 305",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Nokia",
+        "Asha 305"
+      ],
+      "description": "",
+      "audience_size": 1203510,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017296583",
+      "name": "2700 Classic",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Nokia",
+        "2700 Classic"
+      ],
+      "description": "",
+      "audience_size": 388670,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017297383",
+      "name": "Curve 9220",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "BlackBerry",
+        "Curve 9220"
+      ],
+      "description": "",
+      "audience_size": 609108,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017297983",
+      "name": "Galaxy Ace 2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Ace 2"
+      ],
+      "description": "",
+      "audience_size": 1376825,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017298183",
+      "name": "Galaxy Pocket Duos",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Pocket Duos"
+      ],
+      "description": "",
+      "audience_size": 292927,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017298783",
+      "name": "Galaxy S Advance",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S Advance"
+      ],
+      "description": "",
+      "audience_size": 1030808,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017308783",
+      "name": "Galaxy S 4 Mini",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S 4 Mini"
+      ],
+      "description": "",
+      "audience_size": 8405435,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017309783",
+      "name": "Champ",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Champ"
+      ],
+      "description": "People who likely to own a Champ device (c3300k).",
+      "audience_size": 136563,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017310583",
+      "name": "Optimus L7",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG",
+        "Optimus L7"
+      ],
+      "description": "",
+      "audience_size": 632957,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013017310783",
+      "name": "Galaxy Pocket Plus",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Pocket Plus"
+      ],
+      "description": "",
+      "audience_size": 2152963,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013023097583",
+      "name": "Galaxy S II",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S II"
+      ],
+      "description": "",
+      "audience_size": 2312823,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013279353983",
+      "name": "Galaxy Note 3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Note 3"
+      ],
+      "description": "People who likely own Galaxy Note 3 from Samsung.",
+      "audience_size": 13081341,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6013516370183",
+      "name": "Commuters",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Commuters"
+      ],
+      "description": "People likely to commute from home to their workplace on weekdays.",
+      "audience_size": 66259864,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6014808618583",
+      "name": "Galaxy S5",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S5"
+      ],
+      "description": "People who are likely to own Samsung Galaxy S5 devices.",
+      "audience_size": 34687934,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6014809400783",
+      "name": "Nexus 5",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Google",
+        "Nexus 5"
+      ],
+      "description": "",
+      "audience_size": 1531100,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6014809859183",
+      "name": "HTC One",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "HTC",
+        "HTC One"
+      ],
+      "description": "People who are likely to own HTC One devices.",
+      "audience_size": 9044926,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015235368383",
+      "name": "4G (US)",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "4G (US)"
+      ],
+      "description": "People who primarily access Facebook using a 4G connection",
+      "audience_size": 481882992,
+      "country_access": {
+        "include": [
+          "US"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015235450983",
+      "name": "3G (US)",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "3G (US)"
+      ],
+      "description": "People who primarily access Facebook using a 3G connection",
+      "audience_size": 779136362,
+      "country_access": {
+        "include": [
+          "US"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015235462383",
+      "name": "2G (US)",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "2G (US)"
+      ],
+      "description": "People who primarily access Facebook using a 2G connection",
+      "audience_size": 139177678,
+      "country_access": {
+        "include": [
+          "US"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015235495383",
+      "name": "WiFi Connection",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "WiFi Connection"
+      ],
+      "description": "People who primarily access Facebook using a WiFi connection",
+      "audience_size": 1044776849,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015441244983",
+      "name": "Galaxy Grand 2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Grand 2"
+      ],
+      "description": "People who are likely to own a Samsung Galaxy Grand 2",
+      "audience_size": 8010908,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015547847583",
+      "name": "Primary Browser: Firefox",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Internet Browser Used",
+        "Primary Browser: Firefox"
+      ],
+      "description": "People who primarily connect to Facebook using Firefox.",
+      "audience_size": 66662494,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015547900583",
+      "name": "Primary Browser: Chrome",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Internet Browser Used",
+        "Primary Browser: Chrome"
+      ],
+      "description": "People who primarily connect to Facebook using Google Chrome.",
+      "audience_size": 987568743,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015559470583",
+      "name": "Expats (All)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (All)"
+      ],
+      "description": "People whose original country of residence is different from the current country/countries selected above",
+      "audience_size": 177142408,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015593608983",
+      "name": "Primary Browser: Safari",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Internet Browser Used",
+        "Primary Browser: Safari"
+      ],
+      "description": "People who primarily connect to Facebook using Safari.",
+      "audience_size": 338277391,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015593652183",
+      "name": "Primary Browser: Opera",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Internet Browser Used",
+        "Primary Browser: Opera"
+      ],
+      "description": "People who primarily connect to Facebook using Opera.",
+      "audience_size": 53974552,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015593776783",
+      "name": "Primary Browser: Internet Explorer",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Internet Browser Used",
+        "Primary Browser: Internet Explorer"
+      ],
+      "description": "People who primarily connect to Facebook using Internet Explorer.",
+      "audience_size": 37820229,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6015683810783",
+      "name": "Facebook Page Admins",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Facebook Page Admins"
+      ],
+      "description": "People who are an admin of at least 1 page.",
+      "audience_size": 266589368,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016286031583",
+      "name": "Smartphone Owners",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Smartphone Owners"
+      ],
+      "description": "People who connect to Facebook using a Smartphone",
+      "audience_size": 1487738247,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016286626383",
+      "name": "Tablet Owners",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Tablet Owners"
+      ],
+      "description": "People who connect to Facebook using a Tablet",
+      "audience_size": 207561841,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016916298983",
+      "name": "Expats (India)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (India)"
+      ],
+      "description": "People from India whose current country of residence is outside of India.",
+      "audience_size": 11206654,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016920243183",
+      "name": "Nexus 7",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Google",
+        "Nexus 7"
+      ],
+      "description": "People who are likely to own a Nexus 7",
+      "audience_size": 1422446,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925022783",
+      "name": "Nexus 10",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Google",
+        "Nexus 10"
+      ],
+      "description": "People who are likely to own a Nexus 10",
+      "audience_size": 178139,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925131183",
+      "name": "Transformer Pad",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Asus",
+        "Transformer Pad"
+      ],
+      "description": "People who are likely to own an Asus Transformer Pad",
+      "audience_size": 58290,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925182583",
+      "name": "MeMO Pad",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Asus",
+        "MeMO Pad"
+      ],
+      "description": "People who are likely to own an Asus MeMO Pad",
+      "audience_size": 1709020,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925196783",
+      "name": "Fonepad",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Asus",
+        "Fonepad"
+      ],
+      "description": "People who are likely to own an Asus Fonepad",
+      "audience_size": 238,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925328983",
+      "name": "Galaxy Tab S",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Tab S"
+      ],
+      "description": "People who are likely to own a Samsung Galaxy Tab S",
+      "audience_size": 2591258,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925394583",
+      "name": "Galaxy Tab Pro",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Tab Pro"
+      ],
+      "description": "People who are likely to own a Samsung Galaxy Tab Pro",
+      "audience_size": 861508,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925404783",
+      "name": "Galaxy Tab 4",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Tab 4"
+      ],
+      "description": "People who are likely to own a Samsung Galaxy Tab 4",
+      "audience_size": 13888144,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925643983",
+      "name": "Galaxy Tab 3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Tab 3"
+      ],
+      "description": "People who are likely to own a Galaxy Tab 3",
+      "audience_size": 24904163,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925657183",
+      "name": "Galaxy Tab 2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Tab 2"
+      ],
+      "description": "People who are likely to own a Galaxy Tab 2",
+      "audience_size": 7792070,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016925667383",
+      "name": "Galaxy Tab",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Tab"
+      ],
+      "description": "People who are likely to own a Samsung Galaxy Tab ",
+      "audience_size": 5486,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926242183",
+      "name": "Xperia E",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia E"
+      ],
+      "description": "People who are likely to own a Sony Xperia E",
+      "audience_size": 893140,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926254583",
+      "name": "Xperia M",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia M"
+      ],
+      "description": "People who are likely to own a Sony Xperia M",
+      "audience_size": 1774254,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926390583",
+      "name": "Xperia P",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia P"
+      ],
+      "description": "People who are likely to own a Sony Xperia P",
+      "audience_size": 253671,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017857337983",
+      "name": "Xperia S",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia S"
+      ],
+      "description": "People who are likely to own a Sony Xperia S",
+      "audience_size": 428278,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926310383",
+      "name": "Xperia SL",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia SL"
+      ],
+      "description": "People who are likely to own a Sony Xperia SLs",
+      "audience_size": 87777,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926446983",
+      "name": "Xperia SP",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia SP"
+      ],
+      "description": "People who are likely to own a Sony Xperia SP",
+      "audience_size": 805143,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926471583",
+      "name": "Xperia T",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia T"
+      ],
+      "description": "People who are likely to own a Sony Xperia T",
+      "audience_size": 160354,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926484183",
+      "name": "Xperia U",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia U"
+      ],
+      "description": "People who are likely to own a Sony Xperia U",
+      "audience_size": 278149,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926528983",
+      "name": "Xperia Z",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia Z"
+      ],
+      "description": "People who are likely to own a Sony Xperia Z",
+      "audience_size": 1583894,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926651383",
+      "name": "Xperia Z Ultra",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia Z Ultra"
+      ],
+      "description": "People who are interested in Xperia Z Ultra",
+      "audience_size": 538648,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926801183",
+      "name": "Xperia Z1",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia Z1"
+      ],
+      "description": "People who are likely to own a Sony Xperia Z1",
+      "audience_size": 942801,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926826583",
+      "name": "Xperia ZL",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia ZL"
+      ],
+      "description": "People who are likely to own a Sony Xperia ZL",
+      "audience_size": 251530,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016926911983",
+      "name": "Xperia ZR",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia ZR"
+      ],
+      "description": "People who are likely to own a Sony Xperia ZR",
+      "audience_size": 233672,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017521096783",
+      "name": "Gmail Users",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Primary email domain",
+        "Gmail Users"
+      ],
+      "description": "People who use Gmail",
+      "audience_size": 368444306,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017251892583",
+      "name": "Apple Email Addresses",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Primary email domain",
+        "Apple Email Addresses"
+      ],
+      "description": "People who use Apple for email (icloud, me, mac domains)
+",
+      "audience_size": 5607700,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017550419583",
+      "name": "Yahoo Email Addresses",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Primary email domain",
+        "Yahoo Email Addresses"
+      ],
+      "description": "People who use Yahoo for email
+",
+      "audience_size": 252907517,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017521108383",
+      "name": "MSN.com Email Addresses",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Primary email domain",
+        "MSN.com Email Addresses"
+      ],
+      "description": "People with MSN.Com as their primary email ",
+      "audience_size": 4420104,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017521095183",
+      "name": "Hotmail Email Addresses",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Primary email domain",
+        "Hotmail Email Addresses"
+      ],
+      "description": "People who use Hotmail for email
+",
+      "audience_size": 331918660,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017253486583",
+      "name": "2G Connection",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "2G Connection"
+      ],
+      "description": "People who primarily access Facebook using a 2G connection",
+      "audience_size": 139901899,
+      "country_access": {
+        "exclude": [
+          "US"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017253511583",
+      "name": "3G Connection",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "3G Connection"
+      ],
+      "description": "People who primarily access Facebook using a 3G connection",
+      "audience_size": 794026484,
+      "country_access": {
+        "exclude": [
+          "US"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017253531383",
+      "name": "4G Connection",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Network Connection",
+        "4G Connection"
+      ],
+      "description": "People who primarily access Facebook using a 4G connection",
+      "audience_size": 481882992,
+      "country_access": {
+        "exclude": [
+          "US",
+          "AR"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017567248583",
+      "name": "AOL Email Addressees ",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Primary email domain",
+        "AOL Email Addressees "
+      ],
+      "description": "People who use AOL email
+",
+      "audience_size": 12626161,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017447523583",
+      "name": "Fans of 3 or more Teams",
+      "type": "behaviors",
+      "path": [
+        "Seasonal and Events",
+        "Fall Football (US)",
+        "Fans of 3 or more Teams"
+      ],
+      "description": "Fans of 3 or more Teams",
+      "audience_size": 3860002,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017447625983",
+      "name": "Fans of 1 or more Teams",
+      "type": "behaviors",
+      "path": [
+        "Seasonal and Events",
+        "Fall Football (US)",
+        "Fans of 1 or more Teams"
+      ],
+      "description": "Fans of 1 or more Teams",
+      "audience_size": 49516855,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017535283383",
+      "name": "G3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG",
+        "G3"
+      ],
+      "description": "People who are likely to own an LG G3",
+      "audience_size": 5778348,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017831560783",
+      "name": "iPhone 6 Plus",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 6 Plus"
+      ],
+      "description": "People who are likely to own an Apple iPhone 6 Plus",
+      "audience_size": 21232909,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6017831572183",
+      "name": "iPhone 6",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 6"
+      ],
+      "description": "People who are likely to own an iPhone 6",
+      "audience_size": 71555167,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018413514983",
+      "name": "Anniversary in 61-90 Days",
+      "type": "behaviors",
+      "path": [
+        "Anniversary",
+        "Anniversary in 61-90 Days"
+      ],
+      "description": "Anniversary in 61-90 Days",
+      "audience_size": 7531173,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018796980983",
+      "name": "Expats (Kenya)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Kenya)"
+      ],
+      "description": "Expats (Kenya)",
+      "audience_size": 525376,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018797004183",
+      "name": "Expats (Nigeria)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Nigeria)"
+      ],
+      "description": "Expats (Nigeria)",
+      "audience_size": 1407345,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018797036783",
+      "name": "Expats (Cameroon)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Cameroon)"
+      ],
+      "description": "Expats (Cameroon)",
+      "audience_size": 394611,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018797091183",
+      "name": "Expats (Philippines)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Philippines)"
+      ],
+      "description": "People from Philippines living abroad.",
+      "audience_size": 8826905,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018797127383",
+      "name": "Expats (Cuba)",
+      "type": "behaviors",
+      "path": [
+        "Behaviors",
+        " Expats",
+        "Expats (Cuba)"
+      ],
+      "description": "Expats (Cuba)",
+      "audience_size": 1219693,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018797165983",
+      "name": "Expats (Ethiopia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Ethiopia)"
+      ],
+      "description": "Expats (Ethiopia)",
+      "audience_size": 750777,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6018995113183",
+      "name": "iPad Air 2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad Air 2"
+      ],
+      "description": "People who are likely to own an iPad Air 2",
+      "audience_size": 11271206,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019221024783",
+      "name": "Played game yesterday",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Played game yesterday"
+      ],
+      "description": "People who played canvas games yesterday",
+      "audience_size": 25582908,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019221038183",
+      "name": "Played game in last 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Played game in last 7 days"
+      ],
+      "description": "People who have a played a canvas game in the last 7 days",
+      "audience_size": 53937242,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019221046583",
+      "name": "Played game in last 14 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Played game in last 14 days"
+      ],
+      "description": "People who have played a canvas game in the last 14 days",
+      "audience_size": 70164791,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019098117583",
+      "name": "iPad Mini 3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPad Mini 3"
+      ],
+      "description": "People who are likely to own an iPad Mini 3",
+      "audience_size": 2041938,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019098214783",
+      "name": "Galaxy Note 4",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Note 4"
+      ],
+      "description": "People who are likely to own a Galaxy Note 4",
+      "audience_size": 10929842,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019164544783",
+      "name": "Karbonn",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Karbonn"
+      ],
+      "description": "People who are likely to own a Karbonn Device",
+      "audience_size": 2392145,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019164556983",
+      "name": "Lava",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Lava"
+      ],
+      "description": "People who are likely to own a Lava device",
+      "audience_size": 13172082,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019164586183",
+      "name": "Micromax",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Micromax"
+      ],
+      "description": "People who are likely to own a Micromax device",
+      "audience_size": 17966229,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019164599783",
+      "name": "XOLO",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "XOLO"
+      ],
+      "description": "People who are likely to own a XOLO device",
+      "audience_size": 1740868,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019164630583",
+      "name": "Xiaomi",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Xiaomi"
+      ],
+      "description": "People who are likely to own a Xiaomi device",
+      "audience_size": 17493994,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019246164583",
+      "name": "Played game in last 3 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Played game in last 3 days"
+      ],
+      "description": "People who have played a canvas game in the last 3 days",
+      "audience_size": 43880065,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019366943583",
+      "name": "Expats (Spain)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Spain)"
+      ],
+      "description": "People from Spain living abroad.",
+      "audience_size": 2467003,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019366994183",
+      "name": "Expats (Turkey)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Turkey)"
+      ],
+      "description": "People from Turkey living abroad.",
+      "audience_size": 3135291,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019367014383",
+      "name": "Expats (France)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (France)"
+      ],
+      "description": "People from France living abroad.",
+      "audience_size": 3744718,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019367052983",
+      "name": "Expats (Germany)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Germany)"
+      ],
+      "description": "People from Germany living abroad.",
+      "audience_size": 2441465,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019377644783",
+      "name": "Expats (Switzerland)",
+      "type": "behaviors",
+      "path": [
+        "Behaviors",
+        " Expats",
+        "Expats (Switzerland)"
+      ],
+      "description": "People from Switzerland living abroad",
+      "audience_size": 428877,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019396649183",
+      "name": "Expats (United States)",
+      "type": "behaviors",
+      "path": [
+        "Behaviors",
+        " Expats",
+        "Expats (United States)"
+      ],
+      "description": "Expats (United States)",
+      "audience_size": 13470714,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019396657183",
+      "name": "Expats (Poland)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Poland)"
+      ],
+      "description": "People from Poland living abroad.",
+      "audience_size": 2463956,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019396654583",
+      "name": "Expats (Italy)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Italy)"
+      ],
+      "description": "People from Italy living abroad.",
+      "audience_size": 2660783,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019396650783",
+      "name": "Expats (Ireland)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Ireland)"
+      ],
+      "description": "Irish Expats Living Abroad",
+      "audience_size": 518476,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019396638383",
+      "name": "Expats (Hungary)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Hungary)"
+      ],
+      "description": "People from Hungary living abroad",
+      "audience_size": 562686,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019396764183",
+      "name": "Expats (Canada)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Canada)"
+      ],
+      "description": "People from Canada living abroad.",
+      "audience_size": 1501859,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019452369983",
+      "name": "Expats (China)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (China)"
+      ],
+      "description": "People from China whose current country of residence is outside of China.",
+      "audience_size": 2554496,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019451459783",
+      "name": "Plays 0 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 0 out of 7 days"
+      ],
+      "description": "People who play 0 out of 7 days on average",
+      "audience_size": 32920189,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019450979983",
+      "name": "Plays 1 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 1 out of 7 days"
+      ],
+      "description": "People who play 1 out of 7 days on average",
+      "audience_size": 5187385,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019450987783",
+      "name": "Plays 2 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 2 out of 7 days"
+      ],
+      "description": "People who play 2 out of 7 days on average",
+      "audience_size": 1833306,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019450995783",
+      "name": "Plays 3 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 3 out of 7 days"
+      ],
+      "description": "People who play 3 out of 7 days on average",
+      "audience_size": 962974,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019450996183",
+      "name": "Plays 4 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 4 out of 7 days"
+      ],
+      "description": "People who play 4 out of 7 days on average",
+      "audience_size": 506815,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019450997383",
+      "name": "Plays 5 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 5 out of 7 days"
+      ],
+      "description": "People who play 5 out of 7 days on average",
+      "audience_size": 343098,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019451000983",
+      "name": "Plays 6 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 6 out of 7 days"
+      ],
+      "description": "People who play 6 out of 7 days on average",
+      "audience_size": 290740,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019451002383",
+      "name": "Plays 7 out of 7 days",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        "Canvas Gaming",
+        "Average Engagement",
+        "Plays 7 out of 7 days"
+      ],
+      "description": "People who play 7 out of 7 days on average",
+      "audience_size": 353477,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019520122583",
+      "name": "Expats (Puerto Rico)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Puerto Rico)"
+      ],
+      "description": "People from Puerto Rico living abroad.",
+      "audience_size": 1411692,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019564340583",
+      "name": "Expats (Brazil)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Brazil)"
+      ],
+      "description": "People from Brazil whose current country of residence is outside of Brazil.
+",
+      "audience_size": 3970907,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019564344583",
+      "name": "Expats (Indonesia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Indonesia)"
+      ],
+      "description": "People from Indonesia whose current country of residence is outside of Indonesia.
+",
+      "audience_size": 3612001,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019564383383",
+      "name": "Expats (South Africa)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (South Africa)"
+      ],
+      "description": "People from South Africa whose current country of residence is outside of South Africa.",
+      "audience_size": 954825,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019673233983",
+      "name": "Expats (Zimbabwe)",
+      "type": "behaviors",
+      "path": [
+        "Behaviors",
+        " Expats",
+        "Expats (Zimbabwe)"
+      ],
+      "description": "People from Zimbabwe living abroad",
+      "audience_size": 754930,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019673448383",
+      "name": "Expats (Ghana)",
+      "type": "behaviors",
+      "path": [
+        "Behaviors",
+        " Expats",
+        "Expats (Ghana)"
+      ],
+      "description": "People from Ghana living abroad",
+      "audience_size": 569219,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019673501783",
+      "name": "Expats (Uganda)",
+      "type": "behaviors",
+      "path": [
+        "Behaviors",
+        " Expats",
+        "Expats (Uganda)"
+      ],
+      "description": "People from Uganda living abroad",
+      "audience_size": 251823,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019673525983",
+      "name": "Expats (Colombia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Colombia)"
+      ],
+      "description": "People from Colombia living abroad.",
+      "audience_size": 2371743,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019673762183",
+      "name": "Expats (Dominican Republic)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Dominican Republic)"
+      ],
+      "description": "Expats (Dominican Republic)",
+      "audience_size": 1444434,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019905873383",
+      "name": "Alpha",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Alpha"
+      ],
+      "description": "People likely to own a Samsung Alpha.",
+      "audience_size": 1525763,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6021354152983",
+      "name": "Expats (UK)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (UK)"
+      ],
+      "description": "UK expats living abroad.",
+      "audience_size": 4482119,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6021354857783",
+      "name": "Expats (Australia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Australia)"
+      ],
+      "description": "Australian Expats Living Abroad",
+      "audience_size": 1124156,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6021354882783",
+      "name": "Expats (Portugal)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Portugal)"
+      ],
+      "description": "People from Portugal living abroad.",
+      "audience_size": 1562866,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6022430905583",
+      "name": "Xperia Z2",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia Z2"
+      ],
+      "description": "People who are likely to own a Xperia Z2",
+      "audience_size": 263591,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6022430911783",
+      "name": "Xperia Z3",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Sony",
+        "Xperia Z3"
+      ],
+      "description": "People who are likely to own a Sony Z3.",
+      "audience_size": 2009688,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6022788483583",
+      "name": "Frequent International Travelers",
+      "type": "behaviors",
+      "path": [
+        "Travel",
+        "Frequent International Travelers"
+      ],
+      "description": "People who have traveled abroad more than once in the past six months",
+      "audience_size": 120304076,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023356562783",
+      "name": "Expats (Bangladesh)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Bangladesh)"
+      ],
+      "description": "People from Bangladesh living abroad.",
+      "audience_size": 3526594,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023356955383",
+      "name": "Expats (Nepal)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Nepal)"
+      ],
+      "description": "People from Nepal living abroad.",
+      "audience_size": 2134627,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023357000583",
+      "name": "Expats (Senegal)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Senegal)"
+      ],
+      "description": "People from Senegal living abroad",
+      "audience_size": 485698,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023460563383",
+      "name": "Alcatel",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Alcatel"
+      ],
+      "description": "People who are likely to own an Alcatel device",
+      "audience_size": 31149704,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023460572383",
+      "name": "ZTE",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "ZTE"
+      ],
+      "description": "People who are likely to own a ZTE device",
+      "audience_size": 16758958,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023460579583",
+      "name": "Tecno",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Tecno"
+      ],
+      "description": "People who are likely to own a Tecno device",
+      "audience_size": 11256977,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023460590583",
+      "name": "Cherry Mobile",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Cherry Mobile"
+      ],
+      "description": "People who are likely to own a Cherry Mobile device",
+      "audience_size": 7362246,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023516338783",
+      "name": "Expats (Morocco)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Morocco)"
+      ],
+      "description": "People from Morocco living abroad.",
+      "audience_size": 1799112,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023516430783",
+      "name": "Expats (UAE)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (UAE)"
+      ],
+      "description": "People from United Arab Emirates living abroad",
+      "audience_size": 676592,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023516368383",
+      "name": "Expats (New Zealand)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (New Zealand)"
+      ],
+      "description": "People from New Zealand living abroad",
+      "audience_size": 674213,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023516403783",
+      "name": "Expats (Singapore)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Singapore)"
+      ],
+      "description": "People from Singapore living abroad",
+      "audience_size": 326352,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023620475783",
+      "name": "Expats (US)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (US)"
+      ],
+      "description": "Expats from the U.S.",
+      "audience_size": 13470714,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023675997383",
+      "name": "Expats (Austria)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Austria)"
+      ],
+      "description": "People from Austria living abroad",
+      "audience_size": 278712,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023676017583",
+      "name": "Expats (Greece)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Greece)"
+      ],
+      "description": "People from Greece living abroad",
+      "audience_size": 9203,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023676022783",
+      "name": "Expats (Hong Kong)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Hong Kong)"
+      ],
+      "description": "People from Hong Kong living abroad",
+      "audience_size": 669141,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023676028783",
+      "name": "Expats (Japan)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Japan)"
+      ],
+      "description": "People from Japan living abroad.",
+      "audience_size": 1155432,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6023676072183",
+      "name": "Expats (Mexico)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Mexico)"
+      ],
+      "description": "People from Mexico living abroad.",
+      "audience_size": 10307313,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6025000826583",
+      "name": "Expats (Argentina)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Argentina)"
+      ],
+      "description": "People from Argentina living abroad.",
+      "audience_size": 1489923,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6025000823583",
+      "name": "Expats (Israel)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Israel)"
+      ],
+      "description": "People from Israel living abroad.",
+      "audience_size": 479188,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6025000815983",
+      "name": "Expats (Russia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Russia)"
+      ],
+      "description": "People from Russia living abroad.",
+      "audience_size": 1727582,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6025000813183",
+      "name": "Expats (Saudi Arabia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Saudi Arabia)"
+      ],
+      "description": "People from Saudi Arabia living abroad.",
+      "audience_size": 621543,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6025054896983",
+      "name": "Expats (Chile)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Chile)"
+      ],
+      "description": "People from Chile living abroad",
+      "audience_size": 601614,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6025670492783",
+      "name": "Expats (Rwanda)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Rwanda)"
+      ],
+      "description": "People from Rwanda living abroad",
+      "audience_size": 120572,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6026404871583",
+      "name": "Expats (Venezuela)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Venezuela)"
+      ],
+      "description": "People from Venezuela living abroad",
+      "audience_size": 1114460,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6026660740983",
+      "name": "Galaxy S6",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S6"
+      ],
+      "description": "People who are likely to own Samsung Galaxy S6 devices.",
+      "audience_size": 32842399,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027147189983",
+      "name": "Expats (Pakistan)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Pakistan)"
+      ],
+      "description": "People from Pakistan living abroad.",
+      "audience_size": 4321392,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027147160983",
+      "name": "Expats (Malaysia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Malaysia)"
+      ],
+      "description": "People from Malaysia living abroad.",
+      "audience_size": 1470811,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027148953383",
+      "name": "Expats (Egypt)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Egypt)"
+      ],
+      "description": "People from Egypt living abroad.",
+      "audience_size": 3266683,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027148962983",
+      "name": "Expats (Romania)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Romania)"
+      ],
+      "description": "People from Romania living abroad.",
+      "audience_size": 2971724,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027148973583",
+      "name": "Expats (South Korea)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (South Korea)"
+      ],
+      "description": "People from South Korea living abroad.",
+      "audience_size": 2052748,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027149004983",
+      "name": "Expats (Serbia)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Serbia)"
+      ],
+      "description": "People from Serbia living abroad.",
+      "audience_size": 1477239,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027149006383",
+      "name": "Expats (Vietnam)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Vietnam)"
+      ],
+      "description": "People from Vietnam living abroad.",
+      "audience_size": 2614251,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6027149008183",
+      "name": "Expats (Peru)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Peru)"
+      ],
+      "description": "People from Peru living abroad.",
+      "audience_size": 1589946,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6028974370383",
+      "name": "(A) Affinity for High Value Goods - India",
+      "type": "behaviors",
+      "path": [
+        "Consumer Classification",
+        "India",
+        "(A) Affinity for High Value Goods - India"
+      ],
+      "description": "People who are predicted to prefer high value goods",
+      "audience_size": 30447232,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6028974351183",
+      "name": "(A+B) Affinity for Mid-High Value Goods - India",
+      "type": "behaviors",
+      "path": [
+        "Consumer Classification",
+        "India",
+        "(A+B) Affinity for Mid-High Value Goods - India"
+      ],
+      "description": "People who are predicted to prefer mid-high value goods",
+      "audience_size": 92106407,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6029587661983",
+      "name": "Primary OS Windows 10",
+      "type": "behaviors",
+      "path": [
+        "Digital activities",
+        " Operating System Used",
+        "Primary OS Windows 10"
+      ],
+      "description": "People who primarily connect to Facebook using Windows 10.",
+      "audience_size": 175178994,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6031259562783",
+      "name": "iPhone 6S",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 6S"
+      ],
+      "description": "People who are likely to own an iPhone 6S",
+      "audience_size": 47118456,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6031259590183",
+      "name": "iPhone 6S Plus",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 6S Plus"
+      ],
+      "description": "People who are likely to own an iPhone 6S Plus",
+      "audience_size": 18423918,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6042330550783",
+      "name": "Galaxy Note 5",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Note 5"
+      ],
+      "description": "People who are likely to own Samsung Galaxy Note 5",
+      "audience_size": 9046538,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6043341245183",
+      "name": "LG V10",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "LG",
+        "LG V10"
+      ],
+      "description": "People who are likely to own LG V10",
+      "audience_size": 1013834,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6043523344783",
+      "name": "Galaxy S7",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S7"
+      ],
+      "description": "People who are likely to own Samsung Galaxy S7 devices",
+      "audience_size": 10730425,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6043522870783",
+      "name": "Galaxy S7 Edge",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy S7 Edge"
+      ],
+      "description": "People who are likely to own Samsung Galaxy S7 Edge devices",
+      "audience_size": 11090556,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6048519607583",
+      "name": " Summer Games 2016",
+      "type": "behaviors",
+      "path": [
+        "Seasonal and Events",
+        " Summer Games 2016"
+      ],
+      "description": "positive to olympic games - global",
+      "audience_size": 246088736,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6049046874383",
+      "name": "Ramadan 2016",
+      "type": "behaviors",
+      "path": [
+        "Seasonal and Events",
+        "Ramadan 2016"
+      ],
+      "description": "Users engaging in Ramadan in 2016
+",
+      "audience_size": 53740355,
+      "country_access": {
+        "include": [
+          "SA",
+          "OM",
+          "BH",
+          "KW",
+          "QA",
+          "JO",
+          "LB",
+          "IQ",
+          "MA",
+          "DZ",
+          "TN",
+          "EG",
+          "LY",
+          "YE",
+          "TR",
+          "SS",
+          "ID",
+          "PK",
+          "MY",
+          "NG",
+          "AE"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6058034528983",
+      "name": "Galaxy Note 7",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Samsung",
+        "Galaxy Note 7"
+      ],
+      "description": "samsung galaxy note 7 users",
+      "audience_size": 935686,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6059793664583",
+      "name": "Expats (Honduras)",
+      "type": "behaviors",
+      "path": [
+        "Expats",
+        "Expats (Honduras)"
+      ],
+      "description": "People from Honduras whose country of residence is outside of Honduras. ",
+      "audience_size": 965346,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6060616578383",
+      "name": "iPhone 7",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 7"
+      ],
+      "description": "People using the iPhone 7",
+      "audience_size": 6941796,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6060616598183",
+      "name": "iPhone 7 Plus",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Apple",
+        "iPhone 7 Plus"
+      ],
+      "description": "People using iPhone 7 Plus",
+      "audience_size": 1241426,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6061668174383",
+      "name": "Google Pixel",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "All Mobile Devices by Brand",
+        "Google",
+        "Google Pixel"
+      ],
+      "description": "People using the Google Pixel phone",
+      "audience_size": 264746,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6010503249825",
+      "name": "Gives to charity",
+      "type": "behaviors",
+      "path": [
+        "Charitable donations",
+        " Charitable donations (UK)",
+        "Gives to charity"
+      ],
+      "description": "People who give to charity",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, the publications they read, and their demographic and psychographic attributes.",
+      "partner": "DLX",
+      "audience_size": 1703000,
+      "country": "GB"
+    },
+    {
+      "id": "6010503250825",
+      "name": "DIYers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Buyer profiles (UK)",
+        "DIYers"
+      ],
+      "description": "People whose activities strongly suggest they prefer to do it themselves (DIY)",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, the publications they read, and their demographic and psychographic attributes.",
+      "partner": "DLX",
+      "audience_size": 5095900,
+      "country": "GB"
+    },
+    {
+      "id": "6010503251025",
+      "name": "Fashionistas",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Buyer profiles (UK)",
+        "Fashionistas"
+      ],
+      "description": "People whose activities strongly suggest they are into fashion (fashionistas)",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, the publications they read, and their demographic and psychographic attributes.",
+      "partner": "DLX",
+      "audience_size": 2828600,
+      "country": "GB"
+    },
+    {
+      "id": "6010503253625",
+      "name": "Pet owners",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Pet owners"
+      ],
+      "description": "People whose activities strongly suggest they are pet owners",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, the publications they read, and their demographic and psychographic attributes.",
+      "partner": "DLX",
+      "audience_size": 3508500,
+      "country": "GB"
+    },
+    {
+      "id": "6010503253825",
+      "name": "Restaurant goers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Restaurant goers"
+      ],
+      "description": "People whose activities strongly suggest they enjoy dining out",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, the publications they read, and their demographic and psychographic attributes.",
+      "partner": "DLX",
+      "audience_size": 7895200,
+      "country": "GB"
+    },
+    {
+      "id": "6011918282425",
+      "name": "Trendy fashions",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Trendy fashions"
+      ],
+      "description": "People who are likely to buy trendy fashion items such as jeans, boots, and other trendy fashions.",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, and their demographic and lifestyle attributes.",
+      "partner": "DLX",
+      "audience_size": 1434300,
+      "country": "GB"
+    },
+    {
+      "id": "6011918286625",
+      "name": "Luxury brand buyers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Luxury brand buyers"
+      ],
+      "description": "People who are likely to buy luxury brand items such as designer clothing, handbags, shoes and watches.",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, and their demographic and lifestyle attributes.",
+      "partner": "DLX",
+      "audience_size": 801600,
+      "country": "GB"
+    },
+    {
+      "id": "6011918287425",
+      "name": "High spenders",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Buyer profiles (UK)",
+        "High spenders"
+      ],
+      "description": "People whose activities suggest they are high spenders.",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, and their demographic and lifestyle attributes.",
+      "partner": "DLX",
+      "audience_size": 2392700,
+      "country": "GB"
+    },
+    {
+      "id": "6011918288625",
+      "name": "Premium buyers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Premium buyers"
+      ],
+      "description": "People whose activities suggest they purchase premium products",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, and their demographic and lifestyle attributes.",
+      "partner": "DLX",
+      "audience_size": 1336400,
+      "country": "GB"
+    },
+    {
+      "id": "6011918289025",
+      "name": "Mainstream buyers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Mainstream buyers"
+      ],
+      "description": "People whose activities suggest they purchase mainstream products.",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, and their demographic and lifestyle attributes.",
+      "partner": "DLX",
+      "audience_size": 3519800,
+      "country": "GB"
+    },
+    {
+      "id": "6011918289225",
+      "name": "Value buyers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Value buyers"
+      ],
+      "description": "People whose activities suggest they purchase value products.",
+      "source": "UK consumer data on where consumers shop, how they shop, what products and brands they purchase, and their demographic and lifestyle attributes.",
+      "partner": "DLX",
+      "audience_size": 2587000,
+      "country": "GB"
+    },
+    {
+      "id": "6018686299225",
+      "name": "Beer",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Beer"
+      ],
+      "description": "People who are buyers of beer.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 5000800,
+      "country": "GB"
+    },
+    {
+      "id": "6018686300025",
+      "name": "Wine",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Wine"
+      ],
+      "description": "People who are buyers of wine.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 5904100,
+      "country": "GB"
+    },
+    {
+      "id": "6018686300425",
+      "name": "Baby food & products buyers",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Baby food & products buyers"
+      ],
+      "description": "People who are buyers of baby food & products.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 6511700,
+      "country": "GB"
+    },
+    {
+      "id": "6018686301225",
+      "name": "Coffee",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Coffee"
+      ],
+      "description": "People who are buyers of coffee.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 5067200,
+      "country": "GB"
+    },
+    {
+      "id": "6018686313025",
+      "name": "Cleaning",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Cleaning"
+      ],
+      "description": "People who are buyers of cleaning products.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 9160200,
+      "country": "GB"
+    },
+    {
+      "id": "6018686313825",
+      "name": "Dishwasher detergent & supplies",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Dishwasher detergent & supplies"
+      ],
+      "description": "People who are buyers of dishwasher detergent & supplies.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 4057200,
+      "country": "GB"
+    },
+    {
+      "id": "6018686316425",
+      "name": "Cat food & products",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Cat food & products"
+      ],
+      "description": "People who are buyers of cat food & treats.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 4499800,
+      "country": "GB"
+    },
+    {
+      "id": "6018686316825",
+      "name": "Dog food & products",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        " Purchase behaviour (UK)",
+        "Dog food & products"
+      ],
+      "description": "People who are buyers of dog food & treats.",
+      "source": "",
+      "partner": "DLX",
+      "audience_size": 4215200,
+      "country": "GB"
+    },
+    {
+      "id": "6025550639732",
+      "name": "12: December",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "12: December"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is December.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 888700,
+      "country": "GB"
+    },
+    {
+      "id": "6025717051332",
+      "name": "Travel",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Above Average Level of Spend",
+        "Travel"
+      ],
+      "description": "This variable indicates the houshold is likely to spend more than average on holidays and leisure travel.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 7847700,
+      "country": "GB"
+    },
+    {
+      "id": "6025717099532",
+      "name": "PC",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "PC"
+      ],
+      "description": "This variable indicates the likelihood of household to have a PC.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 24704600,
+      "country": "GB"
+    },
+    {
+      "id": "6025717134532",
+      "name": "Mobile Music Device",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Mobile Music Device"
+      ],
+      "description": "This variable indicates the likelihood of household to have a mobile music device.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 8280900,
+      "country": "GB"
+    },
+    {
+      "id": "6025717191932",
+      "name": "Mobile Phone",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Mobile Phone"
+      ],
+      "description": "This variable indicates the likelihood of household to have a mobile phone.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 26212200,
+      "country": "GB"
+    },
+    {
+      "id": "6025717220132",
+      "name": "Internet Access",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Internet Access"
+      ],
+      "description": "This variable indicates the likelihood of household to have Internet access.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 24235500,
+      "country": "GB"
+    },
+    {
+      "id": "6025717254532",
+      "name": "HD TV",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "HD TV"
+      ],
+      "description": "This variable indicates the likelihood of household to have an HD TV.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 7221400,
+      "country": "GB"
+    },
+    {
+      "id": "6025717271332",
+      "name": "Games Console",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Games Console"
+      ],
+      "description": "This variable indicates the likelihood of household to have a games console.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 11116200,
+      "country": "GB"
+    },
+    {
+      "id": "6025717297332",
+      "name": "Flat Screen TV",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Flat Screen TV"
+      ],
+      "description": "This variable indicates the likelihood of household to have a flat screen TV.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 13803300,
+      "country": "GB"
+    },
+    {
+      "id": "6025717322132",
+      "name": "Digital Camera",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Digital Camera"
+      ],
+      "description": "This variable indicates the likelihood of household to have a digital camera.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 14057800,
+      "country": "GB"
+    },
+    {
+      "id": "6025717339732",
+      "name": "Pay to View TV",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Technology",
+        "Pay to View TV"
+      ],
+      "description": "This variable indicates the likelihood that the household subscribes to Pay to View TV.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 17434100,
+      "country": "GB"
+    },
+    {
+      "id": "6025717348932",
+      "name": "Pre-Pay",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Mobile Device User (UK)",
+        "Pre-Pay"
+      ],
+      "description": "This variable indicates the likelihood that the household subscription on mobile phone is prepay.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 13072100,
+      "country": "GB"
+    },
+    {
+      "id": "6025717387132",
+      "name": "Debit Card User",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Spending Method",
+        "Debit Card User"
+      ],
+      "description": "This variable indicates the likelihood that individual or partner is a debit card user.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 19666300,
+      "country": "GB"
+    },
+    {
+      "id": "6025717429332",
+      "name": "Credit Card User",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Spending Method",
+        "Credit Card User"
+      ],
+      "description": "This variable indicates the likelihood that individual or partner is a credit card user.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 17812500,
+      "country": "GB"
+    },
+    {
+      "id": "6025717507732",
+      "name": "1",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Spending Method",
+        "Number of Credit Cards",
+        "1"
+      ],
+      "description": "This variable indicates the likelihood that individual or partner has one credit card.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 10689200,
+      "country": "GB"
+    },
+    {
+      "id": "6025717538332",
+      "name": "Likely to be a 3rd+ Time Buyer",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Likely to be a 3rd+ Time Buyer"
+      ],
+      "description": "This variable indicates the likelihood that the home owner is mortgaged as 3rd time buyer.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 4965900,
+      "country": "GB"
+    },
+    {
+      "id": "6025717581132",
+      "name": "Likely to be a 2nd Time Buyer",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Likely to be a 2nd Time Buyer"
+      ],
+      "description": "This variable indicates the likelihood that the home owner is mortgaged as 2nd time buyer.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 7710300,
+      "country": "GB"
+    },
+    {
+      "id": "6025717626332",
+      "name": "Likely to be a 1st Time Buyer",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Likely to be a 1st Time Buyer"
+      ],
+      "description": "This variable indicates the likelihood that the home owner is mortgaged as 1st time buyer.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 6322100,
+      "country": "GB"
+    },
+    {
+      "id": "6025717640732",
+      "name": "None",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Spending Method",
+        "Number of Credit Cards",
+        "None"
+      ],
+      "description": "This variable indicates the likelihood that individual or partner has no credit cards.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 9818900,
+      "country": "GB"
+    },
+    {
+      "id": "6025717646732",
+      "name": "3+",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Spending Method",
+        "Number of Credit Cards",
+        "3+"
+      ],
+      "description": "This variable indicates the likelihood that individual or partner has more than three credit cards.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2344200,
+      "country": "GB"
+    },
+    {
+      "id": "6025717796132",
+      "name": "2",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Spending Method",
+        "Number of Credit Cards",
+        "2"
+      ],
+      "description": "This variable indicates the likelihood that individual or partner has two credit cards.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4327100,
+      "country": "GB"
+    },
+    {
+      "id": "6025717805532",
+      "name": "Likely Mortgaged",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Likely Mortgaged"
+      ],
+      "description": "This variable indicates the likelihood that the house is mortgaged.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 11985100,
+      "country": "GB"
+    },
+    {
+      "id": "6025717840532",
+      "name": "2",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Number of Cars in the Household",
+        "2"
+      ],
+      "description": "This variable indicates the likelihood that there are more than 2 cars in the household.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 7773700,
+      "country": "GB"
+    },
+    {
+      "id": "6025717876132",
+      "name": "1",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Number of Cars in the Household",
+        "1"
+      ],
+      "description": "This variable indicates the likelihood that there is 1 car in the household.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 14451800,
+      "country": "GB"
+    },
+    {
+      "id": "6025717906532",
+      "name": "None",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Number of Cars in the Household",
+        "None"
+      ],
+      "description": "This variable indicates the likelihood that there are no cars in the household.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4949800,
+      "country": "GB"
+    },
+    {
+      "id": "6025717957932",
+      "name": "Likely to Buy a Used Car",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely New Vehicle Age",
+        "Likely to Buy a Used Car"
+      ],
+      "description": "This variable indicates the likelihood that individual is likely to purchase a used car.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 16008700,
+      "country": "GB"
+    },
+    {
+      "id": "6025718026332",
+      "name": "Likely to Buy a New Car",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely New Vehicle Age",
+        "Likely to Buy a New Car"
+      ],
+      "description": "This variable indicates the likelihood that individual is likely to purchase a new car.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 6344500,
+      "country": "GB"
+    },
+    {
+      "id": "6025718154332",
+      "name": "Likely to Buy a Car Made in the Last 3 Years",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely New Vehicle Age",
+        "Likely to Buy a Car Made in the Last 3 Years"
+      ],
+      "description": "This variable indicates the likelihood that individual is likely to purchase a vehicle under 3 years of age.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 5015700,
+      "country": "GB"
+    },
+    {
+      "id": "6025718175132",
+      "name": "D/I (Upper Medium/MPV)",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle SMMT Classification",
+        "D/I (Upper Medium/MPV)"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle with D/I (Upper Medium/MPV) classification.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4667000,
+      "country": "GB"
+    },
+    {
+      "id": "6025718193532",
+      "name": "C/V (Lower Medium/Vans)",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle SMMT Classification",
+        "C/V (Lower Medium/Vans)"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle with C/V (Lower Medium/Vans) classification.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 8132100,
+      "country": "GB"
+    },
+    {
+      "id": "6025718218332",
+      "name": "A/B (Mini/Supermini)",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle SMMT Classification",
+        "A/B (Mini/Supermini)"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle with A/B (Mini/Supermini) classification.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 6935800,
+      "country": "GB"
+    },
+    {
+      "id": "6025718235932",
+      "name": "Age 7+ years",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle Age",
+        "Age 7+ years"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle 7+ years old.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 13226800,
+      "country": "GB"
+    },
+    {
+      "id": "6025718256132",
+      "name": "Age 4-6 years",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle Age",
+        "Age 4-6 years"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle 4-6 years old.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4598900,
+      "country": "GB"
+    },
+    {
+      "id": "6025718359532",
+      "name": "Age 0-3 years",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle Age",
+        "Age 0-3 years"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle 0-3 years old.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4670800,
+      "country": "GB"
+    },
+    {
+      "id": "6025718506532",
+      "name": "E+",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Likely Current Vehicle SMMT Classification",
+        "E+"
+      ],
+      "description": "This variable indicates the likelihood that individual owns a vehicle with E+ classification.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2679500,
+      "country": "GB"
+    },
+    {
+      "id": "6025718641332",
+      "name": "Private Home Renter",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Private Home Renter"
+      ],
+      "description": "This variable indicates the likelihood that the individual is renting a private home.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 3376500,
+      "country": "GB"
+    },
+    {
+      "id": "6025718662932",
+      "name": "Homeowner",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Homeowner"
+      ],
+      "description": "This variable indicates the likelihood that the individual is a home owner.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 18887300,
+      "country": "GB"
+    },
+    {
+      "id": "6025718827332",
+      "name": "Recreation and Leisure",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Above Average Level of Spend",
+        "Recreation and Leisure"
+      ],
+      "description": "This variable indicates the likelihood that the household total spend on recreation and leisure is above average.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 8243400,
+      "country": "GB"
+    },
+    {
+      "id": "6025718848332",
+      "name": "Eating and Drinking Out",
+      "type": "behaviors",
+      "path": [
+        "Purchase behavior",
+        "Purchase behaviour (UK)",
+        "Above Average Level of Spend",
+        "Eating and Drinking Out"
+      ],
+      "description": "This variable indicates the likelihood that the household total spend on eating and drinking out is above average.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 10674300,
+      "country": "GB"
+    },
+    {
+      "id": "6025718955732",
+      "name": "Likely to have Regular Savings Plan",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Type",
+        "Likely to have Regular Savings Plan"
+      ],
+      "description": "This variable indicates someone in the household is very likely to have a regular savings plan.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4134700,
+      "country": "GB"
+    },
+    {
+      "id": "6025718999132",
+      "name": "Likely to have Private Pension",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Type",
+        "Likely to have Private Pension"
+      ],
+      "description": "This variable indicates someone in the household is very likely to a have private pension.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 6426200,
+      "country": "GB"
+    },
+    {
+      "id": "6025719073532",
+      "name": "ISA",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Type",
+        "ISA"
+      ],
+      "description": "This variable indicates the likelihood that the household has an ISA.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 8509300,
+      "country": "GB"
+    },
+    {
+      "id": "6025719087732",
+      "name": "High Interest Investments",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Type",
+        "High Interest Investments"
+      ],
+      "description": "This variable indicates the likelihood that household has high interest investments.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2528000,
+      "country": "GB"
+    },
+    {
+      "id": "6025719151332",
+      "name": "1: Very High",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Activity",
+        "1: Very High"
+      ],
+      "description": "This variable indicates the likelihood that household investment activity is very high.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 3749600,
+      "country": "GB"
+    },
+    {
+      "id": "6025719170132",
+      "name": "3: Medium",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Activity",
+        "3: Medium"
+      ],
+      "description": "This variable indicates the likelihood that household investment activity is medium.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 6700300,
+      "country": "GB"
+    },
+    {
+      "id": "6025719227532",
+      "name": "Contract",
+      "type": "behaviors",
+      "path": [
+        "Mobile Device User",
+        "Mobile Device User (UK)",
+        "Contract"
+      ],
+      "description": "This variable indicates the likelihood that the household subscription type on mobile phone is contract.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 13191200,
+      "country": "GB"
+    },
+    {
+      "id": "6025719242732",
+      "name": "02: February",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "02: February"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is February.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1170200,
+      "country": "GB"
+    },
+    {
+      "id": "6025719258932",
+      "name": "12: December",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "12: December"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is December.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1178600,
+      "country": "GB"
+    },
+    {
+      "id": "6025719275332",
+      "name": "08: August",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "08: August"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is August.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1664200,
+      "country": "GB"
+    },
+    {
+      "id": "6025719312332",
+      "name": "04: April",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "04: April"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is April.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1427400,
+      "country": "GB"
+    },
+    {
+      "id": "6025719317332",
+      "name": "09: September",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "09: September"
+      ],
+      "description": "This variable indicates that the building insurance renewal month is September.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1503700,
+      "country": "GB"
+    },
+    {
+      "id": "6025719334532",
+      "name": "10: October",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "10: October"
+      ],
+      "description": "This variable indicates that the building insurance renewal month is October.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1359200,
+      "country": "GB"
+    },
+    {
+      "id": "6025719348332",
+      "name": "11: November",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "11: November"
+      ],
+      "description": "This variable indicates that the building insurance renewal month is November",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1269200,
+      "country": "GB"
+    },
+    {
+      "id": "6025719359332",
+      "name": "05: May",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "05: May"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is May.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1382400,
+      "country": "GB"
+    },
+    {
+      "id": "6025719418932",
+      "name": "03: March",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "03: March"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is March.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1391100,
+      "country": "GB"
+    },
+    {
+      "id": "6025719705532",
+      "name": "06: June",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "06: June"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is June.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1585300,
+      "country": "GB"
+    },
+    {
+      "id": "6025719738932",
+      "name": "07: July",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "07: July"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is July.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1493800,
+      "country": "GB"
+    },
+    {
+      "id": "6025719751132",
+      "name": "01: January",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "01: January"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is January.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1393900,
+      "country": "GB"
+    },
+    {
+      "id": "6025719785732",
+      "name": "02: February",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "02: February"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is February.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1117300,
+      "country": "GB"
+    },
+    {
+      "id": "6025719810332",
+      "name": "01: January",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "01: January"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is January.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1531100,
+      "country": "GB"
+    },
+    {
+      "id": "6025719831332",
+      "name": "12: December",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "12: December"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is December.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1235600,
+      "country": "GB"
+    },
+    {
+      "id": "6025719882532",
+      "name": "04: April",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "04: April"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is April.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1409500,
+      "country": "GB"
+    },
+    {
+      "id": "6025719892732",
+      "name": "Likely to Switch Insurance Providers",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Home Insurance",
+        "Likely to Switch Insurance Providers"
+      ],
+      "description": "This variable indicates the likelihood that the individual will switch insurance providers.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 8167700,
+      "country": "GB"
+    },
+    {
+      "id": "6025719904532",
+      "name": "Very Likely to Have Private Insurance",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Insurance",
+        "Health Insurance",
+        "Very Likely to Have Private Insurance"
+      ],
+      "description": "This variable indicates that the individual is very likely to have private health insurance.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 3462900,
+      "country": "GB"
+    },
+    {
+      "id": "6025719933332",
+      "name": "Private Health Insurance",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Likely to Have",
+        "Private Health Insurance"
+      ],
+      "description": "This variable indicates that the individual is likely to have private health insurance.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 2909900,
+      "country": "GB"
+    },
+    {
+      "id": "6025719956132",
+      "name": "Personal Insurance",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Above Average Level of Spend",
+        "Personal Insurance"
+      ],
+      "description": "This variable indicates the likelihood that household's level of spend on personal insurance is  above average.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 7388600,
+      "country": "GB"
+    },
+    {
+      "id": "6025719997532",
+      "name": "Home Insurance",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Above Average Level of Spend",
+        "Home Insurance"
+      ],
+      "description": "This variable indicates the likelihood that household's level of spend on general home insurance is above average.",
+      "source": "Derived from Acxiom or 3rd party data sources to create predictive indicator.",
+      "partner": "Acxiom",
+      "audience_size": 9341700,
+      "country": "GB"
+    },
+    {
+      "id": "6025720009332",
+      "name": "Terraced",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Property Type",
+        "Terraced"
+      ],
+      "description": "This variable indicates the likelihood that the property is terraced.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 6946300,
+      "country": "GB"
+    },
+    {
+      "id": "6025720024932",
+      "name": "Semi-Detached",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Property Type",
+        "Semi-Detached"
+      ],
+      "description": "This variable indicates the likelihood that the property is semi-detached.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 9074800,
+      "country": "GB"
+    },
+    {
+      "id": "6025720046732",
+      "name": "Flat/Maisonette",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Property Type",
+        "Flat/Maisonette"
+      ],
+      "description": "This variable indicates the likelihood that the property is a flat/maisonette.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4500600,
+      "country": "GB"
+    },
+    {
+      "id": "6025720055732",
+      "name": "Detached",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Property Type",
+        "Detached"
+      ],
+      "description": "This variable indicates the likelihood that the property is detached.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 5247800,
+      "country": "GB"
+    },
+    {
+      "id": "6025720092332",
+      "name": "Bungalow",
+      "type": "behaviors",
+      "path": [
+        "Residential profiles",
+        "Residential profiles (UK)",
+        "Property Type",
+        "Bungalow"
+      ],
+      "description": "This variable indicates the likelihood that the property is a bungalow.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 1453200,
+      "country": "GB"
+    },
+    {
+      "id": "6025720099132",
+      "name": "08: August",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Building Insurance",
+        "Renews in",
+        "08: August"
+      ],
+      "description": "This variable indicates that the building insurance renewal date is August.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1634700,
+      "country": "GB"
+    },
+    {
+      "id": "6025720108132",
+      "name": "2: High",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Investments",
+        "Investment Activity",
+        "2: High"
+      ],
+      "description": "This variable indicates the likelihood that household investment activity is high.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4053600,
+      "country": "GB"
+    },
+    {
+      "id": "6025720129532",
+      "name": "07: July",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "07: July"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is July.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1474500,
+      "country": "GB"
+    },
+    {
+      "id": "6025720139532",
+      "name": "03: March",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "03: March"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is March.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1442100,
+      "country": "GB"
+    },
+    {
+      "id": "6025720152732",
+      "name": "09: September",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "09: September"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is September.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1578900,
+      "country": "GB"
+    },
+    {
+      "id": "6025720164932",
+      "name": "10: October",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "10: October"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is October.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1228100,
+      "country": "GB"
+    },
+    {
+      "id": "6025720182532",
+      "name": "11: November",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "11: November"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is November.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1091200,
+      "country": "GB"
+    },
+    {
+      "id": "6025720193532",
+      "name": "05: May",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "05: May"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is May.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1314100,
+      "country": "GB"
+    },
+    {
+      "id": "6025720205532",
+      "name": "03: March",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "03: March"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is March.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1529300,
+      "country": "GB"
+    },
+    {
+      "id": "6025720218732",
+      "name": "06: June",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "06: June"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is June.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1451600,
+      "country": "GB"
+    },
+    {
+      "id": "6025720229732",
+      "name": "07: July",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "07: July"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is August.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1310100,
+      "country": "GB"
+    },
+    {
+      "id": "6025720239932",
+      "name": "01: January",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "01: January"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is January.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1270800,
+      "country": "GB"
+    },
+    {
+      "id": "6025720267732",
+      "name": "06: June",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "06: June"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is June.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1633200,
+      "country": "GB"
+    },
+    {
+      "id": "6025720313932",
+      "name": "02: February",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "02: February"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is February.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1186900,
+      "country": "GB"
+    },
+    {
+      "id": "6025720337132",
+      "name": "08: August",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "08: August"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is August.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1633400,
+      "country": "GB"
+    },
+    {
+      "id": "6025720347732",
+      "name": "04: April",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Motor Insurance",
+        "Renews in",
+        "04: April"
+      ],
+      "description": "This variable indicates that the individual's motor insurance renewal date is April.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1351600,
+      "country": "GB"
+    },
+    {
+      "id": "6025720386532",
+      "name": "Personal Insurance",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Likely to Have",
+        "Personal Insurance"
+      ],
+      "description": "This variable indicates the individual is very likely to have personal accident insurance.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 4648300,
+      "country": "GB"
+    },
+    {
+      "id": "6025720439332",
+      "name": "Life Insurance",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Likely to Have",
+        "Life Insurance"
+      ],
+      "description": "This variable indicates the individual is very likely to have life insurance.",
+      "source": "Based on Acxiom or 3rd party data or imputed through modelling.",
+      "partner": "Acxiom",
+      "audience_size": 6392600,
+      "country": "GB"
+    },
+    {
+      "id": "6025720490732",
+      "name": "09: September",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "09: September"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is September.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1492100,
+      "country": "GB"
+    },
+    {
+      "id": "6025720496932",
+      "name": "10: October",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "10: October"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is October.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1352600,
+      "country": "GB"
+    },
+    {
+      "id": "6025720514732",
+      "name": "11: November",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "11: November"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is November.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1230700,
+      "country": "GB"
+    },
+    {
+      "id": "6025720525332",
+      "name": "05: May",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Content Insurance",
+        "Renews in",
+        "05: May"
+      ],
+      "description": "This variable indicates that the contents insurance renewal date is May.",
+      "source": "Based on Acxiom or 3rd party survey data. No modelled data is used.",
+      "partner": "Acxiom",
+      "audience_size": 1415300,
+      "country": "GB"
+    },
+    {
+      "id": "6033273279082",
+      "name": "Medium value",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Non liquid assets",
+        "Medium value"
+      ],
+      "description": "Liquid Assets identifies the value of assets which can be immediately accessed, such as current accounts-1=Medium value (£500-£5,000)",
+      "source": "Based on Experian data.  Modelled data, based on self report consumer survey data combined with Experian Person and Household level demographics and Mosaic",
+      "partner": "Experian",
+      "audience_size": 10135900,
+      "country": "GB"
+    },
+    {
+      "id": "6033273279282",
+      "name": "High value",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Non liquid assets",
+        "High value"
+      ],
+      "description": "Liquid Assets identifies the value of assets which can be immediately accessed, such as current accounts-2=High value (£5,000-£20,000)",
+      "source": "Based on Experian data.  Modelled data, based on self report consumer survey data combined with Experian Person and Household level demographics and Mosaic",
+      "partner": "Experian",
+      "audience_size": 6889500,
+      "country": "GB"
+    },
+    {
+      "id": "6033273279482",
+      "name": "Very high value",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Non liquid assets",
+        "Very high value"
+      ],
+      "description": "Liquid Assets identifies the value of assets which can be immediately accessed, such as current accounts-3=Very high value £20,000+)",
+      "source": "Based on Experian data.  Modelled data, based on self report consumer survey data combined with Experian Person and Household level demographics and Mosaic",
+      "partner": "Experian",
+      "audience_size": 4479300,
+      "country": "GB"
+    },
+    {
+      "id": "6033273279682",
+      "name": "Medium value",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Non liquid assets",
+        "Medium value"
+      ],
+      "description": "Non-liquid Assets identifies the value of assets which cannot be immediately accessed, such as stocks and shares, ISAs and Unit / investment trusts-1=Medium value £500-£5,000)",
+      "source": "Based on Experian data.  Modelled data, based on self report consumer survey data combined with Experian Person and Household level demographics and Mosaic",
+      "partner": "Experian",
+      "audience_size": 5777000,
+      "country": "GB"
+    },
+    {
+      "id": "6033273279882",
+      "name": "High value",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Non liquid assets",
+        "High value"
+      ],
+      "description": "Non-liquid Assets identifies the value of assets which cannot be immediately accessed, such as stocks and shares, ISAs and Unit / investment trusts-2=High value £5,000-£20,000)",
+      "source": "Based on Experian data.  Modelled data, based on self report consumer survey data combined with Experian Person and Household level demographics and Mosaic",
+      "partner": "Experian",
+      "audience_size": 4912500,
+      "country": "GB"
+    },
+    {
+      "id": "6033273280082",
+      "name": "Very high value",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Non liquid assets",
+        "Very high value"
+      ],
+      "description": "Non-liquid Assets identifies the value of assets which cannot be immediately accessed, such as stocks and shares, ISAs and Unit / investment trusts-3=Very high value £20,000+)",
+      "source": "Based on Experian data.  Modelled data, based on self report consumer survey data combined with Experian Person and Household level demographics and Mosaic",
+      "partner": "Experian",
+      "audience_size": 4337000,
+      "country": "GB"
+    },
+    {
+      "id": "6033273324482",
+      "name": "Pet insurance cat",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Pet insurance cat"
+      ],
+      "description": "Have Cat Insurance",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 13865000,
+      "country": "GB"
+    },
+    {
+      "id": "6033273324882",
+      "name": "Pet insurance dog",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Insurance",
+        "Pet insurance dog"
+      ],
+      "description": "Have Dog Insurance",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 11298700,
+      "country": "GB"
+    },
+    {
+      "id": "6033273327082",
+      "name": "Has loans",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Financial services",
+        "Has loans"
+      ],
+      "description": "Consumers in the market for a loan - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 8536500,
+      "country": "GB"
+    },
+    {
+      "id": "6033273329682",
+      "name": "Considered changing bank",
+      "type": "behaviors",
+      "path": [
+        "Financial",
+        "Financial (UK)",
+        "Financial services",
+        "Considered changing bank"
+      ],
+      "description": "Have or Consider Changing Bank=No",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 22896300,
+      "country": "GB"
+    },
+    {
+      "id": "6033273347482",
+      "name": "Basic car",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Basic car"
+      ],
+      "description": "Car Class - Basic - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 571200,
+      "country": "GB"
+    },
+    {
+      "id": "6033273348082",
+      "name": "Small car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Small car "
+      ],
+      "description": "Car Class - Small - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 12421900,
+      "country": "GB"
+    },
+    {
+      "id": "6033273351482",
+      "name": "Lower medium car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Lower medium car "
+      ],
+      "description": "Car Class - Lower Medium - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 6856800,
+      "country": "GB"
+    },
+    {
+      "id": "6033273352082",
+      "name": "Upper medium car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Upper medium car "
+      ],
+      "description": "Car Class - Upper Medium - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 3928800,
+      "country": "GB"
+    },
+    {
+      "id": "6033273352682",
+      "name": "Executive car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Executive car "
+      ],
+      "description": "Car Class - Executive - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 1108900,
+      "country": "GB"
+    },
+    {
+      "id": "6033273353082",
+      "name": "Luxury car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Luxury car "
+      ],
+      "description": "Car Class - Luxury - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 139000,
+      "country": "GB"
+    },
+    {
+      "id": "6033273353482",
+      "name": "MPV car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "MPV car "
+      ],
+      "description": "Car Class - MPV - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 937000,
+      "country": "GB"
+    },
+    {
+      "id": "6033273353882",
+      "name": "Sports car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Sports car "
+      ],
+      "description": "Car Class - Sports - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 2180100,
+      "country": "GB"
+    },
+    {
+      "id": "6033273354282",
+      "name": "SUV car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "SUV car "
+      ],
+      "description": "Car Class - SUV - Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 2144500,
+      "country": "GB"
+    },
+    {
+      "id": "6033273354682",
+      "name": "Leased car ",
+      "type": "behaviors",
+      "path": [
+        "Automotive",
+        "Automotive (UK)",
+        "Owners",
+        "Leased car "
+      ],
+      "description": "Consider replacing Company or Leased Car in next 12 Months as indicated by 'Propensites - Company Car, Car Leasing, Car Replacement'. = Yes",
+      "source": "Based on Experian data.  Modelled data, based on self-reported survey data combined with a variety of Experian person and household level demographics",
+      "partner": "Experian",
+      "audience_size": 4281900,
+      "country": "GB"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "data": [
+    {
+      "id": "6009003307783",
+      "name": "Business and Financial Operations",
+      "type": "industries",
+      "path": [
+        "Business and Financial Operations"
+      ],
+      "description": "Includes Accountant, Accounting Manager, Auditor, Sales Manager, Financial Advisor, Chief Financial Officer, Dealer, Agent etc.",
+      "audience_size": 27874586,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008888954983",
+      "name": "Administrative",
+      "type": "industries",
+      "path": [
+        "Administrative"
+      ],
+      "description": "Includes Secretary, Administrative Assistant, Office Manager, Office Assistant, Apartment Locator, Personal Assistant, Branch Manager etc.",
+      "audience_size": 63319982,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008888998983",
+      "name": "Education and Library",
+      "type": "industries",
+      "path": [
+        "Education and Library"
+      ],
+      "description": "Includes Educator, Instructor, Teacher, Professor, Lecturer, Research Assistant, Tutor, Librarian, Principal etc.",
+      "audience_size": 23133760,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6009003311983",
+      "name": "Management",
+      "type": "industries",
+      "path": [
+        "Management"
+      ],
+      "description": "Includes Manager, Supervisor, Director, President, Chairman etc.",
+      "audience_size": 84428615,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008888980183",
+      "name": "Sales",
+      "type": "industries",
+      "path": [
+        "Sales"
+      ],
+      "description": "Includes Sales, Sales Assistant, Retail Manager, Realtor, Consultant, Customer Service Representative, Cashier etc.",
+      "audience_size": 64062491,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008888961983",
+      "name": "IT and Technical",
+      "type": "industries",
+      "path": [
+        "IT and Technical"
+      ],
+      "description": "Users in the IT and Technical industry.",
+      "audience_size": 18480440,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6008888972183",
+      "name": "Legal",
+      "type": "industries",
+      "path": [
+        "Legal"
+      ],
+      "description": "Includes Lawyer, Corporate Counsel, Partner, Paralegal, Attorney, Facilitator, Judge, Referee, Public Defender, Prosecutor, Solicitor, Judicial Clerk etc.",
+      "audience_size": 4688426,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6009003283183",
+      "name": "Retail",
+      "type": "industries",
+      "path": [
+        "Retail"
+      ],
+      "description": "Covers all people who *currently* work in the retail industry.",
+      "audience_size": 9922441,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6009485801383",
+      "name": "Temporary and Seasonal",
+      "type": "industries",
+      "path": [
+        "Temporary and Seasonal"
+      ],
+      "description": "Includes Cleaner, Driver, Food Server, Volunteer, Parking Attendant, Janitor etc.",
+      "audience_size": 2954184,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012902125183",
+      "name": "Personal Care",
+      "type": "industries",
+      "path": [
+        "Personal Care"
+      ],
+      "description": "Includes Stylist, Homemaker, Assistant, Personal Trainer, Tour Guide, Nanny, Receptionist, Babysitter etc.",
+      "audience_size": 37546003,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012901802383",
+      "name": "Arts, Entertainment, Sports and Media",
+      "type": "industries",
+      "path": [
+        "Arts, Entertainment, Sports and Media"
+      ],
+      "description": "Includes Photographer, Artist, Actor, Actress, Director, Designer, Freelance Writer, Journalist, Singer, Musician etc.",
+      "audience_size": 54684250,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903140583",
+      "name": "Production",
+      "type": "industries",
+      "path": [
+        "Production"
+      ],
+      "description": "Represents the Production Industry. This industry contains the largest number of distinct occupations, and represents all occupations which output product (from food to metals to woodwork, etc).",
+      "audience_size": 54590901,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903320983",
+      "name": "Transportation and Moving",
+      "type": "industries",
+      "path": [
+        "Transportation and Moving"
+      ],
+      "description": "Includes Driver, Operator, Sea Captain, Flight Attendant, Pilot, Dispatcher, Mail Carrier etc.",
+      "audience_size": 33171916,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903126783",
+      "name": "Architecture and Engineering",
+      "type": "industries",
+      "path": [
+        "Architecture and Engineering"
+      ],
+      "description": "Includes Software Engineer, Technician, Electrician, Technical Engineer, Machinist, Architect, Civil Engineer, Scientist, Surveyor, Research Assistant, Scientist etc.",
+      "audience_size": 28819348,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903127583",
+      "name": "Food Preparation and Services",
+      "type": "industries",
+      "path": [
+        "Food Preparation and Services"
+      ],
+      "description": "Includes Cashier, Server, Waiter, Waitress, Chef, Bartender, Barista, Line Cook, Sandwich Artist, Dish Washer, Store Manager etc.",
+      "audience_size": 29801091,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903128783",
+      "name": "Construction and Extraction",
+      "type": "industries",
+      "path": [
+        "Construction and Extraction"
+      ],
+      "description": "Includes Service Technician, Electrician, Brick Layer, Mechanic, Machine Operator, Laborer, Welder, Carpenter, Painter and Decorator, Plumber etc.",
+      "audience_size": 20057224,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903159383",
+      "name": "Healthcare and Medical",
+      "type": "industries",
+      "path": [
+        "Healthcare and Medical"
+      ],
+      "description": "Includes Physician, Dentist, Nurse etc.",
+      "audience_size": 23430527,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903160983",
+      "name": "Installation and Repair",
+      "type": "industries",
+      "path": [
+        "Installation and Repair"
+      ],
+      "description": "Includes Technician, Operator, Mechanic, Electrician, Welder, Repair Technician, Delivery Driver, Installer, Lineman etc.",
+      "audience_size": 14541892,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903167183",
+      "name": "Life, Physical, and Social Science",
+      "type": "industries",
+      "path": [
+        "Life, Physical, and Social Science"
+      ],
+      "description": "Includes Professor, Technician, Chemist, Psychologist, Consultant, Policy Officer, Scientist, Researcher, Radiographer, Therapist, Geologist etc.",
+      "audience_size": 19714354,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903167783",
+      "name": "Computer and Mathematics",
+      "type": "industries",
+      "path": [
+        "Computer and Mathematics"
+      ],
+      "description": "Includes Software Engineer, Computer Scientist, Professor, Project Manager, Analyst, Technical Support Specialist, IT Specialist, Scientist etc.",
+      "audience_size": 22881988,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903168383",
+      "name": "Community and Social Services",
+      "type": "industries",
+      "path": [
+        "Community and Social Services"
+      ],
+      "description": "Includes Minister, Social Worker, Pastor, Missionary, Counselor, Therapist, Politician, Chaplain etc.",
+      "audience_size": 26086306,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903299783",
+      "name": "Protective Service",
+      "type": "industries",
+      "path": [
+        "Protective Service"
+      ],
+      "description": "Includes Security Guard, Security Agent, Security Officer, Sergeant, Life Guard, Police Officer, Firefighter, Detective etc.",
+      "audience_size": 8837963,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903299983",
+      "name": "Farming, Fishing and Forestry",
+      "type": "industries",
+      "path": [
+        "Farming, Fishing and Forestry"
+      ],
+      "description": "Includes Farmer, Farm Hand, Ranch Manager, Rider, Crew Member, Pilot, Handyman, Hunter etc.",
+      "audience_size": 12235687,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903317583",
+      "name": "Cleaning and Maintenance",
+      "type": "industries",
+      "path": [
+        "Cleaning and Maintenance"
+      ],
+      "description": "Includes Cleaner, Janitor, Inspector, Service Technician, Mower Operator, Housekeeper, Heavy Equipment Operator, Gardener, Handyman etc.",
+      "audience_size": 7141701,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6012903320383",
+      "name": "Military",
+      "type": "industries",
+      "path": [
+        "Military"
+      ],
+      "description": "Military users (both active and inactive).",
+      "audience_size": 1340459,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6016671857383",
+      "name": "Veterans (US)",
+      "type": "industries",
+      "path": [
+        "Veterans (US)"
+      ],
+      "description": "People who were previously employed by the US Military
+",
+      "audience_size": 2013117,
+      "country_access": {
+        "include": [
+          "US"
+        ]
+      },
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019621029983",
+      "name": "Government Employees",
+      "type": "industries",
+      "path": [
+        "Government Employees"
+      ],
+      "description": "Government Employees (worldwide).",
+      "audience_size": 14829516,
+      "real_time_cluster": false
+    },
+    {
+      "id": "6019689622783",
+      "name": "Nurses",
+      "type": "industries",
+      "path": [
+        "Nurses"
+      ],
+      "description": "People who are nurses.",
+      "audience_size": 4459079,
+      "real_time_cluster": false
+    }
+  ]
+}

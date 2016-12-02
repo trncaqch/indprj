@@ -5,30 +5,35 @@ import numpy as np
 This part converts fbAdCategories.json to .csv with index and category as headers
 '''
 
-df = pandas.read_json('fbAdCategories/fbInterestCategories.json')
-df = df['data']
-
-pathLength = 0
-
-fbCsv = pandas.DataFrame(data = None, columns = ["category"], index = range(329))
+toConvert = ['fbInterestCategories', 'fbBehaviorsCategories', 'fbEthnicAffinityCategories', 'fbFamilyStatusesCategories', 'fbGenerationCategories', 'fbHouseholdCompoCategories','fbIncomeCategories', 'fbIndustriesCategories', 'fbLifeEventsCategories', 'fbNetWorthCategories', 'fbPoliticsCategories', 'fbUserDeviceCategories']
 
 
 
+for jsonFile in toConvert:
+    df = pandas.read_json('fbAdCategories/json/'+jsonFile+'.json')
+    df = df['data']
+    print len(df)
+    pathLength = 0
+    fbCsv = pandas.DataFrame(data = None, columns = ["category"], index = range(len(df)))
+    pos = 0
+    if jsonFile=='fbUserDeviceCategories':
+        for i in df:
+            row=i['name']
+            fbCsv["category"][pos] = row
+            pos += 1
+    else:
+        for i in df:
+            row = ""
+            for element in i['path']:
+                row += "/" + element
+            fbCsv["category"][pos] = row
+            pos += 1
+    fbCsv.category = sorted(fbCsv.category)
+    #print fbCsv
 
-pos = 0
+    fbCsv.to_csv('fbAdCategories/csv/'+jsonFile+'.csv', sep = ',', encoding='utf-8')
 
-for i in df:
-    row = ""
-    for element in i['path']:
-        row += "/" + element
-    fbCsv["category"][pos] = row
-    pos += 1
-
-
-fbCsv.category = sorted(fbCsv.category)
-#print fbCsv
-
-fbCsv.to_csv('fbAdCategories/fbInterestCategories.csv', sep = ',')
+    print fbCsv.category
 
 '''
 '''
