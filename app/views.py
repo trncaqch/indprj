@@ -71,12 +71,38 @@ for c in fbOrderedList:
 #for i in orderedList:
     #print i['name']
 
-GcategoryList = []
+GaffinityList = []
 for cat in Gdf.Category:
-    GcategoryList.append([cat])
+    GaffinityList.append([cat])
 
-fbCategoryList = []
-for 
+listOfGoogleCsv = ["affinity_categories.csv","productsservices.csv","in-market_categories.csv"]
+
+GcategoryList = []
+
+GoogleDf = pandas.DataFrame()
+
+
+for f in listOfGoogleCsv:
+    currentDf = pandas.read_csv(st.BASE_DIR+'/googleAdCategories/'+f)
+    GoogleDf = GoogleDf.append(currentDf, ignore_index=True)
+print GoogleDf
+
+
+listOfFBCsv = ['fbInterestCategories', 'fbBehaviorsCategories', 
+'fbEthnicAffinityCategories', 'fbFamilyStatusesCategories', 
+'fbGenerationCategories', 'fbHouseholdCompoCategories',
+'fbIncomeCategories', 'fbIndustriesCategories', 
+'fbLifeEventsCategories', 'fbNetWorthCategories', 
+'fbPoliticsCategories', 'fbUserDeviceCategories']
+
+
+FacebookDf = pandas.DataFrame()
+
+for f in listOfFBCsv:
+    currentDf = pandas.read_csv(st.BASE_DIR+'/fbAdCategories/csv/'+f+'.csv')
+    currentDf = currentDf.drop('Unnamed: 0',1)#drop redundant column
+    FacebookDf = FacebookDf.append(currentDf, ignore_index=True)
+print FacebookDf
 
 
 def index(request):
@@ -99,7 +125,8 @@ def platform(request):
 def google(request):
     context_dict = dict()
     df = pandas.read_csv(st.BASE_DIR+'/googleAdCategories/affinity_categories.csv')
-    context_dict['googleAdAffinity']=GcategoryList
+    context_dict['googleAdAffinity']=GaffinityList
+    print gOrderedList
     d = dict()
 	
     response = render(request, 'google_platform.html', context_dict)
