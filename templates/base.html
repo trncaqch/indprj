@@ -42,11 +42,15 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
                 <li><a href="{% url 'index' %}">Home</a></li>
-				<li><a href="{% url 'guidelines' %}">Guidelines</a></li>
-                
-                        
-                    
-                        
+		<li><a href="{% url 'guidelines' %}">Guidelines</a></li> 
+
+
+	{% if user.is_authenticated %}
+		<li><a href="{% url 'logout' %}">Log out</a></li>				
+	{% else %}
+		<li><a href="{% url 'login' %}">Sign In</a></li>
+		<li><a href="{% url 'register' %}">Register</a></li>
+	{% endif %}
 
               </ul>
         </div>

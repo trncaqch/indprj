@@ -13,44 +13,46 @@ btn.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+
+.hover { background-color: #eee; }
 </style>
 
 <div class="container">
  
-  <div class="row">
+<div class="row">
 
-    <div class="col-sm-6">
-	
-
-
-<table id="example" class="table table-striped table-bordered" width="100%"></table>
-
-	</div>
+<div class="col-sm-6">
+	<table id="example" class="table table-bordered" width="100%"></table>
+</div>
 	
 
 <div class="col-sm-6">
-
-<div class="btn-group-vertical" role="group" aria-label="..." id = "right">
-
-<table id="example2" class="table table-striped table-bordered" width="100%" data = "hello">
-
-</table>
+	
+	<table id="example2" class="table table-bordered" width="100%"></table>
 
 </div>
 
 </div>
 
+<div class="row">
+
+
+
+<a class="btn btn-primary btn-lg" id="proceed" href="{% url 'recommendations' %}">Proceed</a>
+
+
+
 </div>
-</div>
+
+
+
+
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/jqc-1.12.3/dt-1.10.12/b-1.2.2/cr-1.3.2/fc-3.2.2/datatables.min.css"/>
  
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/jqc-1.12.3/dt-1.10.12/b-1.2.2/fc-3.2.2/datatables.min.js"></script>
 
 
 
-<!--
-<script src="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"></script>
--->
 <script>
 
 
@@ -108,16 +110,48 @@ $('#example tbody').on('click', 'td', function (e) {
 	tableSelect.row.add( [
             toAdd
         ] ).draw( false );
+        var dataSelected = tableSelect.rows().data();
+        $('#f').val(dataSelected.join(";"));
     //alert( tableSelect.cells().data());
     }
 });
 
 } );
 
+$('#proceed').on('click', function (e) {
+    e.preventDefault(); 
+    
+    var tableSelect = $('#example2').DataTable();
+    var dataSelected = tableSelect.rows().data();
+    var arrayData = {'selection':dataSelected.join(";"), csrfmiddlewaretoken:'{{ csrf_token }}'  }
+    $.post('/google', arrayData, function(response){
+        ;
+    });
+    //$('#f').val(dataSelected.join(";"));
+} );
+
+
+
+
+
+
 
 /*
 
 */
+
+$(".table").delegate('td','mouseover mouseleave', function(e) {
+    if (e.type == 'mouseover') {
+      $(this).parent().addClass("hover");
+      $("colgroup").eq($(this).index()).addClass("hover");
+    }
+    else {
+      $(this).parent().removeClass("hover");
+      $("colgroup").eq($(this).index()).removeClass("hover");
+    }
+});
+
+
 </script>
 
 
