@@ -38,18 +38,12 @@ btn.active:after {
 
 
 
-<a class="btn btn-primary btn-lg" id="proceed" href="{% url 'recommendations' %}">Proceed</a>
+<a class="btn btn-primary btn-lg" id="proceed">Proceed</a>
 
 
 
 </div>
 
-
-
-
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/jqc-1.12.3/dt-1.10.12/b-1.2.2/cr-1.3.2/fc-3.2.2/datatables.min.css"/>
- 
-<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/jqc-1.12.3/dt-1.10.12/b-1.2.2/fc-3.2.2/datatables.min.js"></script>
 
 
 
@@ -124,8 +118,10 @@ $('#proceed').on('click', function (e) {
     var tableSelect = $('#example2').DataTable();
     var dataSelected = tableSelect.rows().data();
     var arrayData = {'selection':dataSelected.join(";"), csrfmiddlewaretoken:'{{ csrf_token }}'  }
-    $.post('/google', arrayData, function(response){
-        ;
+    $.post("{% url 'google'  %}", arrayData, function(){
+        window.location.href = '/recommendations'
+	//alert('response done !');
+	
     });
     //$('#f').val(dataSelected.join(";"));
 } );

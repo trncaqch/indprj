@@ -1,7 +1,8 @@
 import pandas
 import numpy as np
 import random
-
+import nltk, string
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 googleCsv = pandas.read_csv('googleAdCategories/affinity_categories.csv')
@@ -19,55 +20,83 @@ def fillRandBinary(dataframe):
             dataframe.set_value(i,c, int(random.choice(binaryList)))
 
 
-matrix_ents = pandas.read_csv('matrix_ents.csv')
+
+nltk.download('punkt') # if necessary...
+
+
+stemmer = nltk.stem.porter.PorterStemmer()
+remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+
+
+'''
+the form of input that we will have will be the following: 
+fbAdCat = '/A/B&C/D E/F-G'
+googleAdCat = '/A/B&C/D E/F-G'
+
+need to split category by '/' then each item by space '&' and '-'
+
+after splitting by slash and have a realtively cleaned up list
+have a list to check if any of those splitters is in any of the items
+'''
+
+
+#code taken from http://stackoverflow.com/questions/28819272/python-how-to-calculate-the-cosine-similarity-of-two-word-lists
 
 
 
-newIndex=[]
-for i in matrix_ents['Unnamed: 0']:
-    newIndex.append(i)
+splitters = [' ']
+toDelete = ['&','',' ']
 
-newColumns = []
+def createSplittedList(selection):
+    selection = selection.lower()
+    new = selection.split('/')
+    new.remove('')
+    new2 = new[:]
+    for i in new2:
+        for spl in splitters:
+            if spl in i:
+                new.remove(i)
+                new += i.split(spl)
+    for term in toDelete:
+        if term in new:
+            new.remove(term)
+    #print ' '.join(new)
+    return ' '.join(new)
 
-for i in matrix_ents.columns[1:]:
-   newColumns.append(i)
+def stem_tokens(tokens):
+    return [stemmer.stem(item) for item in tokens]
 
+'''remove punctuation, lowercase, stem'''
+def normalize(text):
+    return stem_tokens(nltk.word_tokenize(text))
 
-ndf = pandas.DataFrame(index = newIndex, columns = ['category']+newColumns)
+vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words='english')
 
-new = pandas.DataFrame(columns = ['category']+newColumns)
-
-#new.columns = ['category']+newColumns
-new.fillna('columns')
-new['category']=newIndex
-
-new.to_csv('matrix_ents_modified.csv', sep=',', index=False)
-mDf = pandas.read_csv('matrix_ents_modified.csv', index_col='category')
-
-fillRandBinary(mDf)
-mDf.astype(np.int32)
-
-
-
-
-fbCols = []
-for c in mDf.columns:
-    if mDf[c]['/Entertainment']==1:
-        print (True, c)
-        fbCols.append(c)
-print fbCols
-print mDf.columns.tolist()
-
-mDf.to_csv('matrix_ents_modified.csv', sep=',')
+def cosine_sim(text1, text2):
+    tfidf = vectorizer.fit_transform([text1, text2])
+    return ((tfidf * tfidf.T).A)[0,1]
 
 
-#print matrix.dtypes
-fillRandBinary(matrix)
-matrix.to_csv('matrix.csv', sep=',')
+#print cosine_sim(createSplittedList('/Music Lovers/Folk & Traditional Music Enthusiasts'), createSplittedList('/Entertainment/Music/Jazz'))
+#print cosine_sim('/Entertainment/Music/Jazz', '/Music Lovers/Jazz Enthusiasts')
+#print cosine_sim('a little bird', 'a big dog barks')
 
 
 
-#mDf = pandas.read_csv('matrix.csv', index_col='category')
-#print mDf.index
-#print mDf
+matrixEnts = pandas.read_csv('matrix_ents_modified.csv', index_col='category')
+
+def fillCosine(dataframe):
+    for c in dataframe.columns:
+        cList = createSplittedList(c)
+        for i in dataframe.index:
+            iList = createSplittedList(i)
+            dataframe.set_value(i,c, cosine_sim(cList, iList))
+
+fillCosine(matrixEnts)
+
+
+matrixEnts.to_csv('matrix_ents_cosine.csv')
+print matrixEnts
+
+
 

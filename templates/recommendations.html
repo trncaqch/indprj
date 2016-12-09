@@ -1,8 +1,21 @@
-{% extends 'base.html' %}
+{% extends 'base_platform.html' %}
 
 {% block title %}Recommendations{% endblock %}
 
-{% block body_block %}
+{% block platform_body %}
+
+
+
+<style>
+
+
+btn.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.hover { background-color: #eee; }
+</style>
 
 <div class="page-header">
 
