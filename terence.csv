@@ -1,16 +1,6 @@
 ,selection,recommendations
-0,/Entertainment/Games/Word games,['/Gamers/Action Game Fans']
-1,/Entertainment/Live events/Ballet,['/Green Living Enthusiasts']
-2,/Entertainment/Live events/Concerts,['/Music Lovers/Classical Music Enthusiasts']
-3,/Entertainment/Live events/Dancehalls,['/Movie Lovers/Comedy Movie Fans']
-4,/Entertainment/Live events/Music festivals,['/Movie Lovers/Romance & Drama Movie Fans']
-5,/Entertainment/Live events/Nightclubs,['/Music Lovers/Blues Fans']
-6,/Entertainment/Movies,['/Music Lovers/Country Music Fans']
-7,/Entertainment/Movies/Animated movies,['/Music Lovers/Rap & Hip Hop Fans']
-8,/Entertainment/Movies/Comedy movies,['/Music Lovers/Jazz Enthusiasts']
-9,/Entertainment/Movies/Drama movies,
-10,/Entertainment/Music/Blues music,
-11,/Entertainment/Music/Classical music,
-12,/Entertainment/Music/Country music,
-13,/Entertainment/Music/Hip hop music,
-14,/Entertainment/Music/Jazz music,
+0,/Gamers/Adventure & Strategy Game Fans,/Entertainment/Games/Strategy games
+1,/Gamers/Casual & Social Gamers,
+2,/Gamers/Hardcore Gamers,
+3,/Gamers/Roleplaying Game Fans,/Entertainment/Games/Action games
+4,/Gamers/Driving & Racing Game Fans,/Entertainment/Games/Racing games

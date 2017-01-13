@@ -14,10 +14,9 @@ btn.active:after {
 }
 
 
-<<<<<<< HEAD
-=======
+
 .hover { background-color: #eee; }
->>>>>>> b494b5dd9b46da109d1c50f8e27e8d8a12cdee14
+
 </style>
 
 <div class="container">
@@ -113,7 +112,17 @@ $('#example tbody').on('click', 'td', function (e) {
     }
 });
 
-} );
+
+$(".table").delegate('td','mouseover mouseleave', function(e) {
+    if (e.type == 'mouseover') {
+      $(this).parent().addClass("hover");
+      $("colgroup").eq($(this).index()).addClass("hover");
+    }
+    else {
+      $(this).parent().removeClass("hover");
+      $("colgroup").eq($(this).index()).removeClass("hover");
+    }
+});
 
 $('#proceed').on('click', function (e) {
     e.preventDefault(); 
@@ -130,6 +139,11 @@ $('#proceed').on('click', function (e) {
 } );
 
 
+} );
+
+
+
+
 
 
 
@@ -139,16 +153,7 @@ $('#proceed').on('click', function (e) {
 
 */
 
-$(".table").delegate('td','mouseover mouseleave', function(e) {
-    if (e.type == 'mouseover') {
-      $(this).parent().addClass("hover");
-      $("colgroup").eq($(this).index()).addClass("hover");
-    }
-    else {
-      $(this).parent().removeClass("hover");
-      $("colgroup").eq($(this).index()).removeClass("hover");
-    }
-});
+
 
 
 </script>

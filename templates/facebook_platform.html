@@ -13,10 +13,8 @@ btn.active:after {
 }
 
 
-<<<<<<< HEAD
-=======
 .hover { background-color: #eee; }
->>>>>>> b494b5dd9b46da109d1c50f8e27e8d8a12cdee14
+
 </style>
 
 <div class="container">
@@ -88,6 +86,19 @@ $('#example2').DataTable( {
 	select: true
     } );
 
+$(".table").delegate('td','mouseover mouseleave', function(e) {
+    if (e.type == 'mouseover') {
+      $(this).parent().addClass("hover");
+      $("colgroup").eq($(this).index()).addClass("hover");
+    }
+    else {
+      $(this).parent().removeClass("hover");
+      $("colgroup").eq($(this).index()).removeClass("hover");
+    }
+});
+
+
+
 $('#example tbody').on('click', 'td', function (e) {
     e.preventDefault(); 
     var table = $('#example').DataTable();
@@ -112,7 +123,7 @@ $('#example tbody').on('click', 'td', function (e) {
     }
 });
 
-} );
+
 
 $('#proceed').on('click', function (e) {
     e.preventDefault(); 
@@ -122,8 +133,6 @@ $('#proceed').on('click', function (e) {
     var arrayData = {'selection':dataSelected.join(";"), csrfmiddlewaretoken:'{{ csrf_token }}'  }
     $.post("{% url 'facebook'  %}", arrayData, function(){
         window.location.href = '/recommendations'
-	//alert('response done !');
-	
     });
     //$('#f').val(dataSelected.join(";"));
 } );
@@ -133,21 +142,11 @@ $('#proceed').on('click', function (e) {
 
 
 
-
 /*
-
+Jquery Close
 */
 
-$(".table").delegate('td','mouseover mouseleave', function(e) {
-    if (e.type == 'mouseover') {
-      $(this).parent().addClass("hover");
-      $("colgroup").eq($(this).index()).addClass("hover");
-    }
-    else {
-      $(this).parent().removeClass("hover");
-      $("colgroup").eq($(this).index()).removeClass("hover");
-    }
-});
+} );
 
 
 </script>

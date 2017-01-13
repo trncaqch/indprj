@@ -9,6 +9,12 @@
 <style>
 
 
+
+tr.group,
+tr.group:hover {
+    background-color: #ddd !important;
+}
+
 btn.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
@@ -28,7 +34,7 @@ btn.active:after {
 <div class="row">
 
 <div class="col-sm-6">
-	<table id="example" class="table table-bordered" width="100%"></table>
+	<table id="recommendations" class="table table-bordered" width="100%"></table>
 </div>
 
 </div>
@@ -39,16 +45,50 @@ btn.active:after {
 change dataset
 */
 
-var dataSet = {{ recommendations | safe }}
+//var dataSet = [['hello','little'],['gentleman','pleasure'],['nice','meeting'],['ma','boy']];
+
+var dataSet = {{ reco_map | safe }};
 
 
 jQuery(document).ready(function() {
-    $('#example').DataTable( {
+    $('#recommendations').DataTable( {
         data: dataSet,
         columns: [
-            { title: "Category" }
+            { title: "Selection" },
+            { title: "Recommendation"}
         ],
-	select: true
+	select: true,
+       "columnDefs": [
+            { "visible": false, "targets": 0 }
+        ],
+        "order": [[ 0, 'asc' ]],
+        "drawCallback": function ( settings ) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+ 
+            api.column(0, {page:'current'} ).data().each( function ( group, i ) {
+                if ( last !== group ) {
+                    $(rows).eq( i ).before(
+                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                    );
+ 
+                    last = group;
+                }
+    	    } );
+
+        }
+    });
+
+    // Order by the grouping
+    $('#recommendations tbody').on( 'click', 'tr.group', function () {
+        var currentOrder = table.order()[0];
+        if ( currentOrder[0] === 0 && currentOrder[1] === 'asc' ) {
+            table.order( [ 0, 'desc' ] ).draw();
+        }
+        else {
+            table.order( [ 0, 'asc' ] ).draw();
+        }
     } );
 
 
@@ -61,7 +101,9 @@ $(".table").delegate('td','mouseover mouseleave', function(e) {
       $(this).parent().removeClass("hover");
       $("colgroup").eq($(this).index()).removeClass("hover");
     }
-});
+   } );
+
+//Jquery close
 } );
 
 </script>

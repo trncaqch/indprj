@@ -2,6 +2,11 @@ from django.shortcuts import render
 import csv
 import pandas
 import os
+import numpy
+import math
+import unicodedata
+
+
 from django.conf import settings as st
 from treelib import Node, Tree
 
@@ -52,45 +57,52 @@ def match_sel_cosine(selection, platform):
 
     #may be changed for visualization tool if ever implemented 
     #show which category links to which ones
-	
-	
+    
+    mapDictionary = {}
     if platform=='google':
         for selectedCat in selection:
             n=0
+            nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')
+            mapDictionary[nselectedCat] = numpy.nan
             while n<1:
                 maxCosine=0.0
                 maxCurrentTag=""
                 for fbCat in entsMatrixCos.index:
-                    if entsMatrixCos[selectedCat][fbCat]>maxCosine:
-                        print (maxCosine,entsMatrixCos[selectedCat][fbCat],fbCat,selectedCat)
-                        maxCosine=entsMatrixCos[selectedCat][fbCat]
+                    if entsMatrixCos[nselectedCat][fbCat]>maxCosine:
+                        print (maxCosine,entsMatrixCos[nselectedCat][fbCat],fbCat,nselectedCat)
+                        maxCosine=entsMatrixCos[nselectedCat][fbCat]
                         maxCurrentTag=fbCat
                         if [fbCat] in mapping: 
                             continue
-                print (selectedCat,maxCurrentTag)
+                #print (selectedCat,maxCurrentTag)
                 if [maxCurrentTag] not in mapping:
                     mapping.append([maxCurrentTag])
+                    mapDictionary[nselectedCat] = maxCurrentTag
                 n+=1
 
     elif platform=='facebook':
         for selectedCat in selection:
             n=0
+            nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')
+            mapDictionary[nselectedCat] = numpy.nan
             while n<1:
                 maxCosine=0.0
                 maxCurrentTag=""
                 for ggCat in entsMatrixCos.columns:
-                    if entsMatrixCos[ggCat][selectedCat]>maxCosine:
-                        print (maxCosine,entsMatrixCos[ggCat][selectedCat],ggCat,selectedCat)
-                        maxCosine=entsMatrixCos[ggCat][selectedCat]
+                    if entsMatrixCos[ggCat][nselectedCat]>maxCosine:
+                        print (maxCosine,entsMatrixCos[ggCat][nselectedCat],ggCat,nselectedCat)
+                        maxCosine=entsMatrixCos[ggCat][nselectedCat]
                         maxCurrentTag=ggCat
                         if [ggCat] in mapping: 
                             continue
-                print (selectedCat,maxCurrentTag)
+                #print (selectedCat,maxCurrentTag)
                 if [maxCurrentTag] not in mapping:
                     mapping.append([maxCurrentTag])
+                    mapDictionary[nselectedCat] = maxCurrentTag
                 n+=1
     else:
         mapping = []
+    context_dict['mapDict'] = mapDictionary
     context_dict['recommendations']=mapping
 
 #______________
@@ -129,9 +141,13 @@ for f in listOfFBCsv:
     currentDf = currentDf.drop('Unnamed: 0',1)#drop redundant column
     FacebookDf = FacebookDf.append(currentDf, ignore_index=True)
 
-
 def index(request):
     #context_dict = dict()
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+    print context_dict['logged_in']
     response = render(request,'index.html', context_dict)
     return response
 	
@@ -191,10 +207,17 @@ def get_recommendations(request):
     match_sel_cosine(context_dict['selection'], context_dict['platform_used'])
     print context_dict
     if context_dict['logged_in']==True:
-        username = context_dict['username']
+        username = str(request.user.username)
         reco = context_dict['recommendations']
         selection = context_dict['selection'].split(";")
         userDf = pandas.DataFrame(columns=['selection', 'recommendations'],data=None, index=range(len(selection)))
+        mapDict = context_dict['mapDict']
+        n=0
+        for selec in mapDict.keys():
+            userDf['selection'][n] = selec
+            userDf['recommendations'][n] = mapDict[selec]
+            n+=1
+        '''
         for c in userDf.columns:
             n=0
             if c=='selection':
@@ -205,7 +228,20 @@ def get_recommendations(request):
                 for i in reco:
                     userDf[c][n]=i
                     n+=1
+        '''
         userDf.to_csv(username+'.csv')
+        for i in userDf.index:
+            print userDf.loc[i]
+    frows = []
+    jsRecoInput = mapDict
+    for sel in mapDict.keys():
+        print (sel,jsRecoInput[sel], type(jsRecoInput[sel]))
+        if not isinstance(jsRecoInput[sel], basestring):
+            print sel
+            jsRecoInput[sel]=''
+        frows.append([sel]+[jsRecoInput[sel]])
+    print frows
+    context_dict['reco_map']=frows
     response = render(request, 'recommendations.html', context_dict)
     return response
 
