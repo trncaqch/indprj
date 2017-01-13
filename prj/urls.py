@@ -21,9 +21,12 @@ from app import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^$', views.index, name='index'),
-	url(r'^guidelines/', views.guidelines, name='guidelines'),
-	url(r'^platform/', views.platform, name='platform'),
-	url(r'^google/', views.google, name='google'),
-	url(r'^facebook/', views.facebook, name='facebook'),
-	
+	url(r'^guidelines$', views.guidelines, name='guidelines'),
+	url(r'^platform$', views.platform, name='platform'),
+	url(r'^google$', views.google, name='google'),
+	url(r'^facebook$', views.facebook, name='facebook'),
+        url(r'^login$', views.login, name='login'),
+        url(r'^register$', views.register, name='register'),
+        url(r'^logout$', views.user_logout, name='logout'),
+	url(r'^recommendations$', views.get_recommendations, name='recommendations'),
 ]

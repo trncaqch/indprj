@@ -1,0 +1,74 @@
+{% extends 'base_platform.html' %}
+
+{% block title %}Recommendations{% endblock %}
+
+{% block platform_body %}
+
+
+
+<style>
+
+
+btn.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.hover { background-color: #eee; }
+</style>
+
+<div class="page-header">
+
+                <h1>Recommendations</h1>
+
+</div>
+			
+<div class="container">
+ 
+<div class="row">
+
+<div class="col-sm-6">
+	<table id="example" class="table table-bordered" width="100%"></table>
+</div>
+
+</div>
+</div>
+
+<script>
+/*
+change dataset
+*/
+
+var dataSet = {{ recommendations | safe }}
+
+
+jQuery(document).ready(function() {
+    $('#example').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Category" }
+        ],
+	select: true
+    } );
+
+
+$(".table").delegate('td','mouseover mouseleave', function(e) {
+    if (e.type == 'mouseover') {
+      $(this).parent().addClass("hover");
+      $("colgroup").eq($(this).index()).addClass("hover");
+    }
+    else {
+      $(this).parent().removeClass("hover");
+      $("colgroup").eq($(this).index()).removeClass("hover");
+    }
+});
+} );
+
+</script>
+
+
+
+
+
+
+{% endblock %}

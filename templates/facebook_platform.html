@@ -3,18 +3,158 @@
 
 {% block platform %}Facebook{% endblock %}
 
-<div class="page-header">
+{% block platform_body %}
 
-                <h1>Welcome!</h1>
+<style>
+
+
+btn.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+<<<<<<< HEAD
+=======
+.hover { background-color: #eee; }
+>>>>>>> b494b5dd9b46da109d1c50f8e27e8d8a12cdee14
+</style>
+
+<div class="container">
+ 
+<div class="row">
+
+<div class="col-sm-6">
+	<table id="example" class="table table-bordered" width="100%"></table>
+</div>
+	
+
+<div class="col-sm-6">
+	
+	<table id="example2" class="table table-bordered" width="100%"></table>
 
 </div>
-			
-			
-                    <div class="btn-group" role="group" aria-label="...">
-					<button type="button" class="btn btn-default">Left</button>
-					</div>
+
+</div>
+
+<div class="row">
+
+
+
+<a class="btn btn-primary btn-lg" id="proceed">Proceed</a>
+
+
+
+</div>
+
+
+
+
+<script>
+
+
+
+/* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+
+/*
+var acc = document.getElementsByClassName("btn btn-default");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}
+ 
+*/
+
+var dataSet = {{ facebookCategories | safe }}
+
+
+jQuery(document).ready(function() {
+    $('#example').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Category" }
+        ],
+	select: true
+    } );
+
+$('#example2').DataTable( {
+        //data: ,
+        columns: [
+            { title: "Category" }
+        ],
+	select: true
+    } );
+
+$('#example tbody').on('click', 'td', function (e) {
+    e.preventDefault(); 
+    var table = $('#example').DataTable();
+    var tableSelect = $('#example2').DataTable();
+    var found = 0;
+    var rowsTs = tableSelect.cells().data();
+    var toAdd = table.cell( this ).data();
+    for (var i=0; i<rowsTs.length;i++){
+    if (rowsTs[i] === toAdd){
+        found++;
+        break;
+       }
+    }
+    
+    if (found==0){
+	tableSelect.row.add( [
+            toAdd
+        ] ).draw( false );
+        var dataSelected = tableSelect.rows().data();
+        $('#f').val(dataSelected.join(";"));
+    //alert( tableSelect.cells().data());
+    }
+});
+
+} );
+
+$('#proceed').on('click', function (e) {
+    e.preventDefault(); 
+    
+    var tableSelect = $('#example2').DataTable();
+    var dataSelected = tableSelect.rows().data();
+    var arrayData = {'selection':dataSelected.join(";"), csrfmiddlewaretoken:'{{ csrf_token }}'  }
+    $.post("{% url 'facebook'  %}", arrayData, function(){
+        window.location.href = '/recommendations'
+	//alert('response done !');
+	
+    });
+    //$('#f').val(dataSelected.join(";"));
+} );
 
 
 
 
 
+
+
+/*
+
+*/
+
+$(".table").delegate('td','mouseover mouseleave', function(e) {
+    if (e.type == 'mouseover') {
+      $(this).parent().addClass("hover");
+      $("colgroup").eq($(this).index()).addClass("hover");
+    }
+    else {
+      $(this).parent().removeClass("hover");
+      $("colgroup").eq($(this).index()).removeClass("hover");
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+{% endblock %}
