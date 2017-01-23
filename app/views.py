@@ -32,6 +32,7 @@ context_dict={}
 #ENTS PART
 ents_matrix = pandas.read_csv(st.BASE_DIR+'/matrix_ents_modified.csv', index_col='category')
 entsMatrixCos = pandas.read_csv(st.BASE_DIR+'/matrix_ents_cosine.csv', index_col='category')
+entsMatrixW2v = pandas.read_csv(st.BASE_DIR+'/matrix_ents_w2v.csv', index_col='category')
 
 '''selects matches and maps each selected option
 to another one using binary values'''
@@ -50,10 +51,10 @@ def match_sel_bin(selection):
 selects matches and maps each option
 with another one using the maximum textual cosine similarity rate
 '''
-def match_sel_cosine(selection, platform):
+def match_selection_top(selection, platform):
     selection = selection.split(";")
     mapping = []
-
+    matrixSelected = entsMatrixW2v
 
     #may be changed for visualization tool if ever implemented 
     #show which category links to which ones
@@ -62,17 +63,19 @@ def match_sel_cosine(selection, platform):
     if platform=='google':
         for selectedCat in selection:
             n=0
-            nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')
+            nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')#gets rid of 'u/'
             mapDictionary[nselectedCat] = numpy.nan
             while n<1:
                 maxCosine=0.0
                 maxCurrentTag=""
-                for fbCat in entsMatrixCos.index:
-                    if entsMatrixCos[nselectedCat][fbCat]>maxCosine:
-                        print (maxCosine,entsMatrixCos[nselectedCat][fbCat],fbCat,nselectedCat)
-                        maxCosine=entsMatrixCos[nselectedCat][fbCat]
+                for fbCat in matrixSelected.index:
+                    if matrixSelected[nselectedCat][fbCat]>maxCosine:
+                        print (maxCosine,matrixSelected[nselectedCat][fbCat],fbCat,nselectedCat)
+                        formerMaxTag = (maxCurrentTag+'.')[:-1] 
+                        maxCosine=matrixSelected[nselectedCat][fbCat]
                         maxCurrentTag=fbCat
                         if [fbCat] in mapping: 
+                            maxCurrentTag = formerMaxTag
                             continue
                 #print (selectedCat,maxCurrentTag)
                 if [maxCurrentTag] not in mapping:
@@ -88,12 +91,14 @@ def match_sel_cosine(selection, platform):
             while n<1:
                 maxCosine=0.0
                 maxCurrentTag=""
-                for ggCat in entsMatrixCos.columns:
-                    if entsMatrixCos[ggCat][nselectedCat]>maxCosine:
-                        print (maxCosine,entsMatrixCos[ggCat][nselectedCat],ggCat,nselectedCat)
-                        maxCosine=entsMatrixCos[ggCat][nselectedCat]
+                for ggCat in matrixSelected.columns:
+                    if matrixSelected[ggCat][nselectedCat]>maxCosine:
+                        print (maxCosine,matrixSelected[ggCat][nselectedCat],ggCat,nselectedCat)
+                        formerMaxTag = (maxCurrentTag+'.')[:-1]
+                        maxCosine=matrixSelected[ggCat][nselectedCat]
                         maxCurrentTag=ggCat
                         if [ggCat] in mapping: 
+                            maxCurrentTag = formerMaxTag
                             continue
                 #print (selectedCat,maxCurrentTag)
                 if [maxCurrentTag] not in mapping:
@@ -204,8 +209,8 @@ def facebook(request):
     return response
 
 def get_recommendations(request):
-    match_sel_cosine(context_dict['selection'], context_dict['platform_used'])
-    print context_dict
+    match_selection_top(context_dict['selection'], context_dict['platform_used'])
+    #print context_dict
     if context_dict['logged_in']==True:
         username = str(request.user.username)
         reco = context_dict['recommendations']
@@ -235,7 +240,7 @@ def get_recommendations(request):
     frows = []
     jsRecoInput = mapDict
     for sel in mapDict.keys():
-        print (sel,jsRecoInput[sel], type(jsRecoInput[sel]))
+        #print (sel,jsRecoInput[sel], type(jsRecoInput[sel]))
         if not isinstance(jsRecoInput[sel], basestring):
             print sel
             jsRecoInput[sel]=''
