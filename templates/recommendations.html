@@ -34,11 +34,14 @@ btn.active:after {
 <div class="row">
 
 <div class="col-sm-6">
+	<button id="button">Delete selected row</button>
 	<table id="recommendations" class="table table-bordered" width="100%"></table>
 </div>
 
 </div>
 </div>
+
+
 
 <script>
 /*
@@ -48,20 +51,25 @@ change dataset
 //var dataSet = [['hello','little'],['gentleman','pleasure'],['nice','meeting'],['ma','boy']];
 
 var dataSet = {{ reco_map | safe }};
-
+var editor;
 
 jQuery(document).ready(function() {
-    $('#recommendations').DataTable( {
+
+
+    var recTable = $('#recommendations').DataTable( {
         data: dataSet,
         columns: [
             { title: "Selection" },
-            { title: "Recommendation"}
+            { title: "Recommendation" },
+			
         ],
 	select: true,
        "columnDefs": [
-            { "visible": false, "targets": 0 }
+            { "visible": false, "targets": 0,
+			}
         ],
-        "order": [[ 0, 'asc' ]],
+        /* deprecated may come back, grouping attributes of tables by selection values
+		"order": [[ 0, 'asc' ]],
         "drawCallback": function ( settings ) {
             var api = this.api();
             var rows = api.rows( {page:'current'} ).nodes();
@@ -78,9 +86,11 @@ jQuery(document).ready(function() {
     	    } );
 
         }
-    });
-
+		*/
+    }); /* close of datatable /!\
+	
     // Order by the grouping
+	/* deprecated may come back
     $('#recommendations tbody').on( 'click', 'tr.group', function () {
         var currentOrder = table.order()[0];
         if ( currentOrder[0] === 0 && currentOrder[1] === 'asc' ) {
@@ -90,18 +100,38 @@ jQuery(document).ready(function() {
             table.order( [ 0, 'asc' ] ).draw();
         }
     } );
+	*/
+	
+	
+	//select when clicked
+	$('#recommendations tbody').on( 'click', 'tr', function () {
+        if ( $(this).hasClass('active') ) {
+            $(this).removeClass('active');
+        }
+        else {
+            recTable.$('tr.active').removeClass('active');
+            $(this).addClass('active');
+        }
+    } );
 
-
-$(".table").delegate('td','mouseover mouseleave', function(e) {
-    if (e.type == 'mouseover') {
-      $(this).parent().addClass("hover");
-      $("colgroup").eq($(this).index()).addClass("hover");
-    }
-    else {
-      $(this).parent().removeClass("hover");
-      $("colgroup").eq($(this).index()).removeClass("hover");
-    }
-   } );
+	
+	$('#button').click( function () {
+        recTable.row('.active').remove().draw( false );
+		//recTable.row('.active').data()="removed";
+    } );
+	
+	
+	//hover effect of each row
+	$(".table").delegate('td','mouseover mouseleave', function(e) {
+		if (e.type == 'mouseover') {
+			$(this).parent().addClass("hover");
+			$("colgroup").eq($(this).index()).addClass("hover");
+		}
+		else {
+			$(this).parent().removeClass("hover");
+			$("colgroup").eq($(this).index()).removeClass("hover");
+		}
+	} );
 
 //Jquery close
 } );

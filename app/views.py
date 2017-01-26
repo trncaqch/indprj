@@ -58,55 +58,56 @@ def match_selection_top(selection, platform):
 
     #may be changed for visualization tool if ever implemented 
     #show which category links to which ones
-    
+    print selection
     mapDictionary = {}
     if platform=='google':
         for selectedCat in selection:
             n=0
             nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')#gets rid of 'u/'
-            mapDictionary[nselectedCat] = numpy.nan
-            while n<1:
+            recommendedTagsList = []
+            mapDictionary[nselectedCat] = []
+            while n<10: #change to get top n tags
                 maxCosine=0.0
                 maxCurrentTag=""
                 for fbCat in matrixSelected.index:
-                    if matrixSelected[nselectedCat][fbCat]>maxCosine:
-                        print (maxCosine,matrixSelected[nselectedCat][fbCat],fbCat,nselectedCat)
+                    if matrixSelected[nselectedCat][fbCat]>maxCosine and fbCat not in mapDictionary[nselectedCat]: #and not in recommendedTagsList
+                        #print (maxCosine,matrixSelected[nselectedCat][fbCat],fbCat,nselectedCat)
                         formerMaxTag = (maxCurrentTag+'.')[:-1] 
                         maxCosine=matrixSelected[nselectedCat][fbCat]
                         maxCurrentTag=fbCat
-                        if [fbCat] in mapping: 
-                            maxCurrentTag = formerMaxTag
-                            continue
+
                 #print (selectedCat,maxCurrentTag)
-                if [maxCurrentTag] not in mapping:
-                    mapping.append([maxCurrentTag])
-                    mapDictionary[nselectedCat] = maxCurrentTag
+                print maxCurrentTag
+                mapDictionary[nselectedCat] += [maxCurrentTag]
+                print mapDictionary[nselectedCat]
+                
                 n+=1
 
     elif platform=='facebook':
         for selectedCat in selection:
             n=0
             nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')
-            mapDictionary[nselectedCat] = numpy.nan
-            while n<1:
+            mapDictionary[nselectedCat] = []
+            while n<10: #change to get top n tags
                 maxCosine=0.0
                 maxCurrentTag=""
                 for ggCat in matrixSelected.columns:
-                    if matrixSelected[ggCat][nselectedCat]>maxCosine:
+                    if matrixSelected[ggCat][nselectedCat]>maxCosine and ggCat not in mapDictionary[nselectedCat]:
                         print (maxCosine,matrixSelected[ggCat][nselectedCat],ggCat,nselectedCat)
                         formerMaxTag = (maxCurrentTag+'.')[:-1]
                         maxCosine=matrixSelected[ggCat][nselectedCat]
                         maxCurrentTag=ggCat
-                        if [ggCat] in mapping: 
-                            maxCurrentTag = formerMaxTag
-                            continue
+
                 #print (selectedCat,maxCurrentTag)
                 if [maxCurrentTag] not in mapping:
                     mapping.append([maxCurrentTag])
-                    mapDictionary[nselectedCat] = maxCurrentTag
+
+                    mapDictionary[nselectedCat] += [maxCurrentTag]
                 n+=1
     else:
         mapping = []
+    print mapDictionary
+    print mapping
     context_dict['mapDict'] = mapDictionary
     context_dict['recommendations']=mapping
 
@@ -215,13 +216,14 @@ def get_recommendations(request):
         username = str(request.user.username)
         reco = context_dict['recommendations']
         selection = context_dict['selection'].split(";")
-        userDf = pandas.DataFrame(columns=['selection', 'recommendations'],data=None, index=range(len(selection)))
+        userDf = pandas.DataFrame(columns=['selection', 'recommendations'],data=None, index=range(len(selection))*10)
         mapDict = context_dict['mapDict']
         n=0
         for selec in mapDict.keys():
-            userDf['selection'][n] = selec
-            userDf['recommendations'][n] = mapDict[selec]
-            n+=1
+            for rec in mapDict[selec]:
+                userDf['selection'][n] = selec
+                userDf['recommendations'][n] = rec
+                n+=1
         '''
         for c in userDf.columns:
             n=0
@@ -235,15 +237,16 @@ def get_recommendations(request):
                     n+=1
         '''
         userDf.to_csv(username+'.csv')
-        for i in userDf.index:
-            print userDf.loc[i]
+        #for i in userDf.index:
+            #print userDf.loc[i]
     frows = []
     jsRecoInput = mapDict
     for sel in mapDict.keys():
         #print (sel,jsRecoInput[sel], type(jsRecoInput[sel]))
-        if not isinstance(jsRecoInput[sel], basestring):
+        '''if not isinstance(jsRecoInput[sel], basestring):
             print sel
             jsRecoInput[sel]=''
+        '''
         frows.append([sel]+[jsRecoInput[sel]])
     print frows
     context_dict['reco_map']=frows
