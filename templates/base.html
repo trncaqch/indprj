@@ -49,6 +49,7 @@
 
 
 	{% if user.is_authenticated %}
+		<li><a href="{% url 'past_sessions' %}">Past Sessions</a></li>
 		<li><a href="{% url 'logout' %}">Log out</a></li>				
 	{% else %}
 		<li><a href="{% url 'login' %}">Sign In</a></li>

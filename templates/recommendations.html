@@ -38,7 +38,34 @@ btn.active:after {
 	<table id="recommendations" class="table table-bordered" width="100%"></table>
 </div>
 
+
+<div class="col-sm-12">
+{% if saved %}
+<h2>Session Saved</h2>
+{% else %}
+    
+		<form class="form-signin span8" id="session_form" method="post" action="{% url 'recommendations' %}"
+              enctype="multipart/form-data">
+            {% csrf_token %}
+            <h2 class="form-signin-heading">Enter your session's name to save it</h2>
+            <!-- Display each form here -->
+
+            {% for field in session_form.visible_fields %}
+            {{ field.errors }}
+            {{ field.help_text }}<br />
+            {{ field }}<br />
+            {% endfor %}     
+
+            <br />
+
+	<input class="btn btn-primary" type="submit" name="submit" value = "Save"/>
+{% endif %}	
+	</div>
+	
+	
 </div>
+
+
 </div>
 
 
@@ -61,7 +88,7 @@ jQuery(document).ready(function() {
         columns: [
             { title: "Selection" },
             { title: "Recommendation" },
-			
+			{ title: "Similarity"},
         ],
 	select: true,
        "columnDefs": [
@@ -69,12 +96,13 @@ jQuery(document).ready(function() {
 			}
         ],
         /* deprecated may come back, grouping attributes of tables by selection values
+		*/
 		"order": [[ 0, 'asc' ]],
         "drawCallback": function ( settings ) {
             var api = this.api();
             var rows = api.rows( {page:'current'} ).nodes();
             var last=null;
- 
+            
             api.column(0, {page:'current'} ).data().each( function ( group, i ) {
                 if ( last !== group ) {
                     $(rows).eq( i ).before(
@@ -86,7 +114,7 @@ jQuery(document).ready(function() {
     	    } );
 
         }
-		*/
+	
     }); /* close of datatable /!\
 	
     // Order by the grouping

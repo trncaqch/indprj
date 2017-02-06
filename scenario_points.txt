@@ -1,0 +1,9 @@
+
+
+1: user description
+2: description of the campaign
+3: targeting options
+
+feedback:
+UI, Performance, Quality of recommendations
+

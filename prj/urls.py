@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^$', views.index, name='index'),
 	url(r'^guidelines$', views.guidelines, name='guidelines'),
+	url(r'past_sessions$', views.past_sessions, name='past_sessions'),
+	url(r'^session/(?P<session_id>[\w\-]+)/$', views.session, name='session'),
 	url(r'^platform$', views.platform, name='platform'),
 	url(r'^google$', views.google, name='google'),
 	url(r'^facebook$', views.facebook, name='facebook'),

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+
+{% block title %} Past Sessions {% endblock %}
+
+{% block body_block %}
+
+<div class="page-header">
+
+                <h1>Here are your past sessions</h1>
+
+</div>
+			
+			<!--- Have a list of past sessions with date created, name and link to the session page --->
+                    <li><a href="{% url 'session' %}">session name</a></li>
+{% endblock %}
+

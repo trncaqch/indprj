@@ -5,15 +5,16 @@ import os
 import numpy
 import math
 import unicodedata
-
+import datetime
 
 from django.conf import settings as st
 from treelib import Node, Tree
 
 from django.contrib.auth import logout, authenticate, login, logout
 from django.contrib.auth.models import User
+from app.models import Session
 
-from app.forms import UserForm
+from app.forms import UserForm, SessionForm
 from django.contrib.auth.decorators import login_required
 
 import django
@@ -77,9 +78,9 @@ def match_selection_top(selection, platform):
                         maxCurrentTag=fbCat
 
                 #print (selectedCat,maxCurrentTag)
-                print maxCurrentTag
+                #print maxCurrentTag
                 mapDictionary[nselectedCat] += [maxCurrentTag]
-                print mapDictionary[nselectedCat]
+                #print mapDictionary[nselectedCat]
                 
                 n+=1
 
@@ -93,7 +94,7 @@ def match_selection_top(selection, platform):
                 maxCurrentTag=""
                 for ggCat in matrixSelected.columns:
                     if matrixSelected[ggCat][nselectedCat]>maxCosine and ggCat not in mapDictionary[nselectedCat]:
-                        print (maxCosine,matrixSelected[ggCat][nselectedCat],ggCat,nselectedCat)
+                        #print (maxCosine,matrixSelected[ggCat][nselectedCat],ggCat,nselectedCat)
                         formerMaxTag = (maxCurrentTag+'.')[:-1]
                         maxCosine=matrixSelected[ggCat][nselectedCat]
                         maxCurrentTag=ggCat
@@ -106,17 +107,12 @@ def match_selection_top(selection, platform):
                 n+=1
     else:
         mapping = []
-    print mapDictionary
-    print mapping
+    #print mapDictionary
+    #print mapping
     context_dict['mapDict'] = mapDictionary
     context_dict['recommendations']=mapping
 
-#______________
-#maybe useless
-GaffinityList = []
-for cat in Gdf.Category:
-    GaffinityList.append([cat])
-#______________
+
 
 listOfGoogleCsv = ["affinity_categories.csv","productsservices.csv","in-market_categories.csv"]
 
@@ -128,7 +124,7 @@ GoogleDf = pandas.DataFrame()
 for f in listOfGoogleCsv:
     currentDf = pandas.read_csv(st.BASE_DIR+'/googleAdCategories/'+f)
     GoogleDf = GoogleDf.append(currentDf, ignore_index=True)
-print GoogleDf
+
 
 
 listOfFBCsv = ['fbInterestCategories', 'fbBehaviorsCategories', 
@@ -153,19 +149,60 @@ def index(request):
         context_dict['logged_in']=True
     else:
         context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
     print context_dict['logged_in']
     response = render(request,'index.html', context_dict)
     return response
 	
 def guidelines(request):
+
     response = render(request, 'guidelines.html', context_dict)
     return response
 
 def platform(request):
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
     response = render(request, 'platform.html', context_dict)
     return response
 
+def past_sessions(request):
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
+    user =  User.objects.get(username = request.user.username)
+    Sessions = Session.objects.filter(user=user)
+    #print Session.objects.filter(user = user)
+    print Session.objects.all()
+    response = render(request, 'session.html', context_dict)
+    return response
+
+
+def session(request, session_id):
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
+    response = render(request, 'session.html', context_dict)
+    return response
+
+
 def google(request):
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
     context_dict['platform_used'] = "google"
     tolist = []
     for i in entsDf.columns:
@@ -188,6 +225,12 @@ def google(request):
     return response
 
 def facebook(request):
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
     context_dict['platform_used'] = "facebook"
     tolist = []
     for i in entsDf.index:
@@ -210,6 +253,39 @@ def facebook(request):
     return response
 
 def get_recommendations(request):
+    saved = False
+    if request.method == 'POST':
+        # Attempt to grab information from the raw form information.
+        session_form = SessionForm(data=request.POST)
+        print 'request is post'
+        user =  User.objects.get(username = request.user.username)
+        if session_form.is_valid():
+            # Save the user's form data to the database.
+            session = session_form.save(commit=False)
+            
+            session.user = user
+            session.selected_categories = context_dict['selection']
+            session.recommended_categories = context_dict['recommendations']
+            session.platform_used = context_dict['platform_used']
+            session.session_id = 1
+            session.date = datetime.datetime.now()
+            session.save()
+            context_dict['saved'] = True
+            print 'session form is valid'
+            response = render(request, 'recommendations.html', context_dict)
+            return response
+        else:
+            print session_form.errors
+    else:
+        session_form = SessionForm()
+    
+
+    if request.user.username!='':
+        context_dict['logged_in']=True
+    else:
+        context_dict['logged_in']=False
+        response = render(request, 'login.html', {})
+        return response
     match_selection_top(context_dict['selection'], context_dict['platform_used'])
     #print context_dict
     if context_dict['logged_in']==True:
@@ -224,6 +300,7 @@ def get_recommendations(request):
                 userDf['selection'][n] = selec
                 userDf['recommendations'][n] = rec
                 n+=1
+        userDf.to_csv(username+'.csv')
         '''
         for c in userDf.columns:
             n=0
@@ -236,9 +313,6 @@ def get_recommendations(request):
                     userDf[c][n]=i
                     n+=1
         '''
-        userDf.to_csv(username+'.csv')
-        #for i in userDf.index:
-            #print userDf.loc[i]
     frows = []
     jsRecoInput = mapDict
     for sel in mapDict.keys():
@@ -247,9 +321,33 @@ def get_recommendations(request):
             print sel
             jsRecoInput[sel]=''
         '''
-        frows.append([sel]+[jsRecoInput[sel]])
-    print frows
-    context_dict['reco_map']=frows
+        for recommendation in jsRecoInput[sel]:
+            
+            frows.append([sel]+[recommendation])
+    #print frows
+    listOfElements = []
+    #sorting array in [[x,a],[x,b]] to be form where x is the selection
+    for tuple in frows:
+        if context_dict['platform_used']=='google':
+            ggCat = tuple[0]
+            fbCat = tuple[1]
+            element = [ggCat]+[fbCat]
+        else:
+            ggCat = tuple[1]
+            fbCat = tuple[0]
+            element = [fbCat]+[ggCat]
+        cosine = entsMatrixW2v[ggCat][fbCat]
+        element+=[cosine]
+        listOfElements.append(element)
+    context_dict['reco_map']=listOfElements
+
+    session_form = SessionForm()
+    context_dict['session_form']=session_form
+    context_dict['saved'] = saved
+
+
+
+    
     response = render(request, 'recommendations.html', context_dict)
     return response
 
@@ -259,13 +357,14 @@ def get_recommendations(request):
 login/register related
 '''
 def register(request):
+    
     # A boolean value for telling the template whether the registration was successful.
     registered = False
 
     if request.method == 'POST':
         # Attempt to grab information from the raw form information.
         user_form = UserForm(data=request.POST)
-        
+        #profile_form = UserProfileForm(data=request.POST)
 
         if user_form.is_valid():
             # Save the user's form data to the database.
@@ -275,9 +374,16 @@ def register(request):
             # Once hashed, we can update the user object.
             user.set_password(user.password)
             user.save()
-
+            '''
+            profile = profile_form.save(commit = False)
+            profile.user = user
+            profile.save()
+            '''
+            print 'views: user profile created'
+            
+            
             registered = True
-
+            
         # Invalid form or forms - mistakes or something else?
         # Print problems to the terminal.
         # They'll also be shown to the user.
@@ -294,6 +400,7 @@ def register(request):
 
 
 def login(request):
+
     if request.method == 'POST':
         # Gather the username and password provided by the user.
         username = request.POST.get('username')
