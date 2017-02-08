@@ -265,7 +265,7 @@ def session(request, session_id):
             frows.append([selec]+[rec]+[cosine])
         n+1
     context_dict['saved'] = saved
-	context_dict['reco_map']=frows
+    context_dict['reco_map']=frows
     response = render(request, 'session.html', context_dict)
     return response
 
