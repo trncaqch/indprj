@@ -264,6 +264,7 @@ def session(request, session_id):
                 cosine = entsMatrixW2v[rec][selec]
             frows.append([selec]+[rec]+[cosine])
         n+1
+    context_dict['saved'] = saved
 	context_dict['reco_map']=frows
     response = render(request, 'session.html', context_dict)
     return response
