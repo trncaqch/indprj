@@ -1,21 +1,178 @@
-{% extends 'base.html' %}
+{% extends 'base_platform.html' %}
+
+{% block title %} Session - {{ session.name }}{% endblock %}
+
+{% block platform_body %}
 
 
 
-{% block title %} Select Platform {% endblock %}
+<style>
 
-{% block body_block %}
+
+
+tr.group,
+tr.group:hover {
+    background-color: #ddd !important;
+}
+
+btn.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.hover { background-color: #eee; }
+</style>
 
 <div class="page-header">
 
-                <h1>Here is your past session number (insert name here)</h1>
+                <h1>Recommendations for session : {{ session.name }}</h1>
 
-</div>
-<div>
-
-possible datatables
 </div>
 			
-                    
-{% endblock %}
+<div class="container">
+ 
+<div class="row">
 
+<div class="col-sm-6">
+	<button id="button">Delete selected row</button>
+	<table id="recommendations" class="table table-bordered" width="100%"></table>
+</div>
+
+
+<div class="col-sm-12">
+{% if saved %}
+<h2>Session Saved</h2>
+{% else %}
+    
+		
+    <a class="btn btn-primary btn-lg" id="save">Save</a>
+	
+{% endif %}	
+	</div>
+	
+	
+</div>
+
+
+</div>
+
+
+
+<script>
+/*
+change dataset
+*/
+
+//var dataSet = [['hello','little'],['gentleman','pleasure'],['nice','meeting'],['ma','boy']];
+
+var dataSet = {{ reco_map | safe }};
+var editor;
+
+jQuery(document).ready(function() {
+
+
+    var recTable = $('#recommendations').DataTable( {
+        data: dataSet,
+        columns: [
+            { title: "Selection" },
+            { title: "Recommendation" },
+			{ title: "Similarity"},
+        ],
+	select: true,
+       "columnDefs": [
+            { "visible": false, "targets": 0,
+			}
+        ],
+        /* deprecated may come back, grouping attributes of tables by selection values
+		*/
+		"order": [[ 0, 'asc' ]],
+        "drawCallback": function ( settings ) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+            
+            api.column(0, {page:'current'} ).data().each( function ( group, i ) {
+                if ( last !== group ) {
+                    $(rows).eq( i ).before(
+                        '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                    );
+ 
+                    last = group;
+                }
+    	    } );
+
+        }
+	
+    }); /* close of datatable /!\
+	
+    // Order by the grouping
+	/* deprecated may come back
+    $('#recommendations tbody').on( 'click', 'tr.group', function () {
+        var currentOrder = table.order()[0];
+        if ( currentOrder[0] === 0 && currentOrder[1] === 'asc' ) {
+            table.order( [ 0, 'desc' ] ).draw();
+        }
+        else {
+            table.order( [ 0, 'asc' ] ).draw();
+        }
+    } );
+	*/
+	
+	
+	//select when clicked
+	$('#recommendations tbody').on( 'click', 'tr', function () {
+        if ( $(this).hasClass('active') ) {
+            $(this).removeClass('active');
+        }
+        else {
+            recTable.$('tr.active').removeClass('active');
+            $(this).addClass('active');
+        }
+    } );
+
+	
+	$('#button').click( function () {
+        recTable.row('.active').remove().draw( false );
+		//recTable.row('.active').data()="removed";
+    } );
+	
+	
+	//hover effect of each row
+	$(".table").delegate('td','mouseover mouseleave', function(e) {
+		if (e.type == 'mouseover') {
+			$(this).parent().addClass("hover");
+			$("colgroup").eq($(this).index()).addClass("hover");
+		}
+		else {
+			$(this).parent().removeClass("hover");
+			$("colgroup").eq($(this).index()).removeClass("hover");
+		}
+	} );
+
+	
+	$('#save').on('click', function (e) {
+    e.preventDefault(); 
+    
+    var tableSelect = $('#recommendations').DataTable();
+    var dataSelected = tableSelect.rows().data();
+	
+    var arrayData = {'recommendations':dataSelected.join(';'), csrfmiddlewaretoken:'{{ csrf_token }}'  }
+    $.post("/session/{{ session.pk }}/", arrayData, function(){
+        window.location.href = '/session/{{ session.pk }}/'
+
+	
+    });
+    //$('#f').val(dataSelected.join(";"));
+} );
+	
+//Jquery close
+} );
+
+</script>
+
+
+
+
+
+
+{% endblock %}

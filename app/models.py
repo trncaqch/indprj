@@ -9,11 +9,11 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 class Session(models.Model):
-    session_id = models.IntegerField(primary_key=True)
+    #session_id = models.IntegerField(primary_key=True)
     selected_categories = models.CharField(max_length = 1000)
     recommended_categories = models.CharField(max_length = 1000)
     platform_used = models.CharField(max_length = 10) #could either be facebook or google
-    name = models.CharField(max_length = 100)
+    name = models.CharField(max_length = 100, primary_key=True)
     date = models.DateTimeField(auto_now = True)
     user = models.ForeignKey(User, default = None)
     #print 'model: session created'

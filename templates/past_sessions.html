@@ -12,7 +12,20 @@
 
 </div>
 			
-			<!--- Have a list of past sessions with date created, name and link to the session page --->
-                    <li><a href="{% url 'session' %}">session name</a></li>
+	
+
+
+	<!--- Have a list of past sessions with date created, name and link to the session page --->
+	 {% if sessions %}
+                {% for sesh in sessions %}
+            
+ 
+	<li><a href="session/{{ sesh.pk }}">{{ sesh.name }}</a></li>
+	   {% endfor %}
+	   
+	   
+	   {% else %}
+	    <strong>There are no sessions present.</strong>
+        {% endif %}
 {% endblock %}
 

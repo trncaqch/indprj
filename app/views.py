@@ -54,7 +54,8 @@ with another one using the maximum textual cosine similarity rate
 '''
 def match_selection_top(selection, platform):
     selection = selection.split(";")
-    mapping = []
+
+    orderedListRec = []
     matrixSelected = entsMatrixW2v
 
     #may be changed for visualization tool if ever implemented 
@@ -67,6 +68,7 @@ def match_selection_top(selection, platform):
             nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')#gets rid of 'u/'
             recommendedTagsList = []
             mapDictionary[nselectedCat] = []
+            mapping = []
             while n<10: #change to get top n tags
                 maxCosine=0.0
                 maxCurrentTag=""
@@ -77,12 +79,13 @@ def match_selection_top(selection, platform):
                         maxCosine=matrixSelected[nselectedCat][fbCat]
                         maxCurrentTag=fbCat
 
-                #print (selectedCat,maxCurrentTag)
-                #print maxCurrentTag
+               
+                mapping.append(maxCurrentTag)
                 mapDictionary[nselectedCat] += [maxCurrentTag]
-                #print mapDictionary[nselectedCat]
+                
                 
                 n+=1
+            orderedListRec.append(mapping)
 
     elif platform=='facebook':
         for selectedCat in selection:
@@ -100,17 +103,18 @@ def match_selection_top(selection, platform):
                         maxCurrentTag=ggCat
 
                 #print (selectedCat,maxCurrentTag)
-                if [maxCurrentTag] not in mapping:
-                    mapping.append([maxCurrentTag])
+                if maxCurrentTag not in mapping:
+                    mapping.append(maxCurrentTag)
 
                     mapDictionary[nselectedCat] += [maxCurrentTag]
                 n+=1
+				
     else:
         mapping = []
-    #print mapDictionary
-    #print mapping
+
+    print orderedListRec
     context_dict['mapDict'] = mapDictionary
-    context_dict['recommendations']=mapping
+    context_dict['recommendations']=orderedListRec
 
 
 
@@ -178,20 +182,89 @@ def past_sessions(request):
         response = render(request, 'login.html', {})
         return response
     user =  User.objects.get(username = request.user.username)
-    Sessions = Session.objects.filter(user=user)
+    sessions = Session.objects.filter(user=user)
     #print Session.objects.filter(user = user)
-    print Session.objects.all()
-    response = render(request, 'session.html', context_dict)
+    print sessions
+    print sessions[0].recommended_categories
+    context_dict['sessions'] = sessions
+    response = render(request, 'past_sessions.html', context_dict)
     return response
 
 
 def session(request, session_id):
+    ''' how to split recommendations into list of list
+    >>> text = '2,4,6,8|10,12,14,16|18,20,22,24'
+    >>> my_data = [x.split(',') for x in text.split('|')]
+    >>> my_data
+    [['2', '4', '6'], ['10', '12', '14'], ['18', '20', '22']]
+    >>> print my_data[1][2]
+    14
+	'''
     if request.user.username!='':
         context_dict['logged_in']=True
     else:
         context_dict['logged_in']=False
         response = render(request, 'login.html', {})
         return response
+
+
+    current_session = Session.objects.filter(pk=session_id)
+    saved = False
+    if request.method == 'POST':
+        
+        print 'request is post'
+        user =  User.objects.get(username = request.user.username)
+        # Save the user's form data to the database.
+        if 'recommendations' in request.POST:
+            saved_rec = request.POST['recommendations']
+            context_dict['out']=saved_rec
+            print saved_rec + " post"
+            saved = True
+    if saved==True:
+        current_session = Session.objects.filter(pk=session_id)[0]
+        listLikeData = [i.split(',') for i in context_dict['out'].split(';')]
+        print listLikeData
+
+        previous_selection = ""
+        completeList = []
+        stringInput = ""
+        n=-1
+        for el in listLikeData:
+            if previous_selection!=el[0]:
+                previous_selection = el[0]
+                completeList.append([])
+                n+=1
+            completeList[n].append(el[1])
+        print completeList
+
+        updatedCategories = '|'.join([';'.join(sublist) for sublist in completeList])
+        print updatedCategories
+        current_session.recommended_categories = updatedCategories
+        current_session.save()
+		
+    current_session = Session.objects.filter(pk=session_id)
+    context_dict['session'] = current_session[0]
+    recommendations = current_session[0].recommended_categories
+    selection = current_session[0].selected_categories
+
+
+    recommendations = [x.split(';') for x in recommendations.split('|')]
+    #print recommendations
+    selection = selection.split(';')
+    print selection
+    frows = []
+    n=0
+    for selec in selection:
+        selec = unicodedata.normalize('NFKD', selec).encode('ascii','ignore')#gets rid of 'u/'
+        for rec in recommendations[n]:
+            rec = unicodedata.normalize('NFKD', rec).encode('ascii','ignore')#gets rid of 'u/'
+            if current_session[0].platform_used=='google':
+                cosine = entsMatrixW2v[selec][rec]
+            else:
+                cosine = entsMatrixW2v[rec][selec]
+            frows.append([selec]+[rec]+[cosine])
+        n+1
+	context_dict['reco_map']=frows
     response = render(request, 'session.html', context_dict)
     return response
 
@@ -253,6 +326,11 @@ def facebook(request):
     return response
 
 def get_recommendations(request):
+    ''' How to join list of list into a string that can be split later on, 
+    used for recommendations
+    >>> '|'.join([';'.join(x) for x in a])
+    '3;4;2|10;11;12'
+	'''
     saved = False
     if request.method == 'POST':
         # Attempt to grab information from the raw form information.
@@ -262,10 +340,12 @@ def get_recommendations(request):
         if session_form.is_valid():
             # Save the user's form data to the database.
             session = session_form.save(commit=False)
-            
+            print context_dict['recommendations']
+            rec_cat = '|'.join([';'.join(sublist) for sublist in context_dict['recommendations']])
+            print rec_cat
             session.user = user
             session.selected_categories = context_dict['selection']
-            session.recommended_categories = context_dict['recommendations']
+            session.recommended_categories = rec_cat
             session.platform_used = context_dict['platform_used']
             session.session_id = 1
             session.date = datetime.datetime.now()
@@ -290,7 +370,7 @@ def get_recommendations(request):
     #print context_dict
     if context_dict['logged_in']==True:
         username = str(request.user.username)
-        reco = context_dict['recommendations']
+        
         selection = context_dict['selection'].split(";")
         userDf = pandas.DataFrame(columns=['selection', 'recommendations'],data=None, index=range(len(selection))*10)
         mapDict = context_dict['mapDict']
@@ -301,28 +381,10 @@ def get_recommendations(request):
                 userDf['recommendations'][n] = rec
                 n+=1
         userDf.to_csv(username+'.csv')
-        '''
-        for c in userDf.columns:
-            n=0
-            if c=='selection':
-                for i in selection:
-                    userDf[c][n]=i
-                    n+=1
-            else:
-                for i in reco:
-                    userDf[c][n]=i
-                    n+=1
-        '''
+
     frows = []
-    jsRecoInput = mapDict
     for sel in mapDict.keys():
-        #print (sel,jsRecoInput[sel], type(jsRecoInput[sel]))
-        '''if not isinstance(jsRecoInput[sel], basestring):
-            print sel
-            jsRecoInput[sel]=''
-        '''
-        for recommendation in jsRecoInput[sel]:
-            
+        for recommendation in mapDict[sel]:
             frows.append([sel]+[recommendation])
     #print frows
     listOfElements = []
@@ -340,7 +402,6 @@ def get_recommendations(request):
         element+=[cosine]
         listOfElements.append(element)
     context_dict['reco_map']=listOfElements
-
     session_form = SessionForm()
     context_dict['session_form']=session_form
     context_dict['saved'] = saved
