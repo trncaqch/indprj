@@ -1,0 +1,5 @@
+enhancing the similarity rates, idf, issue with normalisation, heuristics
+have the final datatable for the results for adding and deleting rows
+the scenarios for the evaluation, 3 scenarios 
+
+extend the matrix the all of the targeting options for google and fb

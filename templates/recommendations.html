@@ -21,6 +21,7 @@ btn.active:after {
 
 
 .hover { background-color: #eee; }
+
 </style>
 
 <div class="page-header">
@@ -90,13 +91,16 @@ jQuery(document).ready(function() {
             { title: "Recommendation" },
 			{ title: "Similarity"},
         ],
-	select: true,
-       "columnDefs": [
+	select: {
+            style: 'multi'
+        },
+       /*
+	   "columnDefs": [
             { "visible": false, "targets": 0,
 			}
         ],
         /* deprecated may come back, grouping attributes of tables by selection values
-		*/
+		
 		"order": [[ 0, 'asc' ]],
         "drawCallback": function ( settings ) {
             var api = this.api();
@@ -114,6 +118,7 @@ jQuery(document).ready(function() {
     	    } );
 
         }
+		*/
 	
     }); /* close of datatable /!\
 	
@@ -137,7 +142,7 @@ jQuery(document).ready(function() {
             $(this).removeClass('active');
         }
         else {
-            recTable.$('tr.active').removeClass('active');
+            //recTable.$('tr.active').removeClass('active');
             $(this).addClass('active');
         }
     } );

@@ -33,7 +33,7 @@ context_dict={}
 #ENTS PART
 ents_matrix = pandas.read_csv(st.BASE_DIR+'/matrix_ents_modified.csv', index_col='category')
 entsMatrixCos = pandas.read_csv(st.BASE_DIR+'/matrix_ents_cosine.csv', index_col='category')
-entsMatrixW2v = pandas.read_csv(st.BASE_DIR+'/matrix_ents_w2v.csv', index_col='category')
+matrixW2v = pandas.read_csv(st.BASE_DIR+'/matrix_w2v.csv', index_col='category')
 
 '''selects matches and maps each selected option
 to another one using binary values'''
@@ -56,8 +56,8 @@ def match_selection_top(selection, platform):
     selection = selection.split(";")
 
     orderedListRec = []
-    matrixSelected = entsMatrixW2v
 
+    matrixSelected = matrixW2v.drop_duplicates()
     #may be changed for visualization tool if ever implemented 
     #show which category links to which ones
     print selection
@@ -73,7 +73,7 @@ def match_selection_top(selection, platform):
                 maxCosine=0.0
                 maxCurrentTag=""
                 for fbCat in matrixSelected.index:
-                    if matrixSelected[nselectedCat][fbCat]>maxCosine and fbCat not in mapDictionary[nselectedCat]: #and not in recommendedTagsList
+                    if matrixSelected[nselectedCat][fbCat]>maxCosine and fbCat not in mapping: #and not in recommendedTagsList
                         #print (maxCosine,matrixSelected[nselectedCat][fbCat],fbCat,nselectedCat)
                         formerMaxTag = (maxCurrentTag+'.')[:-1] 
                         maxCosine=matrixSelected[nselectedCat][fbCat]
@@ -88,10 +88,13 @@ def match_selection_top(selection, platform):
             orderedListRec.append(mapping)
 
     elif platform=='facebook':
+        print 'facebook chosen'
         for selectedCat in selection:
             n=0
             nselectedCat = unicodedata.normalize('NFKD', selectedCat).encode('ascii','ignore')
+            recommendedTagsList = []
             mapDictionary[nselectedCat] = []
+            mapping = []
             while n<10: #change to get top n tags
                 maxCosine=0.0
                 maxCurrentTag=""
@@ -103,16 +106,15 @@ def match_selection_top(selection, platform):
                         maxCurrentTag=ggCat
 
                 #print (selectedCat,maxCurrentTag)
-                if maxCurrentTag not in mapping:
-                    mapping.append(maxCurrentTag)
-
-                    mapDictionary[nselectedCat] += [maxCurrentTag]
+                mapping.append(maxCurrentTag)
+                mapDictionary[nselectedCat] += [maxCurrentTag]
                 n+=1
+            orderedListRec.append(mapping)
 				
     else:
         mapping = []
 
-    print orderedListRec
+
     context_dict['mapDict'] = mapDictionary
     context_dict['recommendations']=orderedListRec
 
@@ -223,7 +225,7 @@ def session(request, session_id):
     if saved==True:
         current_session = Session.objects.filter(pk=session_id)[0]
         listLikeData = [i.split(',') for i in context_dict['out'].split(';')]
-        print listLikeData
+        
 
         previous_selection = ""
         completeList = []
@@ -235,10 +237,10 @@ def session(request, session_id):
                 completeList.append([])
                 n+=1
             completeList[n].append(el[1])
-        print completeList
+        
 
         updatedCategories = '|'.join([';'.join(sublist) for sublist in completeList])
-        print updatedCategories
+        
         current_session.recommended_categories = updatedCategories
         current_session.save()
 		
@@ -249,21 +251,24 @@ def session(request, session_id):
 
 
     recommendations = [x.split(';') for x in recommendations.split('|')]
-    #print recommendations
+
     selection = selection.split(';')
-    print selection
+
     frows = []
     n=0
     for selec in selection:
         selec = unicodedata.normalize('NFKD', selec).encode('ascii','ignore')#gets rid of 'u/'
-        for rec in recommendations[n]:
+        next_rec = recommendations[n]
+        for rec in next_rec:
             rec = unicodedata.normalize('NFKD', rec).encode('ascii','ignore')#gets rid of 'u/'
             if current_session[0].platform_used=='google':
-                cosine = entsMatrixW2v[selec][rec]
+                cosine = matrixW2v[selec][rec]
             else:
-                cosine = entsMatrixW2v[rec][selec]
+                cosine = matrixW2v[rec][selec]
+            cosine = "{0:.0f}%".format(cosine * 100)
             frows.append([selec]+[rec]+[cosine])
-        n+1
+        n+=1
+        
     context_dict['saved'] = saved
     context_dict['reco_map']=frows
     response = render(request, 'session.html', context_dict)
@@ -279,13 +284,13 @@ def google(request):
         return response
     context_dict['platform_used'] = "google"
     tolist = []
-    for i in entsDf.columns:
+    for i in matrixW2v.columns:
         tolist.append([i])
     ''' 
     put all the categories in a list for the google side table 
     they are going to be the ones to be selected by the user
     '''
-    context_dict['googleAdAffinity']=tolist
+    context_dict['google_categories']=tolist
     '''
     Catching the post request (selected categories) in context
     '''
@@ -307,13 +312,13 @@ def facebook(request):
         return response
     context_dict['platform_used'] = "facebook"
     tolist = []
-    for i in entsDf.index:
+    for i in matrixW2v.index:
         tolist.append([i])
     ''' 
     put all the categories in a list for the google side table 
     they are going to be the ones to be selected by the user
     '''
-    context_dict['facebookCategories']=tolist
+    context_dict['facebook_categories']=tolist
     '''
     Catching the post request (selected categories) in context
     '''
@@ -399,7 +404,8 @@ def get_recommendations(request):
             ggCat = tuple[1]
             fbCat = tuple[0]
             element = [fbCat]+[ggCat]
-        cosine = entsMatrixW2v[ggCat][fbCat]
+        cosine = matrixW2v[ggCat][fbCat]
+        cosine = "{0:.0f}%".format(cosine * 100)
         element+=[cosine]
         listOfElements.append(element)
     context_dict['reco_map']=listOfElements

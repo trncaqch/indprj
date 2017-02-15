@@ -7,3 +7,4 @@
 feedback:
 UI, Performance, Quality of recommendations
 
+John is a media planner, he frequently uses the facebook and google platforms
