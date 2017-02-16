@@ -10,15 +10,17 @@
 
 
 
-tr.group,
-tr.group:hover {
-    background-color: #ddd !important;
-}
+
 
 btn.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+
+.colored {
+	background-color: red;
+
+}
 
 .hover { background-color: #eee; }
 </style>
@@ -34,12 +36,26 @@ btn.active:after {
 <div class="row">
 
 <div class="col-sm-6">
-	<button id="button">Delete selected row</button>
+	<button id="delete_button">Delete selected row</button>
 	<table id="recommendations" class="table table-bordered" width="100%"></table>
 </div>
 
+
+
+
 <div class="col-sm-6">
-	
+
+
+	<label for="select-choice" class="langLabel">Choose one of your selected categories:</label>
+	<select name="select-choice" id="select-choice" data-mini="true">
+		<option value="">Choose a category</option>
+		{% for sel in selection %}
+		<option value="{{ sel }}">{{ sel }}</option>
+			   {% endfor %}
+
+	</select>
+		<button id="add_button">Add selected row</button>
+
 	<table id="extra_recommendations" class="table table-bordered" width="100%"></table>
 </div>
 
@@ -71,6 +87,8 @@ change dataset
 //var dataSet = [['hello','little'],['gentleman','pleasure'],['nice','meeting'],['ma','boy']];
 
 var dataSet = {{ reco_map | safe }};
+var selectedCategory = "";
+var extraPlatformData = {{ extra_categories  | safe }}
 
 jQuery(document).ready(function() {
 
@@ -129,17 +147,42 @@ jQuery(document).ready(function() {
             $(this).removeClass('active');
         }
         else {
-            recTable.$('tr.active').removeClass('active');
+            //recTable.$('tr.active').removeClass('active');
             $(this).addClass('active');
         }
     } );
 
 	
-	$('#button').click( function () {
+	$('#delete_button').click( function () {
         recTable.row('.active').remove().draw( false );
 		
     } );
 	
+	$('#add_button').click( function () { 
+		var tableToAdd = $('#recommendations').DataTable();
+		var tableSelect = $('#extra_recommendations').DataTable();
+        var found = 0;
+		var rowsTs = tableToAdd.cells().data();
+		var toAdd = tableSelect.row('.active').data();
+		for (var i=0; i<rowsTs.length;i++){
+			if (rowsTs[i] === toAdd){
+				found++;
+			break;
+			}
+    }
+		if (found==0 && selectedCategory != ""){
+		tableToAdd.row.add( [
+            selectedCategory, toAdd, "NULL"
+			] ).draw( false );
+			
+        var dataSelected = tableSelect.rows().data();
+        $('#f').val(dataSelected.join(";"));
+		} else {
+			alert("Please select a category in the select menu.\n if you did that means that category is already added.");
+		}
+	});
+	   
+
 	
 	//hover effect of each row
 	$(".table").delegate('td','mouseover mouseleave', function(e) {
@@ -169,17 +212,37 @@ jQuery(document).ready(function() {
     //$('#f').val(dataSelected.join(";"));
 } );
 	
-	
-	    var recTable = $('#extra_recommendations').DataTable( {
-        data: dataSet,
+
+	var extra_table = $('#extra_recommendations').DataTable( {
+        data: extraPlatformData,
         columns: [
-            { title: "Extra Recommednations" },
-            { title: "Recommendation" },
-			{ title: "Similarity"},
+            { title: "Extra Recommendations" },
+            
         ],
 	select: true,
       
-    }); /* close of datatable /!\
+    }); /* close of datatable /!\ */
+
+$("#select-choice").change(function(){
+        selectedCategory = $(this).val();
+        
+      
+   });
+
+	$('#extra_recommendations tbody').on( 'click', 'tr', function () {
+        if ( $(this).hasClass('active') ) {
+            $(this).removeClass('active');
+			$(this).removeClass('colored');
+
+        }
+        else {
+            extra_table.$('tr.active').removeClass('active');
+            //extra_table.$('tr.colored').removeClass('colored');
+
+            $(this).addClass('active');
+			//$(this).addClass('colored');
+        }
+    } );
 	
 //Jquery close
 } );

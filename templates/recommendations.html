@@ -50,7 +50,7 @@ btn.active:after {
             {% csrf_token %}
             <h2 class="form-signin-heading">Enter your session's name to save it</h2>
             <!-- Display each form here -->
-
+			<p>Please enter only alphanumeric characters (A-Z, a-z, 0-9)</p>
             {% for field in session_form.visible_fields %}
             {{ field.errors }}
             {{ field.help_text }}<br />

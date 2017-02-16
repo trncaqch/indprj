@@ -21,8 +21,10 @@
             <!-- Display each form here -->
 
             {% for field in user_form.visible_fields %}
+			
             {{ field.errors }}
             {{ field.help_text }}<br />
+			<p>Enter your {{ field.name }}:</p>
             {{ field }}<br />
             {% endfor %}
 

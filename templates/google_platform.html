@@ -100,6 +100,18 @@ $('#example tbody').on('click', 'td', function (e) {
 });
 
 
+
+$('#example2 tbody').on('click', 'tr', function () {
+    var tableSelect = $('#example2').DataTable();
+    var rowsTs = tableSelect.cells().data();
+    var toDelete = tableSelect.cell( this ).data();
+    tableSelect.row($(this)).remove().draw( false );
+    
+
+    //alert( tableSelect.cells().data());
+    });
+
+
 $(".table").delegate('td','mouseover mouseleave', function(e) {
     if (e.type == 'mouseover') {
       $(this).parent().addClass("hover");

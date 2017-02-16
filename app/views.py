@@ -185,10 +185,12 @@ def past_sessions(request):
         return response
     user =  User.objects.get(username = request.user.username)
     sessions = Session.objects.filter(user=user)
+    
     #print Session.objects.filter(user = user)
     print sessions
-    print sessions[0].recommended_categories
-    context_dict['sessions'] = sessions
+    if len(sessions)!=0:
+        print sessions[0].recommended_categories
+        context_dict['sessions'] = sessions
     response = render(request, 'past_sessions.html', context_dict)
     return response
 
@@ -253,7 +255,7 @@ def session(request, session_id):
     recommendations = [x.split(';') for x in recommendations.split('|')]
 
     selection = selection.split(';')
-
+    context_dict['selection'] = selection
     frows = []
     n=0
     for selec in selection:
@@ -271,6 +273,15 @@ def session(request, session_id):
         
     context_dict['saved'] = saved
     context_dict['reco_map']=frows
+    tolist = []
+    if current_session[0].platform_used=="google":
+        for i in matrixW2v.index:
+            tolist.append([i])
+    else:
+        for i in matrixW2v.columns:
+            tolist.append([i])
+
+    context_dict['extra_categories'] = tolist
     response = render(request, 'session.html', context_dict)
     return response
 
