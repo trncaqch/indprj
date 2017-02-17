@@ -191,6 +191,7 @@ def past_sessions(request):
     if len(sessions)!=0:
         print sessions[0].recommended_categories
         context_dict['sessions'] = sessions
+
     response = render(request, 'past_sessions.html', context_dict)
     return response
 
